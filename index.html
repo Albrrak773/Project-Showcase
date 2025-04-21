@@ -1,13 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/styel.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Showcase</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    
+<body class="bg-[#f7fce7] min-h-screen flex flex-col items-center py-10">
+  <div id="cards-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl w-full px-4">
+    <!-- Card Start -->
+    <div class="border rounded-lg shadow-md bg-white overflow-hidden">
+      <div class="p-4">
+        <h2 id="card-title" class="text-lg font-bold text-gray-800">Utilizing Artificial Intelligence For Climate Change: Crop Yield Prediction</h2>
+        <!-- Section tag -->
+        <div class="w-4/5 mt-2">
+          <span id="card-dept" class="block bg-blue-200 text-blue-900 text-base font-semibold px-4 py-0.5 rounded">Computer Science</span>
+        </div>
+        <!-- Field tags -->
+        <div id="card-tags" class="flex flex-wrap gap-2 mt-2">
+          <span class="bg-black text-white text-xs font-semibold px-2 py-0.5 rounded">education</span>
+          <span class="bg-green-200 text-green-900 text-xs font-semibold px-2 py-0.5 rounded">Data Analysis</span>
+        </div>
+      </div>
+      <div class="relative">
+        <img src="/assets/G1-Poster_ربا الحربي_page-0001.jpg" alt="Project Image" class="w-full object-contain">
+      </div>
+    </div>
+    <!-- Card End -->
+  </div>
 </body>
-<script src="/script.js"></script>
 </html>
