@@ -117,9 +117,9 @@ let projects = [
         ],
         "Supervisor Name": "Dr. Khalid Al‑Mutairi",
         "Full Project Description": "A machine‑learning system that forecasts crop yields from satellite imagery and weather data.",
-        "Project Field": "Artificial Intelligence",
+        "Project Field":[ "Artificial Intelligence", "data analysis"],
       
-        "Project Poster": "https://example.com/posters/ai‑crop‑yield.png",
+        "Project Poster": "/assets/G1-Poster_ربا الحربي_page-0001.jpg",
         "Additional Project Images": [
           "https://example.com/images/field‑1.jpg",
           "https://example.com/images/field‑2.jpg"
@@ -133,29 +133,34 @@ let projects = [
       }
 ]
 
-const tpl     = document.getElementById('card-tpl');
-const parent  = document.getElementById('card-container');
-const frag    = document.createDocumentFragment();
+const tpl    = document.getElementById('card-tpl');
+const parent = document.getElementById('card-container');
+for (let i = 0; i < 5; i++) {
+    projects.forEach(p => {
+        const card = tpl.content.cloneNode(true);
+      
+        /* fill title + section -------------------------------------------------- */
+        card.querySelector('#card-title').textContent = p["Project Title"];
+        card.querySelector('#card-dept').textContent  = p["Department"];
+      
+        /* robust tag handling --------------------------------------------------- */
+        const raw   = p["Project Field"] ?? "";                       // may be array or string
+        const tags  = Array.isArray(raw)
+                        ? raw
+                        : raw.split(',').map(t => t.trim()).filter(Boolean);
+      
+        const tagBox = card.querySelector('#card-tags');
+        tags.forEach(tag => tagBox.insertAdjacentHTML(
+          'beforeend',
+          `<span class="bg-black/90 text-white text-xs font-semibold px-2 py-0.5 rounded">${tag}</span>`
+        ));
+      
+        /* poster image ---------------------------------------------------------- */
+        const img = card.querySelector('#card-image');
+        img.src = p["Project Poster"];
+        img.alt = p["Project Title"];
+      
+        parent.appendChild(card);                                     // add to page
+      });
+}
 
-projects.forEach(p => {
-  const node = tpl.content.cloneNode(true);       // deep clone the fragment
-
-  node.querySelector('.card-title').textContent   = p["Project Title"];
-  node.querySelector('.card-section').textContent = p.section;
-
-  const tagBox = node.querySelector('.card-tags');
-  p.tags.forEach(tag => {
-    const span = document.createElement('span');
-    span.className = 'bg-black/90 text-white text-xs font-semibold px-2 py-0.5 rounded';
-    span.textContent = tag;
-    tagBox.appendChild(span);
-  });
-
-  const img = node.querySelector('.card-img');
-  img.src   = p.img;
-  img.alt   = p.title;
-
-  frag.appendChild(node);
-});
-
-parent.appendChild(frag);
