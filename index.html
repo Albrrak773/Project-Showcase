@@ -15,12 +15,12 @@
   </header>
 
   <!-- Where the cards will appear -->
-  <!-- Slightly smaller than the original 18rem, now at 16rem so cards feel compact without being cramped -->
-  <div id="card-container" class="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-items-center"></div>
+  <!-- Responsive grid: up to 3 columns, rows centered when fewer cards -->
+  <div id="card-container" class="mx-auto grid gap-8 justify-center grid-cols-[repeat(auto-fit,minmax(16rem,1fr))] max-w-[52rem]"></div>
 
   <!-- Card template -->
   <template id="card-tpl">
-    <div class="border rounded-lg shadow-md bg-white overflow-hidden w-full max-w-[20rem]">
+    <div class="border rounded-lg shadow-md bg-white overflow-hidden w-full max-w-[16rem]">
       <div class="p-4">
         <h2 id="card-title" class="text-base font-bold text-gray-800"></h2>
 

@@ -135,7 +135,7 @@ let projects = [
 
 const tpl    = document.getElementById('card-tpl');
 const parent = document.getElementById('card-container');
-for (let i = 0; i < 5; i++) {
+for (let i = 0; i < 7; i++) {
     projects.forEach(p => {
         const card = tpl.content.cloneNode(true);
       
