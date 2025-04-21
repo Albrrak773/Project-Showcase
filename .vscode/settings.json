@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.tcss": "Textual CSS",
+        "iostream": "cpp"
+    }
+}

@@ -6,8 +6,35 @@
     <title>Hello world</title>
     <link rel="stylesheet" href="/styel.css">
 </head>
-<body>
-    
+
+<body class="bg-[#f7fee4] px-12 py-10">
+  <!-- Page header -->
+  <header class="mt-12 mb-16 text-center">
+    <h1 class="text-4xl font-bold text-gray-900">Project Showcase</h1>
+  </header>
+
+  <!-- Where the cards will appear -->
+  <!-- Responsive grid: up to 3 columns, rows centered when fewer cards -->
+  <div id="card-container" class="mx-auto grid gap-8 justify-center grid-cols-[repeat(auto-fit,minmax(16rem,1fr))] max-w-[52rem]"></div>
+
+  <!-- Card template -->
+  <template id="card-tpl">
+    <div class="border rounded-lg shadow-md bg-white overflow-hidden w-full max-w-[16rem]">
+      <div class="p-4">
+        <h2 id="card-title" class="text-base font-bold text-gray-800"></h2>
+
+        <div class="w-4/5 mt-2">
+          <span id="card-dept" class="block bg-blue-200 text-blue-900 text-sm font-semibold px-3 py-0.5 rounded"></span>
+        </div>
+
+        <div id="card-tags" class="flex flex-wrap gap-1.5 mt-2"></div>
+      </div>
+
+      <div class="relative">
+        <img id="card-image" class="w-full object-cover" />
+      </div>
+    </div>
+  </template>
+  <script src="/script.js"></script>
 </body>
-<script src="/script.js"></script>
 </html>
