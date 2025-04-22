@@ -160,6 +160,10 @@ for (let i = 0; i < 7; i++) {
         img.src = p["Project Poster"];
         img.alt = p["Project Title"];
       
+        card.querySelector('.border').addEventListener('click', () => {
+          window.location.href = `project.html?id=${p.ID}`;
+        });
+        
         parent.appendChild(card);                                     // add to page
       });
 }

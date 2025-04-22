@@ -17,10 +17,77 @@
       { "name": "Sara Al‑Saud",  "id": "201866789" }
     ],
     "Supervisor Name": "Dr. Khalid Al‑Mutairi",
-    "Full Project Description": "A machine‑learning system that forecasts crop yields from satellite imagery and weather data.",
+    "Full Project Description": "This project aims to address the negative behavioral impacts of online gaming on children by developing a safe, educational multiplayer game. The system integrates real-time Natural Language Processing (NLP) to detect and filter inappropriate language, enforce parental time limits, and promote positive in-game communication. When toxic behavior or excessive screen time is detected, the system responds by warning the player, offering better word alternatives, and recommending physical activities. By combining game development tools like Unity with sentiment analysis and Firebase for data handling, the game not only ensures fun and engagement but also encourages healthier digital habits, improved social interactions, and better academic balance for children.",
     "Project Field": "Artificial Intelligence",
   
-    "Project Poster": "https://example.com/posters/ai‑crop‑yield.png",
+    "Project Poster": "assets/G1-Poster_ربا الحربي_page-0001.jpg",
+    "Additional Project Images": [
+      "https://example.com/images/field‑1.jpg",
+      "https://example.com/images/field‑2.jpg"
+    ],
+    "Project Link": "https://example.com/demo/crop‑yield",
+    "Contact Methods": {
+      "phone": "+966‑555‑123456",
+      "email": "teamalpha@qu.edu.sa",
+      "linkedin": "https://www.linkedin.com/in/team‑alpha"
+    }
+  }
+  ,
+  {
+    "ID": "123",
+    "Start time": "2025‑04‑21T10:00:00",
+    "Completion time": "2025‑04‑21T12:00:00",
+    "Email": "student@example.com",
+    "Name": "Project Team Alpha",
+    "Last modified time": "2025‑04‑21T12:30:00",
+  
+    "Campus": "Main Campus",
+    "Section": "Male",
+    "Department": "Computer Science",
+  
+    "Project Title": "iot project", 
+    "Student Names with IDs": [
+      { "name": "Ahmed Al‑Fahad", "id": "201812345" },
+      { "name": "Sara Al‑Saud",  "id": "201866789" }
+    ],
+    "Supervisor Name": "Dr. Khalid Al‑Mutairi",
+    "Full Project Description": "This project aims to address the negative behavioral impacts of online gaming on children by developing a safe, educational multiplayer game. The system integrates real-time Natural Language Processing (NLP) to detect and filter inappropriate language, enforce parental time limits, and promote positive in-game communication. When toxic behavior or excessive screen time is detected, the system responds by warning the player, offering better word alternatives, and recommending physical activities. By combining game development tools like Unity with sentiment analysis and Firebase for data handling, the game not only ensures fun and engagement but also encourages healthier digital habits, improved social interactions, and better academic balance for children.",
+    "Project Field": "Artificial Intelligence",
+  
+    "Project Poster": "assets/G1-Poster_ربا الحربي_page-0001.jpg",
+    "Additional Project Images": [
+      "https://example.com/images/field‑1.jpg",
+      "https://example.com/images/field‑2.jpg"
+    ],
+    "Project Link": "https://example.com/demo/crop‑yield",
+    "Contact Methods": {
+      "phone": "+966‑555‑123456",
+      "email": "teamalpha@qu.edu.sa",
+      "linkedin": "https://www.linkedin.com/in/team‑alpha"
+    }
+  }
+  , {
+    "ID": "555",
+    "Start time": "2025‑04‑21T10:00:00",
+    "Completion time": "2025‑04‑21T12:00:00",
+    "Email": "student@example.com",
+    "Name": "Project Team Alpha",
+    "Last modified time": "2025‑04‑21T12:30:00",
+  
+    "Campus": "Main Campus",
+    "Section": "Male",
+    "Department": "Computer Science",
+  
+    "Project Title": "dron project inside houyse",
+    "Student Names with IDs": [
+      { "name": "Ahmed Al‑Fahad", "id": "201812345" },
+      { "name": "Sara Al‑Saud",  "id": "201866789" }
+    ],
+    "Supervisor Name": "Dr. Khalid Al‑Mutairi",
+    "Full Project Description": "This project aims to address the negative behavioral impacts of online gaming on children by developing a safe, educational multiplayer game. The system integrates real-time Natural Language Processing (NLP) to detect and filter inappropriate language, enforce parental time limits, and promote positive in-game communication. When toxic behavior or excessive screen time is detected, the system responds by warning the player, offering better word alternatives, and recommending physical activities. By combining game development tools like Unity with sentiment analysis and Firebase for data handling, the game not only ensures fun and engagement but also encourages healthier digital habits, improved social interactions, and better academic balance for children.",
+    "Project Field": "Artificial Intelligence",
+  
+    "Project Poster": "assets/G1-Poster_ربا الحربي_page-0001.jpg",
     "Additional Project Images": [
       "https://example.com/images/field‑1.jpg",
       "https://example.com/images/field‑2.jpg"
