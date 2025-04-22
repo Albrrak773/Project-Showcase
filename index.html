@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello world</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <style src="styel.css" >
+      html {
+        scroll-behavior: smooth;
+      }
+
+      
+    </style> -->
+    <!-- import css styel -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="bg-[#f7fee4] px-12 py-10">
@@ -15,7 +24,7 @@
 
   <!-- Where the cards will appear -->
   <!-- Responsive grid: up to 3 columns, rows centered when fewer cards -->
-  <div id="card-container" class="mx-auto grid gap-8 justify-center item-center grid-cols-[repeat(auto-fit,minmax(16rem,1fr))] max-w-[52rem]"></div>
+  <div id="card-container" class="mx-auto grid gap-8 place-items-center grid-cols-[repeat(auto-fit,minmax(16rem,1fr))] max-w-[52rem]">
 
   <!-- Card template -->
   <template id="card-tpl">
