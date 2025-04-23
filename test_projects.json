@@ -1,0 +1,241 @@
+[
+  
+  {
+    "ID": "2",
+    "Start time": "2025-04-16 08:59:05",
+    "Completion time": "2025-04-16 09:11:45",
+    "Email": "411202219@qu.edu.sa",
+    "Name": "ربا الحربي",
+    "Last modified time": "",
+    "Campus": "المقر الرئيسي",
+    "Section": "طالبات",
+    "Department": "Information Technology",
+    "Project Title": "Enhancement of Children Online Game Behavior ",
+    "Student Names with IDs": [
+      {
+        "name": "ربا سعد الحربي",
+        "id": "411202219"
+      },
+      {
+        "name": "تالا سليمان العتيق",
+        "id": "421202048"
+      },
+      {
+        "name": "ندى علي المطيري",
+        "id": "421202229"
+      }
+    ],
+    "Supervisor Name": "دكتور علي الخليفة",
+    "Full Project Description": "This project aims to address the negative behavioral impacts of online gaming on children by developing a safe, educational multiplayer game. The system integrates real-time Natural Language Processing (NLP) to detect and filter inappropriate language, enforce parental time limits, and promote positive in-game communication. When toxic behavior or excessive screen time is detected, the system responds by warning the player, offering better word alternatives, and recommending physical activities. By combining game development tools like Unity with sentiment analysis and Firebase for data handling, the game not only ensures fun and engagement but also encourages healthier digital habits, improved social interactions, and better academic balance for children.\n",
+    "Project Field": [
+      "Game Development", "AI"
+    ],
+    "Project Poster": "/assets/G1-Poster_ربا الحربي_page-0001.jpg",
+    "Additional Project Images": [],
+    "Project Link": null,
+    "Contact Methods": {
+      "email": null,
+      "phone": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "ID": "3",
+    "Start time": "2025-04-16 09:17:13",
+    "Completion time": "2025-04-16 09:25:26",
+    "Email": "391202706@qu.edu.sa",
+    "Name": "طيف زيد ال بوعليان",
+    "Last modified time": "",
+    "Campus": "المقر الرئيسي",
+    "Section": "طالبات",
+    "Department": "Information Technology",
+    "Project Title": "Utilizing AI to Investigate mental and psychological diseases using EEG",
+    "Student Names with IDs": [
+      {
+        "name": "Abeer Alharbi",
+        "id": "422205766"
+      },
+      {
+        "name": "Ruba Althekry",
+        "id": "391202847"
+      },
+      {
+        "name": "Taif Al buolyan",
+        "id": "391202706"
+      }
+    ],
+    "Supervisor Name": "Dr. Asma Al-Shargabi",
+    "Full Project Description": "Our project aims to improve the diagnosis and treatment of psychiatric conditions. By integrating EEG data with advanced artificial intelligence techniques, this project seeks to provide a more accurate, objective, and efficient approach to diagnosing mental health disorders. The project primarily focuses on analyzing EEG signals, which measure the brain’s electrical activity, to detect patterns associated with various mental health disorders such as Alzheimer’s disease, Major Depressive Disorder (MDD), and Bipolar Disorder.\n\nUsing advanced machine learning algorithms, including Hybrid CNN-RNN models and transfer learning, the project will enhance diagnostic precision, moving from traditional subjective assessments to data-driven solutions. The goal is to create a model capable of identifying specific neural activity patterns indicative of mental health disorders, ultimately enabling early detection and more personalized treatment plans.\n\nThis project not only advances scientific understanding of mental health through objective biomarkers but also contributes to the growing field of AI applications in healthcare. By demonstrating the potential of EEG and AI integration, it opens the door for more efficient mental health screenings, ensuring timely interventions that can significantly improve patient outcomes.",
+    "Project Field": [
+      "Data Analysis", "AI","Medical Care"
+    ],
+    "Project Poster": "/assets/AFFFF3B8-89B3-40E1-AF3B-5BAD53150FA8_طيف_زيد_ال_بوعليان_page-0001.jpg",
+    "Additional Project Images": [],
+    "Project Link": null,
+    "Contact Methods": {
+      "email": null,
+      "phone": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "ID": "4",
+    "Start time": "2025-04-16 09:12:51",
+    "Completion time": "2025-04-16 09:28:13",
+    "Email": "391108062@qu.edu.sa",
+    "Name": "فارس التويجري الحربي",
+    "Last modified time": "",
+    "Campus": "المقر الرئيسي",
+    "Section": "طلاب",
+    "Department": "Information Technology",
+    "Project Title": "Traffic Congestion Detection Using Deep Learning",
+    "Student Names with IDs": [
+      {
+        "name": "Abdualziz Alsulaim",
+        "id": "391110124"
+      },
+      {
+        "name": "Fares Alharbi",
+        "id": "391108062"
+      },
+      {
+        "name": "Jawad Alsallom",
+        "id": "412115937"
+      },
+      {
+        "name": "Faisal Almosaimer",
+        "id": "392111887"
+      }
+    ],
+    "Supervisor Name": "Dr. Suliman Aladhadh",
+    "Full Project Description": "This project focuses on developing an intelligent traffic management system capable of detecting sudden traffic jams using computer vision and deep learning techniques. the system is integrated with Cat’s Eye on the Road as an alarm method , These Cat’s Eyes are embedded in the road and are programmed to blink or change color to alert drivers when sudden congestion is detected ahead, improving road safety and response time.",
+    "Project Field": [
+      "computer vision",
+      "real-time tracking",
+      "and traffic data analysis"
+    ],
+    "Project Poster": "/assets/G18-poster_فارس_التويجري_الحربي_page-0001.jpg",
+    "Additional Project Images": [],
+    "Project Link": null,
+    "Contact Methods": {
+      "email": "Fares alharbi ( whatsApp: 0532347056 , email : fares.altuwaijri9@gmail.com)",
+      "phone": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "ID": "5",
+    "Start time": "2025-04-16 09:12:28",
+    "Completion time": "2025-04-16 09:33:24",
+    "Email": "422112108@qu.edu.sa",
+    "Name": "عبدالله السلمان",
+    "Last modified time": "",
+    "Campus": "المقر الرئيسي",
+    "Section": "طلاب",
+    "Department": "Computer Engineering",
+    "Project Title": "Design and implementation of Microcontroller System using Atmega328p",
+    "Student Names with IDs": [
+      {
+        "name": "Abdullah",
+        "id": "Al-Salman"
+      },
+      {
+        "name": "422112108",
+        "id": ""
+      },
+      {
+        "name": "Abdulaziz",
+        "id": "Al-amro"
+      }
+    ],
+    "Supervisor Name": "Yasser A. Hsanien",
+    "Full Project Description": "\nProject Title\nDesign and Implementation of Microcontroller System Using ATmega328P\n\n———————————-\n\nWhat is the Project?\n\nThis project explains how to design and build a simple control system using the ATmega328P microcontroller.\n\nThe circuit was built completely from scratch.\nNo Arduino board or pre-made system was used.\nAll wiring, components, and code were done manually.\n\n————————————\n\nGoals\n\t•\tBuild a working microcontroller system using the ATmega328P chip.\n\t•\tUse digital inputs and outputs to control devices (like turning an LED on or off).\n\t•\tProgram the chip directly without using Arduino.\n\t•\tCompare the custom circuit with the standard Arduino-based design.\n\n————————————\n\nSteps\n\t1.\tCreate the full circuit for the ATmega328P chip.\n\t2.\tAdd all needed components: capacitors, crystal, resistors, and programming pins.\n\t3.\tWrite simple code in C to control output pins.\n\t4.\tUpload the code using a programmer.\n\t5.\tUse a logic analyzer to check the signals and make sure the system works.\n\n————————————\n\nWhy is it Important?\n\t•\tIt teaches the full process of working with microcontrollers.\n\t•\tYou learn how the chip works on its own.\n\t•\tIt costs less than using Arduino boards.\n\t•\tYou get full control of your hardware and software design.\n\n————————————\n\nComparison with Arduino\n\nIn Arduino, everything is ready. You only write the code.\nIn this project, you build the system from zero.\nThis helps you understand how the microcontroller really works.\nIt also gives you more flexibility and better learning.\nYou choose every component and connect everything yourself.\n\n————————————\n\nResults\n\t•\tThe system worked successfully.\n\t•\tIt controlled outputs like expected.\n\t•\tThe logic analyzer confirmed that the signals were correct.\n\t•\tThe design is cheap, flexible, and useful for future projects.\n\n————————————\n\nConclusion \n\nThis project shows that you can build a working system without Arduino.\nYou understand how the chip works and how to connect and program it.\nThis helps you become better in embedded system design.",
+    "Project Field": [
+      "Embedded System"
+    ],
+    "Project Poster": "/assets/University_Research_Poster_عبدالله_السلمان_page-0001.jpg",
+    "Additional Project Images": [],
+    "Project Link": null,
+    "Contact Methods": {
+      "email": "+966 509044633",
+      "phone": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "ID": "6",
+    "Start time": "2025-04-16 09:39:39",
+    "Completion time": "2025-04-16 09:44:44",
+    "Email": "381212970@qu.edu.sa",
+    "Name": "ريحانه العبودي",
+    "Last modified time": "",
+    "Campus": "المقر الرئيسي",
+    "Section": "طالبات",
+    "Department": "Information Technology",
+    "Project Title": "A Mobile Application for the Detection and Classification of Flu Types Using Rule-Based Classification Methods (Flu App)",
+    "Student Names with IDs": [
+      {
+        "name": "Rayhanah Khalid Alaboudi -",
+        "id": "381212970"
+      },
+      {
+        "name": "Norah Amer Almutairi -",
+        "id": "412217570"
+      },
+      {
+        "name": "Abeer Owaid Alharbi -",
+        "id": "411202207"
+      }
+    ],
+    "Supervisor Name": "Dr. Batool Alwtban",
+    "Full Project Description": "Influenza, commonly known as the flu, is a highly contagious respiratory illness that significantly burdens global public health systems each year. Early and accurate diagnosis of influenza types is essential to reduce the transmission of the virus, alleviate healthcare system pressure, and enhance patient outcomes. In response to these challenges, this project introduces the Flu App, a mobile-based diagnostic support tool designed to detect and classify flu types based on user-reported symptoms. The application combines rule-based classification techniques with machine learning models to provide a scalable and intelligent solution for flu diagnosis in real time.\n\nThe Flu App is developed as an integrated feature within the Sehhaty platform and leverages both artificial intelligence (AI) and machine learning (ML) methods. User inputs—such as age, gender, chronic illness, and symptom presence—are analyzed using rule-based algorithms and trained classifiers to predict flu type severity. The project applies well-established classification algorithms, including PART, OneR, JRIP, and J48, implemented via the WEKA platform, to ensure model accuracy and interpretability.\n\nThe system's architecture follows the Waterfall model, comprising the following phases: data collection, requirements analysis, classification model development, implementation, and performance evaluation. The dataset utilized for training includes real-world cases gathered from hospitals across Qassim, Saudi Arabia. To optimize model performance, rigorous preprocessing methods such as handling missing values, discretization, feature selection, and normalization are applied. Evaluation metrics including accuracy, precision, recall, specificity, and F1-score are used to assess classifier performance.\n\nExperimental results indicate that the OneR algorithm achieved the highest classification accuracy (91.43%). However, due to its balance between accuracy and rule complexity, the PART algorithm (88.57% accuracy, 4 rules) is selected for final deployment. This decision ensures both high performance and ease of interpretation within a clinical support context.\n\nThe mobile app interface, designed using Figma, offers a user-friendly experience, featuring interactive symptom input forms, personalized diagnostic feedback, and guidance on next steps—whether home care or hospital referral. Users can also contact nearby hospitals directly via the integrated “Help & Support” section.\n\nUltimately, this project contributes a novel, practical, and intelligent digital health tool aimed at facilitating early flu detection and enhancing decision-making for users and healthcare providers. It represents a significant advancement in the application of AI in public health, especially in regions like Saudi Arabia, where flu outbreaks can overwhelm healthcare infrastructure. The project also lays a solid foundation for future enhancements, such as real-time data integration, expanded datasets, and telemedicine support.\n",
+    "Project Field": [
+      "AI"
+    ],
+    "Project Poster": "/assets/IMG_7098_ريحانه_العبودي.jpeg",
+    "Additional Project Images": [],
+    "Project Link": null,
+    "Contact Methods": {
+      "email": "rihannakor.1999@gmail.com",
+      "phone": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "ID": "7",
+    "Start time": "2025-04-16 09:35:12",
+    "Completion time": "2025-04-16 09:47:57",
+    "Email": "411202073@qu.edu.sa",
+    "Name": "ميلاف الخميس",
+    "Last modified time": "",
+    "Campus": "المقر الرئيسي",
+    "Section": "طالبات",
+    "Department": "Information Technology",
+    "Project Title": "Neamah: A Platform for Food Donation and Community Sharing",
+    "Student Names with IDs": [
+      {
+        "name": "Asma Alharbi",
+        "id": "392206502"
+      },
+      {
+        "name": "Milaf alkhamees",
+        "id": "411202073"
+      },
+      {
+        "name": "Sundus Alarify",
+        "id": "421203426"
+      }
+    ],
+    "Supervisor Name": "Dr. Aisha Almotairi",
+    "Full Project Description": "Neamah is a smart mobile application designed to reduce food waste and enhance community solidarity by facilitating food donations. The app connects individuals, restaurants, and stores with surplus food to charities and individuals in need. Users can list available food, schedule pickups, and track donations. The system leverages real-time geolocation to match donors and recipients based on proximity, and includes a rating system to ensure quality and reliability. It also provides data analytics for donors and NGOs to monitor impact. Neamah is built using Flutter and Firebase, emphasizing simplicity, scalability, and social impact.",
+    "Project Field": ["Mobile Dev"],
+    "Project Poster": "/assets/G15-Neamah-Poster_ميلاف الخميس_page-0001.jpg",
+    "Additional Project Images": [],
+    "Project Link": null,
+    "Contact Methods": {
+      "email": "عن طريق الايميل الجامعي 411202073@qu.edu.sa",
+      "phone": "",
+      "linkedin": ""
+    }
+  }  
+]

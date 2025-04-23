@@ -2,12 +2,10 @@ const cards_container = document.getElementById("cards-container");
 const tpl = document.getElementById('card-tpl');
 const parent = document.getElementById('card-container');
 
-load_projects('projects.json').then(projects => {
-    console.log(projects);
-    for (let i = 0; i < 7; i++) {
+load_projects('test_projects.json').then(projects => {
     add_projects_html(projects)
     }
-  });
+  );
 
 function add_projects_html(projects) {
     projects.forEach(p => {
