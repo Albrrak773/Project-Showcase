@@ -1,35 +1,2663 @@
 [
-  {
-    "ID": "12345",
-    "Start time": "2025‑04‑21T10:00:00",
-    "Completion time": "2025‑04‑21T12:00:00",
-    "Email": "student@example.com",
-    "Name": "Project Team Alpha",
-    "Last modified time": "2025‑04‑21T12:30:00",
-  
-    "Campus": "Main Campus",
-    "Section": "Male",
-    "Department": "Computer Science",
-  
-    "Project Title": "AI‑Powered Crop‑Yield Prediction",
-    "Student Names with IDs": [
-      { "name": "Ahmed Al‑Fahad", "id": "201812345" },
-      { "name": "Sara Al‑Saud",  "id": "201866789" }
-    ],
-    "Supervisor Name": "Dr. Khalid Al‑Mutairi",
-    "Full Project Description": "A machine‑learning system that forecasts crop yields from satellite imagery and weather data.",
-    "Project Field":[ "Artificial Intelligence", "data analysis"],
-  
-    "Project Poster": "/assets/G1-Poster_ربا الحربي_page-0001.jpg",
-    "Additional Project Images": [
-      "https://example.com/images/field‑1.jpg",
-      "https://example.com/images/field‑2.jpg"
-    ],
-    "Project Link": "https://example.com/demo/crop‑yield",
-    "Contact Methods": {
-      "phone": "+966‑555‑123456",
-      "email": "teamalpha@qu.edu.sa",
-      "linkedin": "https://www.linkedin.com/in/team‑alpha"
+    {
+        "ID": 1,
+        "Email": "411202219@qu.edu.sa",
+        "Name": "ربا الحربي",
+        "Campus": "المقر الرئيسي",
+        "Section": "طالبات",
+        "Department": "تقنية المعلومات",
+        "Project Title": "Enhancement of Children Online Game Behavior ",
+        "Students Names with IDs": [
+            {
+                "name": "ربا سعد الحربي",
+                "id": "411202219"
+            },
+            {
+                "name": "تالا سليمان العتيق",
+                "id": "421202048"
+            },
+            {
+                "name": "ندى علي المطيري",
+                "id": "421202229"
+            }
+        ],
+        "Supervisor Name": "دكتور علي الخليفة",
+        "Full Project Description": "This project aims to address the negative behavioral impacts of online gaming on children by developing a safe, educational multiplayer game. The system integrates real-time Natural Language Processing (NLP) to detect and filter inappropriate language, enforce parental time limits, and promote positive in-game communication. When toxic behavior or excessive screen time is detected, the system responds by warning the player, offering better word alternatives, and recommending physical activities. By combining game development tools like Unity with sentiment analysis and Firebase for data handling, the game not only ensures fun and engagement but also encourages healthier digital habits, improved social interactions, and better academic balance for children.\n",
+        "Project Field": [
+            "AI",
+            " Game Development"
+        ],
+        "Project Poster": "/assets/G1-Poster_ربا الحربي-page-00001.jpg",
+        "Additional Project Images": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 2,
+        "Email": "391202706@qu.edu.sa",
+        "Name": "طيف زيد ال بوعليان",
+        "Campus": "المقر الرئيسي",
+        "Section": "طالبات",
+        "Department": "تقنية المعلومات",
+        "Project Title": "Utilizing AI to Investigate mental and psychological diseases using EEG",
+        "Students Names with IDs": [
+            {
+                "name": "Abeer Alharbi",
+                "id": "422205766"
+            },
+            {
+                "name": "Ruba Althekry",
+                "id": "391202847"
+            },
+            {
+                "name": "Taif Al buolyan",
+                "id": "391202706"
+            }
+        ],
+        "Supervisor Name": "Dr. Asma Al-Shargabi",
+        "Full Project Description": "Our project aims to improve the diagnosis and treatment of psychiatric conditions. By integrating EEG data with advanced artificial intelligence techniques, this project seeks to provide a more accurate, objective, and efficient approach to diagnosing mental health disorders. The project primarily focuses on analyzing EEG signals, which measure the brain’s electrical activity, to detect patterns associated with various mental health disorders such as Alzheimer’s disease, Major Depressive Disorder (MDD), and Bipolar Disorder.\n\nUsing advanced machine learning algorithms, including Hybrid CNN-RNN models and transfer learning, the project will enhance diagnostic precision, moving from traditional subjective assessments to data-driven solutions. The goal is to create a model capable of identifying specific neural activity patterns indicative of mental health disorders, ultimately enabling early detection and more personalized treatment plans.\n\nThis project not only advances scientific understanding of mental health through objective biomarkers but also contributes to the growing field of AI applications in healthcare. By demonstrating the potential of EEG and AI integration, it opens the door for more efficient mental health screenings, ensuring timely interventions that can significantly improve patient outcomes.",
+        "Project Field": [
+            "AI",
+            " Data Analysis"
+        ],
+        "Project Poster": "/assets/AFFFF3B8-89B3-40E1-AF3B-5BAD53150FA8_طيف زيد ال بوعليان-page-00001.jpg",
+        "Additional Project Images": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 3,
+        "Email": "391108062@qu.edu.sa",
+        "Name": "فارس التويجري الحربي",
+        "Campus": "المقر الرئيسي",
+        "Section": "طلاب",
+        "Department": "تقنية المعلومات",
+        "Project Title": "Traffic Congestion Detection Using Deep Learning",
+        "Students Names with IDs": [
+            {
+                "name": "Abdualziz Alsulaim",
+                "id": "391110124"
+            },
+            {
+                "name": "Fares Alharbi",
+                "id": "391108062"
+            },
+            {
+                "name": "Jawad Alsallom",
+                "id": "412115937"
+            },
+            {
+                "name": "Faisal Almosaimer",
+                "id": "392111887"
+            }
+        ],
+        "Supervisor Name": "Dr. Suliman Aladhadh",
+        "Full Project Description": "This project focuses on developing an intelligent traffic management system capable of detecting sudden traffic jams using computer vision and deep learning techniques. the system is integrated with Cat’s Eye on the Road as an alarm method , These Cat’s Eyes are embedded in the road and are programmed to blink or change color to alert drivers when sudden congestion is detected ahead, improving road safety and response time.",
+        "Project Field": [
+            "Computer Vision",
+            " Data Analysis"
+        ],
+        "Project Poster": "/assets/G18 -  poster_فارس التويجري الحربي-page-00001.jpg",
+        "Additional Project Images": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 4,
+        "Email": "422112108@qu.edu.sa",
+        "Name": "عبدالله السلمان",
+        "Campus": "المقر الرئيسي",
+        "Section": "طلاب",
+        "Department": "هندسة الحاسب",
+        "Project Title": "Design and implementation of Microcontroller System using Atmega328p",
+        "Students Names with IDs": [
+            {
+                "name": "Abdullah Al-Salman",
+                "id": "422112108"
+            },
+            {
+                "name": "Abdulaziz Al-amro",
+                "id": null
+            }
+        ],
+        "Supervisor Name": "Yasser A. Hsanien",
+        "Full Project Description": "\nProject Title\nDesign and Implementation of Microcontroller System Using ATmega328P\n\n———————————-\n\nWhat is the Project?\n\nThis project explains how to design and build a simple control system using the ATmega328P microcontroller.\n\nThe circuit was built completely from scratch.\nNo Arduino board or pre-made system was used.\nAll wiring, components, and code were done manually.\n\n————————————\n\nGoals\n\t•\tBuild a working microcontroller system using the ATmega328P chip.\n\t•\tUse digital inputs and outputs to control devices (like turning an LED on or off).\n\t•\tProgram the chip directly without using Arduino.\n\t•\tCompare the custom circuit with the standard Arduino-based design.\n\n————————————\n\nSteps\n\t1.\tCreate the full circuit for the ATmega328P chip.\n\t2.\tAdd all needed components: capacitors, crystal, resistors, and programming pins.\n\t3.\tWrite simple code in C to control output pins.\n\t4.\tUpload the code using a programmer.\n\t5.\tUse a logic analyzer to check the signals and make sure the system works.\n\n————————————\n\nWhy is it Important?\n\t•\tIt teaches the full process of working with microcontrollers.\n\t•\tYou learn how the chip works on its own.\n\t•\tIt costs less than using Arduino boards.\n\t•\tYou get full control of your hardware and software design.\n\n————————————\n\nComparison with Arduino\n\nIn Arduino, everything is ready. You only write the code.\nIn this project, you build the system from zero.\nThis helps you understand how the microcontroller really works.\nIt also gives you more flexibility and better learning.\nYou choose every component and connect everything yourself.\n\n————————————\n\nResults\n\t•\tThe system worked successfully.\n\t•\tIt controlled outputs like expected.\n\t•\tThe logic analyzer confirmed that the signals were correct.\n\t•\tThe design is cheap, flexible, and useful for future projects.\n\n————————————\n\nConclusion \n\nThis project shows that you can build a working system without Arduino.\nYou understand how the chip works and how to connect and program it.\nThis helps you become better in embedded system design.",
+        "Project Field": [
+            "Embedded Systems"
+        ],
+        "Project Poster": "/assets/University Research Poster_عبدالله السلمان-page-00001.jpg",
+        "Additional Project Images": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 5,
+        "Email": "381212970@qu.edu.sa",
+        "Name": "ريحانه العبودي",
+        "Campus": "المقر الرئيسي",
+        "Section": "طالبات",
+        "Department": "تقنية المعلومات",
+        "Project Title": "A Mobile Application for the Detection and Classification of Flu Types Using Rule-Based Classification Methods (Flu App)",
+        "Students Names with IDs": [
+            {
+                "name": "Rayhanah Khalid Alaboudi",
+                "id": "381212970"
+            },
+            {
+                "name": "Norah Amer Almutairi",
+                "id": "412217570"
+            },
+            {
+                "name": "Abeer Owaid Alharbi",
+                "id": "411202207"
+            }
+        ],
+        "Supervisor Name": "Dr. Batool Alwtban",
+        "Full Project Description": "Influenza, commonly known as the flu, is a highly contagious respiratory illness that significantly burdens global public health systems each year. Early and accurate diagnosis of influenza types is essential to reduce the transmission of the virus, alleviate healthcare system pressure, and enhance patient outcomes. In response to these challenges, this project introduces the Flu App, a mobile-based diagnostic support tool designed to detect and classify flu types based on user-reported symptoms. The application combines rule-based classification techniques with machine learning models to provide a scalable and intelligent solution for flu diagnosis in real time.\n\nThe Flu App is developed as an integrated feature within the Sehhaty platform and leverages both artificial intelligence (AI) and machine learning (ML) methods. User inputs—such as age, gender, chronic illness, and symptom presence—are analyzed using rule-based algorithms and trained classifiers to predict flu type severity. The project applies well-established classification algorithms, including PART, OneR, JRIP, and J48, implemented via the WEKA platform, to ensure model accuracy and interpretability.\n\nThe system's architecture follows the Waterfall model, comprising the following phases: data collection, requirements analysis, classification model development, implementation, and performance evaluation. The dataset utilized for training includes real-world cases gathered from hospitals across Qassim, Saudi Arabia. To optimize model performance, rigorous preprocessing methods such as handling missing values, discretization, feature selection, and normalization are applied. Evaluation metrics including accuracy, precision, recall, specificity, and F1-score are used to assess classifier performance.\n\nExperimental results indicate that the OneR algorithm achieved the highest classification accuracy (91.43%). However, due to its balance between accuracy and rule complexity, the PART algorithm (88.57% accuracy, 4 rules) is selected for final deployment. This decision ensures both high performance and ease of interpretation within a clinical support context.\n\nThe mobile app interface, designed using Figma, offers a user-friendly experience, featuring interactive symptom input forms, personalized diagnostic feedback, and guidance on next steps—whether home care or hospital referral. Users can also contact nearby hospitals directly via the integrated “Help & Support” section.\n\nUltimately, this project contributes a novel, practical, and intelligent digital health tool aimed at facilitating early flu detection and enhancing decision-making for users and healthcare providers. It represents a significant advancement in the application of AI in public health, especially in regions like Saudi Arabia, where flu outbreaks can overwhelm healthcare infrastructure. The project also lays a solid foundation for future enhancements, such as real-time data integration, expanded datasets, and telemedicine support.\n",
+        "Project Field": [
+            "AI"
+        ],
+        "Project Poster": "/assets/IMG_7098_ريحانه العبودي.jpeg",
+        "Additional Project Images": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 6,
+        "Email": "411202073@qu.edu.sa",
+        "Name": "ميلاف الخميس",
+        "Campus": "المقر الرئيسي",
+        "Section": "طالبات",
+        "Department": "تقنية المعلومات",
+        "Project Title": "Neamah: A Platform for Food Donation and Community Support",
+        "Students Names with IDs": [
+            {
+                "name": "Asma Alharbi",
+                "id": "392206502"
+            },
+            {
+                "name": "Milaf alkhamees",
+                "id": "411202073"
+            },
+            {
+                "name": "Leen alsheeb",
+                "id": "421202006"
+            }
+        ],
+        "Supervisor Name": "Dr. Aisha Almotairi",
+        "Full Project Description": " Neamah is a smart mobile application designed to reduce food waste and support food security in Saudi Arabia. It connects individuals and organizations who have surplus food with trusted and approved charities. Through features like interactive maps, donation scheduling, real-time tracking, and in-app communication, Neamah makes the food donation process simple, fast, and reliable. The app helps ensure that extra food reaches people in need, while also promoting a culture of giving and environmental sustainability.",
+        "Project Field": [
+            "Mobile App"
+        ],
+        "Project Poster": "/assets/G15-Neamah-Poster_ميلاف الخميس-page-00001.jpg",
+        "Additional Project Images": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 7,
+        "Email": "411201470@qu.edu.sa",
+        "Name": "ريمان الحبيب",
+        "Campus": "المقر الرئيسي",
+        "Section": "طالبات",
+        "Department": "تقنية المعلومات",
+        "Project Title": "Utilizing Artificial Intelligence For Climate Change: Crop Yield Prediction ",
+        "Students Names with IDs": [
+            {
+                "name": "Reeman Alhabib",
+                "id": "411201470"
+            },
+            {
+                "name": "Norah Alhassoon",
+                "id": "412205648"
+            },
+            {
+                "name": "Reem Alayed",
+                "id": "412205602"
+            },
+            {
+                "name": "Renad Alsaqaabi",
+                "id": "411201885"
+            }
+        ],
+        "Supervisor Name": "Dr. Manal Alghieth ",
+        "Full Project Description": "This project presents a hybrid\ndeep learning model to forecast\ncrop yields in Saudi Arabia,\nleveraging historical climate, soil,\nand crop production data. The\nproposed model achieves a\nprediction accuracy of 98%,\nsignificantly enhancing forecast\nreliability and supporting\nsustainable agricultural practices\naligned with Vision 2030.",
+        "Project Field": [
+            "AI"
+        ],
+        "Project Poster": "/assets/Updated Poster_ريمان الحبيب-page-00001.jpg",
+        "Additional Project Images": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 8,
+        "Email": "421201885@qu.edu.sa",
+        "Name": "جود الربدي",
+        "Campus": "المقر الرئيسي",
+        "Section": "طالبات",
+        "Department": "تقنية المعلومات",
+        "Project Title": "Integrated Task Management Platform for Enhanced Productivity. (Planova)",
+        "Students Names with IDs": [
+            {
+                "name": "Aliaa Ali AlRishan",
+                "id": "421202040"
+            },
+            {
+                "name": "Jood Ahmad AlRebdi",
+                "id": "421201885"
+            },
+            {
+                "name": "Sarah mohammed AlDuhayan",
+                "id": "421201841"
+            },
+            {
+                "name": "Deem Abdulrahman AlOraini",
+                "id": "421202119"
+            }
+        ],
+        "Supervisor Name": "Dr. Abdullah Alnajim",
+        "Full Project Description": "The Integrated Task Management Platform for Enhanced Productivity is a smart, cloud-based system that helps teams and individuals organize tasks, improve collaboration, and boost productivity. It features task tracking, AI chatbot support, file sharing, performance reports, and real-time notifications. The platform is user-friendly, supports integration with tools like Zoom, works seamlessly on both Android and iOS devices.",
+        "Project Field": [
+            "AI",
+            " Data Analysis"
+        ],
+        "Project Poster": "/assets/GP Poster - G2_جود الربدي-page-00001.jpg",
+        "Additional Project Images": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 9,
+        "Email": "392111790@qu.edu.sa",
+        "Name": "تركي الثنيان",
+        "Campus": "المقر الرئيسي",
+        "Section": "طلاب",
+        "Department": "علوم الحاسب",
+        "Project Title": "TRUSTHEALTH",
+        "Students Names with IDs": [
+            {
+                "name": "Turki AlThunayyan",
+                "id": "392111790"
+            },
+            {
+                "name": "Omar Alrashed",
+                "id": "412111517"
+            },
+            {
+                "name": "Muteb Almarshad",
+                "id": "412112439"
+            },
+            {
+                "name": "Muhammad AlHarbi",
+                "id": "411109501"
+            },
+            {
+                "name": "Meshari Alrasheedi",
+                "id": "412111606"
+            }
+        ],
+        "Supervisor Name": "Dr. Abdulatif Alabdulatif",
+        "Full Project Description": "In an era marked by the digital transformation of various industries, healthcare stands as a crucial domain where technological advancements hold immense promise. The advent of blockchain technology has sparked innovative solutions to address longstanding challenges within the healthcare sector, particularly concerning the management and security of electronic medical records (EMRs). With this in mind, our graduation project delves into the development and implementation of a groundbreaking solution: TrustHealth: Trustworthy blockchain-based healthcare management system in cloud computing.\n\n\nThe system aims to develop a reliable and secure management EMR system offering a comprehensive platform that integrates the benefits of blockchain technology with the critical needs of healthcare data management. Through leveraging the inherent properties of blockchain, including decentralization, immutability, and cryptographic security, TrustHealth aims to address key issues such as data integrity, accessibility, and privacy in electronic medical records.\n\nAt its core, TrustHealth provides a comprehensive framework for storing, retrieving, and verifying electronic medical records securely. By harnessing the decentralized nature of blockchain technology, TrustHealth ensures that medical records are tamper-proof and transparent, thereby instilling trust in the integrity of the data. Furthermore, TrustHealth incorporates advanced search capabilities, enabling efficient retrieval of medical records while maintaining patient privacy and confidentiality.",
+        "Project Field": [
+            "Blockchain",
+            " Cloud",
+            " Cybersecurity"
+        ],
+        "Project Poster": "/assets/Final poster TrustHealth_تركي الثنيان.png",
+        "Additional Project Images": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 10,
+        "Email": "421202157@qu.edu.sa",
+        "Name": "نديره الحربي",
+        "Campus": "مقر عنيزة",
+        "Section": "طالبات",
+        "Department": "علوم الحاسب",
+        "Project Title": "Parent Note",
+        "Students Names with IDs": [
+            {
+                "name": "رغد عوض الحربي",
+                "id": "421202131"
+            },
+            {
+                "name": "سارة سطام المطيري",
+                "id": "411202155"
+            },
+            {
+                "name": "جود خالد المطرفي",
+                "id": "421202717"
+            },
+            {
+                "name": "نديرة صالح الحربي",
+                "id": "421202157"
+            }
+        ],
+        "Supervisor Name": "د.سليمان عبدالله العطيه",
+        "Full Project Description": "Parent note هو موقع الكتروني يعزز التواصل بين اولياء الأمور والمدارس من خلال اتاحة رفع اعذار الغياب الكترونياً بدون الحاجه لطرق التواصل التقليديه وايضاً يقدم خدمة متابعة الغياب وعرض الجداول وارسال الاشعارات لأولياء الامور",
+        "Project Field": [
+            "Digital Transformation"
+        ],
+        "Project Poster": "/assets/Poster_نديره الحربي.jpg",
+        "Additional Project Images": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 11,
+        "Email": "421202223@qu.edu.sa",
+        "Name": "ريما الخزيم",
+        "Campus": "المقر الرئيسي",
+        "Section": "طالبات",
+        "Department": "تقنية المعلومات",
+        "Project Title": "QuRide: A Carpooling Application for Qassim University",
+        "Students Names with IDs": [
+            {
+                "name": "Reema Alkhuzayyim",
+                "id": "421202223"
+            },
+            {
+                "name": "Lujain Almutairi",
+                "id": "412205544"
+            },
+            {
+                "name": "Danah Alnahel",
+                "id": "421202067"
+            }
+        ],
+        "Supervisor Name": "Afef selmi",
+        "Full Project Description": "QuRide is a carpooling application specifically developed for students and staff at Qassim University. The project aims to provide an efficient and sustainable solution to daily commuting challenges such as traffic congestion, high fuel costs, and limited transportation options. The app connects drivers and passengers who share similar routes, helping reduce the number of vehicles on the road, lower fuel consumption, and minimize environmental pollution. QuRide features a user-friendly interface and secure login. It also offers cost-sharing functionalities to fairly split travel expenses. The project promotes a culture of collaborative transportation within the university community, supporting environmental and social responsibility by leveraging technology to create a more reliable and cost-effective commuting experience.",
+        "Project Field": [
+            "Mobile App"
+        ],
+        "Project Poster": "/assets/QuRide poster_ريما الخزيم-page-00001.jpg",
+        "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/Interfaces_%D8%B1%D9%8A%D9%85%D8%A7%20%D8%A7%D9%84%D8%AE%D8%B2%D9%8A%D9%85.pdf",
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 12,
+        "Email": "421202270@qu.edu.sa",
+        "Name": "هلا السديس",
+        "Campus": "المقر الرئيسي",
+        "Section": "طالبات",
+        "Department": "تقنية المعلومات",
+        "Project Title": "Coffee plant leaves disease recognition based on deep learning approach.",
+        "Students Names with IDs": [
+            {
+                "name": "Hala Alsudais",
+                "id": "421202270"
+            },
+            {
+                "name": "Raghad Altuweijri",
+                "id": "412205628"
+            },
+            {
+                "name": "Ghala Alodhaiby",
+                "id": "421202154"
+            },
+            {
+                "name": "Maha Alrasheedi",
+                "id": "412205582"
+            }
+        ],
+        "Supervisor Name": "Dr. Shabana Habib",
+        "Full Project Description": "This project aims to develop an artificial intelligence model based on deep learning techniques for the early detection of coffee plant diseases through leaf image analysis. This type of project represents an important step toward supporting smart agriculture, where farmers can benefit from intelligent systems that help them quickly and accurately identify diseases, contributing to improved crop quality and reduced economic losses.",
+        "Project Field": [
+            "AI"
+        ],
+        "Project Poster": "/assets/IT_G8__هلا السديس-page-00001.jpg",
+        "Additional Project Images": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 13,
+        "Email": "421202150@qu.edu.sa",
+        "Name": "دانة الكفيل",
+        "Campus": "المقر الرئيسي",
+        "Section": "طالبات",
+        "Department": "تقنية المعلومات",
+        "Project Title": "Detection of Mirai Attack in IoT Networks Using Machine Learning",
+        "Students Names with IDs": [
+            {
+                "name": "سيرا الهطلاني",
+                "id": "421202162"
+            },
+            {
+                "name": "دانة الكغيل",
+                "id": "421202150"
+            },
+            {
+                "name": "جود العليان",
+                "id": "421202232"
+            },
+            {
+                "name": "ديم الغرير",
+                "id": "411202095"
+            }
+        ],
+        "Supervisor Name": "وداد العواد",
+        "Full Project Description": "“Detection of Mirai Attack in IoT Networks Using Machine Learning,” aims to enhance the security of IoT networks against malware threats, specifically Mirai attack. The focus is on developing a lightweight Artificial Neural Network (ANN) model capable of detecting Mirai malware, which exploits weak credentials and vulnerabilities in IoT devices to launch Distributed Denial of Service (DDoS) attacks. The model was trained on the IoT-23 dataset and achieved a high accuracy of 99.78% while consuming fewer computational resources, making it ideal for low-power IoT devices. To improve transparency and trust, Explainable AI (XAI) techniques using SHAP were applied to highlight the most influential features in the model’s predictions. This project presents an effective, efficient, and interpretable solution for securing IoT environments.",
+        "Project Field": [
+            "AI",
+            " Cybersecurity"
+        ],
+        "Project Poster": "/assets/GP poster_دانة الكفيل 1-page-00001.jpg",
+        "Additional Project Images": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 14,
+        "Email": "421202240@qu.edu.sa",
+        "Name": "خزامي النصيان",
+        "Campus": "المقر الرئيسي",
+        "Section": "طالبات",
+        "Department": "تقنية المعلومات",
+        "Project Title": "DeepEnergy: Energy Consumption Prediction in Residential Buildings Using Deep Learning in Qassim Region",
+        "Students Names with IDs": [
+            {
+                "name": "Khozama Alnasyan",
+                "id": "421202240"
+            },
+            {
+                "name": "Joury Alghofaily",
+                "id": "421201825"
+            },
+            {
+                "name": "Cady Alali",
+                "id": "421202256"
+            }
+        ],
+        "Supervisor Name": "Dr. Dina M. Ibrahim",
+        "Full Project Description": "This project focuses on predicting energy consumption in residential buildings in the Qassim Region using deep learning techniques. The aim is to forecast heating and cooling loads based on various building characteristics such as building size, wall and roof insulation values, and window-to-wall ratios. Four deep learning models were implemented: Deep Neural Network (DNN), Convolutional Neural Network (CNN), Long Short-Term Memory (LSTM), and a hybrid  CNN-LSTM model.\n\nThe dataset used was collected from residential buildings in Qassim Region and preprocessed through normalization, cleaning, and reshaping. Each model was trained, tested, and evaluated using metrics including MAE, MSE, RMSE, and R². Among all models, the CNN-LSTM hybrid model achieved the highest accuracy, with R² values above 0.99 and the lowest error rates.\n\nThis study demonstrates the potential of deep learning to support smarter energy management and improve the design of energy-efficient residential buildings in Saudi Arabia.",
+        "Project Field": [
+            "AI",
+            " DL"
+        ],
+        "Project Poster": "/assets/461-F-P7_خزامي النصيان-page-00001.jpg",
+        "Additional Project Images": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 15,
+        "Email": "392206356@qu.edu.sa",
+        "Name": "حنين الشويقي",
+        "Campus": "المقر الرئيسي",
+        "Section": "طالبات",
+        "Department": "تقنية المعلومات",
+        "Project Title": "Innovative Agriculture Solutions for Smart & Sustainable farming. (Zahaa)",
+        "Students Names with IDs": [
+            {
+                "name": "Reouf Hamza Najjar",
+                "id": "392216178"
+            },
+            {
+                "name": "Haneen Abdulrahman Alshuwayqi",
+                "id": "392206356"
+            }
+        ],
+        "Supervisor Name": "Prof. Saleh Albahli",
+        "Full Project Description": "تطبيق زهاء هو تطبيق جوال مُدعم بالذكاء الاصطناعي تم تصميمه للمساعدة المزارعين. يتكون تطبيق زهاء من فكرتين اساسيتان: 1- اكتشاف الامراض التي تصيب النباتات  من خلال وضع صورة للنبات المصاب وقيام النموذج بتحليل الصورة واستخراج الميزات للمعرفة نوع المرض من عرض نسبة دقة صحة ونسبة خطورة مدى انتشار المرض مع ربط ChatGPT API للعرض معلومات إضافية عن المرض مع نصائح وقائية وعلاجية وتوفير مساعدة ذكية للتسهيل على المزارعين عمل استفسارات إضافية. 2- مكافحة الآفات الزراعية وخاصة أفة سوسة النخيل الحمراء التي تُعتبر من أكثر الآفات الزراعية انتشارًا بالمملكة العربية السعودية واللتي تُصيب أشجار النخيل. يوفر تطبيقنا ميزة الإبلاغ عن انتشار أفة سوسة النخيل الحمراء من خلال الربط مع GPS من خلال الإبلاغ عن أماكن انتشار الافة مع ارفاق صورة للنخلة المُصابة ومعلومات التواصل وبعد أن يتم رفع البلاغ يقوم التطبيق بعمل تنبيه ذكي للمزارع القريبة على نطاق 10 كم حتى يتم اخذ الاحتياطات اللازمة قبل انتشارها والتعامل معها وتسهيل التواصل بين المزارعين.",
+        "Project Field": [
+            "AI"
+        ],
+        "Project Poster": "/assets/Zahaa Poster_حنين الشويقي 1-page-00001.jpg",
+        "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/%D8%B2%D9%87%D8%A7%D8%A1_%D8%AD%D9%86%D9%8A%D9%86%20%D8%A7%D9%84%D8%B4%D9%88%D9%8A%D9%82%D9%8A.pdf; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/%D9%87%D9%88%D9%8A%D8%AA%D9%86%D8%A7_%D8%AD%D9%86%D9%8A%D9%86%20%D8%A7%D9%84%D8%B4%D9%88%D9%8A%D9%82%D9%8A.pdf; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/Zahaa_Project_Design_and_Intro_video__%D8%AD%D9%86%D9%8A%D9%86%20%D8%A7%D9%84%D8%B4%D9%88%D9%8A%D9%82%D9%8A.pdf",
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 16,
+        "Email": "421202065@qu.edu.sa",
+        "Name": "تالا الرشودي",
+        "Campus": "المقر الرئيسي",
+        "Section": "طالبات",
+        "Department": "تقنية المعلومات",
+        "Project Title": "منصه وفره للشراء الجماعي",
+        "Students Names with IDs": [
+            {
+                "name": "تالا الرشودي",
+                "id": "421202065"
+            },
+            {
+                "name": "بثينة الدخيل",
+                "id": "392206304"
+            },
+            {
+                "name": "سرى السحيباني",
+                "id": "421202233"
+            }
+        ],
+        "Supervisor Name": "د عبدالله العرج",
+        "Full Project Description": "مشروع وفرة هو فكرة مبتكرة منصة بيع إلكترونية\n(Marketplace ) يركز على توفير المنتجات بأسعار مخفضة من خلال نظام الصفقات الجماعية (Group Deals)، وهدفه الأساسي هو تمكين المستخدمين من الشراء بأسعار أقل عند الشراء الجماعي، مع توفير تجربة سلسة لكل من المشترين والبائعين",
+        "Project Field": [
+            "Software Development"
+        ],
+        "Project Poster": "/assets/‎⁨2وفرة⁩_تالا الرشودي 1-page-00001.jpg",
+        "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/(%20%D8%B5%D9%88%D8%B1%20%D8%A7%D8%B6%D8%A7%D9%81%D9%8A%D9%87%20)e-commerce%20project_%D8%AA%D8%A7%D9%84%D8%A7%20%D8%A7%D9%84%D8%B1%D8%B4%D9%88%D8%AF%D9%8A.pdf",
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 17,
+        "Email": "421202041@qu.edu.sa",
+        "Name": "سديم الرسيني",
+        "Campus": "المقر الرئيسي",
+        "Section": "طالبات",
+        "Department": "تقنية المعلومات",
+        "Project Title": "Exagrade: an Improved Automated Exam Grading",
+        "Students Names with IDs": [
+            {
+                "name": "Raghad Alshammari",
+                "id": "421202094"
+            },
+            {
+                "name": "Rana alnughaimshi",
+                "id": "392207728"
+            },
+            {
+                "name": "Sadeem alresaini",
+                "id": "421202041"
+            }
+        ],
+        "Supervisor Name": "Dr. Abdulaziz Algablan",
+        "Full Project Description": "ExaGrade is a smart web-based platform designed to automate the exam grading process using Artificial Intelligence (AI) and Optical Character Recognition (OCR). The system supports various question types including multiple choice, true/false, short, and long answer questions. It allows teachers to upload scanned student papers, extracts handwritten text using OCR, and evaluates answers using OpenAI’s API. ExaGrade reduces grading time, improves accuracy, and provides quicker feedback. The platform is built with a simple and user-friendly design, tested with real exams, and enhanced based on feedback. Future plans include supporting multiple languages and more question types to expand the system’s capabilities.",
+        "Project Field": [
+            "AI",
+            " Data Analysis",
+            " Education"
+        ],
+        "Project Poster": "/assets/G4_Poster_سديم الرسيني-page-00001.jpg",
+        "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/Screenshot%202025-04-13%20201324_%D8%B3%D8%AF%D9%8A%D9%85%20%D8%A7%D9%84%D8%B1%D8%B3%D9%8A%D9%86%D9%8A.png; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/Screenshot%202025-04-12%20214952_%D8%B3%D8%AF%D9%8A%D9%85%20%D8%A7%D9%84%D8%B1%D8%B3%D9%8A%D9%86%D9%8A.png; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/Screenshot%202025-04-12%20230646_%D8%B3%D8%AF%D9%8A%D9%85%20%D8%A7%D9%84%D8%B1%D8%B3%D9%8A%D9%86%D9%8A.png",
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 18,
+        "Email": "421108102@qu.edu.sa",
+        "Name": "جهاد السابح",
+        "Campus": "المقر الرئيسي",
+        "Section": "طلاب",
+        "Department": "تقنية المعلومات",
+        "Project Title": "The positive impact of artificial intelligence on infectious diseases",
+        "Students Names with IDs": [
+            {
+                "name": "Hosam AlHeseni",
+                "id": "421107829"
+            },
+            {
+                "name": "Jihad AlSabeh",
+                "id": "421108102"
+            },
+            {
+                "name": "Taysir AlHarbi",
+                "id": "421107746"
+            },
+            {
+                "name": "Ziyad AlWayili",
+                "id": "412111446"
+            }
+        ],
+        "Supervisor Name": "Dr. Mohammed Ali A. Hammoudeh",
+        "Full Project Description": "تطوير نظام يستخدم الذكاء الاصطناعي للتنبؤ المبكر بالأمراض المعدية، مما يساهم في الحد من انتشارها، تقليل الوفيات، ودعم الجهات الصحية باتخاذ قرارات فعّالة",
+        "Project Field": [
+            "AI"
+        ],
+        "Project Poster": "/assets/G-20_جهاد السابح 1-page-00001.jpg",
+        "Additional Project Images": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 19,
+        "Email": "421108233@qu.edu.sa",
+        "Name": "فهد المطيري",
+        "Campus": "المقر الرئيسي",
+        "Section": "طلاب",
+        "Department": "تقنية المعلومات",
+        "Project Title": "Hayat care : online health hub",
+        "Students Names with IDs": [
+            {
+                "name": "Fahad almutairi",
+                "id": "421108233"
+            },
+            {
+                "name": "Osama alsalman",
+                "id": "421107869"
+            },
+            {
+                "name": "Ahmed alresheedi",
+                "id": "421108239"
+            },
+            {
+                "name": "Abdullrahman allhidan",
+                "id": "421108000"
+            },
+            {
+                "name": "Mohammed alhomaidan",
+                "id": "412112486"
+            }
+        ],
+        "Supervisor Name": "Dr. Abdullah alnajim",
+        "Full Project Description": "منصة تقدم خدمات طبيه يستطيع المستخدم الوصول اليها عن طريق جهازه الذكي، تجمع (المريض-الطبيب-الصيدلي) في اطار واحد لهدف الوصول السريع للمستخدم، تقدم منصتنا ميزة المواعيد الافتراضيه وتوصيل الادويه الى المريض ",
+        "Project Field": [
+            "Web Development"
+        ],
+        "Project Poster": "/assets/Online Health Hub Poster (for digital use)_عبدالرحمن اللحيدان-page-00001.jpg",
+        "Additional Project Images": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 20,
+        "Email": "421202130@qu.edu.sa",
+        "Name": "ريما الناصر",
+        "Campus": "المقر الرئيسي",
+        "Section": "طالبات",
+        "Department": "تقنية المعلومات",
+        "Project Title": "Advanced Deep Learning Models for Dental Diseases Detection from Panoramic Radiographs",
+        "Students Names with IDs": [
+            {
+                "name": "Deema Alnasser",
+                "id": "421202234"
+            },
+            {
+                "name": "Reema Alnasser",
+                "id": "421202130"
+            },
+            {
+                "name": "Wareef Alolayan",
+                "id": "421202222"
+            },
+            {
+                "name": "Shihanah Albadi",
+                "id": "421202205"
+            }
+        ],
+        "Supervisor Name": "Dr.Shuaa Alharbi",
+        "Full Project Description": "Dental diseases pose significant health challenges, requiring early and precise detection to\nimprove patient care. This project conducts a comprehensive comparison of various deep learn-\ning models for multiclass classification of dental problems using a dataset of 10,580 panoramic\nradiographs. We explore state-of-the-art architectures, including ResNet, DenseNet, VGG, In-\nception, and EfficientNet,Faster R-CNN each offering unique advantages in feature extraction\nand computational efficiency. Our evaluation metrics focus on diagnostic accuracy, precision,\nrecall, mAP, and F1-score, providing a holistic view of model performance. The ultimate goal\nis to optimize these models to create reliable clinical support tools that aid in early detection\nand intervention of dental diseases. By advancing the capabilities of deep learning models in\nthis domain, we aim to significantly contribute to oral healthcare practices, ensuring timely and\naccurate diagnosis for improved patient outcomes.",
+        "Project Field": [
+            "AI"
+        ],
+        "Project Poster": "/assets/GP Poster_ريما الناصر 1-page-00001.jpg",
+        "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/class_%D8%B1%D9%8A%D9%85%D8%A7%20%D8%A7%D9%84%D9%86%D8%A7%D8%B5%D8%B1.png; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/work_%D8%B1%D9%8A%D9%85%D8%A7%20%D8%A7%D9%84%D9%86%D8%A7%D8%B5%D8%B1.png",
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 21,
+        "Email": "391202390@qu.edu.sa",
+        "Name": "حكيمه الحربي",
+        "Campus": "المقر الرئيسي",
+        "Section": "طالبات",
+        "Department": "علوم الحاسب",
+        "Project Title": "Physician classification system",
+        "Students Names with IDs": [
+            {
+                "name": "Layan Alharbi",
+                "id": "382214981"
+            },
+            {
+                "name": "Hakeemah Alharbi",
+                "id": "391202390"
+            },
+            {
+                "name": "Raghad Alamro",
+                "id": "382216971"
+            }
+        ],
+        "Supervisor Name": "Dr. Fethi Fkih",
+        "Full Project Description": "Top Doctors is a smart healthcare platform that helps patients find top-rated, specialized doctors and read trusted reviews based on real experiences. The app uses AI technologies like sentiment analysis and a chatbot for patient support, and integrates telemedicine services to improve accessibility and user experience. The goal is to enhance healthcare quality, motivate doctors to improve, and streamline consultations and medical record management.",
+        "Project Field": [
+            "Data Analysis"
+        ],
+        "Project Poster": "/assets/Poster Top Doctor_حكيمه الحربي 1-page-00001.jpg",
+        "Additional Project Images": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 22,
+        "Email": "411203411@qu.edu.sa",
+        "Name": "عهد العضيله المطيري",
+        "Campus": "مقر عنيزة",
+        "Section": "طالبات",
+        "Department": "علوم الحاسب",
+        "Project Title": "BIOMETRICS INFORMATION MANAGEMENT SYSTEM USING VOICE AUTHENTICATION",
+        "Students Names with IDs": [
+            {
+                "name": "Ahad Almutairi",
+                "id": "411203411"
+            },
+            {
+                "name": "Tareem Alshoshan",
+                "id": "421202192"
+            },
+            {
+                "name": "Renad Alharkan",
+                "id": "392206052"
+            },
+            {
+                "name": "Taif Alrobeaan",
+                "id": "412205555"
+            }
+        ],
+        "Supervisor Name": "Dr.Salwa Mohammed Ali Moussa",
+        "Full Project Description": "Our project talks about implementing a Voice Authentication Management System (VAMS). The idea is to use a person’s unique voice pattern as a secure method for identity verification. The system records a user’s voice, extracts key features from it, and compares them with stored voice data in the database. This makes login and access control both easier and more secure than using traditional passwords. The voice authentication can be applied to any management system, especially in environments like universities, where secure and fast access is important. Over time, it learns and improves using machine learning techniques. Although voice authentication has been around for years, it’s now gaining more value due to advances in technology. This project aims to combine security and user convenience in a modern, effective way.",
+        "Project Field": [
+            "AI",
+            " ML",
+            " Web Development"
+        ],
+        "Project Poster": "/assets/GP Poster_عهد العضيله المطيري-page-00001.jpg",
+        "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/Student_UI.pdf_%D8%B9%D9%87%D8%AF%20%D8%A7%D9%84%D8%B9%D8%B6%D9%8A%D9%84%D9%87%20%D8%A7%D9%84%D9%85%D8%B7%D9%8A%D8%B1%D9%8A.pdf; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/BioVoice_Registartion_UI.pdf_%D8%B9%D9%87%D8%AF%20%D8%A7%D9%84%D8%B9%D8%B6%D9%8A%D9%84%D9%87%20%D8%A7%D9%84%D9%85%D8%B7%D9%8A%D8%B1%D9%8A.pdf; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/Teacher_UI.pdf_%D8%B9%D9%87%D8%AF%20%D8%A7%D9%84%D8%B9%D8%B6%D9%8A%D9%84%D9%87%20%D8%A7%D9%84%D9%85%D8%B7%D9%8A%D8%B1%D9%8A.pdf",
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 24,
+        "Email": "392207752@qu.edu.sa",
+        "Name": "رنيم الرشودي",
+        "Campus": "المقر الرئيسي",
+        "Section": "طالبات",
+        "Department": "علوم الحاسب",
+        "Project Title": "Detection of Fake Profiles in Online Social Networks Using Machine Learning",
+        "Students Names with IDs": [
+            {
+                "name": "Raneem Alreshoodi",
+                "id": "392207752"
+            },
+            {
+                "name": "Wateen Alreshoodi",
+                "id": "392206382"
+            },
+            {
+                "name": "Rana Aljasser",
+                "id": "411201818"
+            },
+            {
+                "name": "Cady Almuhawish",
+                "id": "412205500"
+            }
+        ],
+        "Supervisor Name": "Dr. Hadia Zardi",
+        "Full Project Description": "The rapid rise of fake profiles poses a significant threat to the integrity and trustworthiness of online social networks. This project aims to evaluate and compare several machine learning algorithms for detecting fake profiles, including Support Vector Machine (SVM), Logistic Regression (LR), and XGBoost. In addition, hybrid models are proposed and analyzed to enhance performance. Among these, the combination of XGBoost and Logistic Regression demonstrated the best results, achieving a testing accuracy of 98.77%. As a standalone model, XGBoost performed the best with an accuracy of 98.86%, showcasing its ability to capture complex patterns. The hybrid approach leveraged the complementary strengths of different algorithms, resulting in improved generalizability and interpretability. These findings present a robust and scalable solution for detecting fake profiles, contributing to enhanced security and trust in online platforms.",
+        "Project Field": [
+            "AI",
+            " ML"
+        ],
+        "Project Poster": "/assets/Detection of Fake Profiles in Online Social N_رنيم الرشودي-page-00001.jpg",
+        "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/Detection%20of%20Fake%20Profiles%20in%20Online%20Social%20N_%D8%B1%D9%86%D9%8A%D9%85%20%D8%A7%D9%84%D8%B1%D8%B4%D9%88%D8%AF%D9%8A.pdf",
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 25,
+        "Email": "411201908@qu.edu.sa",
+        "Name": "العنود الحصان",
+        "Campus": "المقر الرئيسي",
+        "Section": "طالبات",
+        "Department": "تقنية المعلومات",
+        "Project Title": "Developing Personalized Services for Home Maintenance",
+        "Students Names with IDs": [
+            {
+                "name": "Alanoud Alhussan",
+                "id": "411201908"
+            },
+            {
+                "name": "Bariah Alfajih",
+                "id": "412216224"
+            },
+            {
+                "name": "Renad Almohisen",
+                "id": "411202097"
+            },
+            {
+                "name": "Sama Alhassan",
+                "id": "412216632"
+            }
+        ],
+        "Supervisor Name": "Prof. Ali Alkhalifah",
+        "Full Project Description": "Maintaining a comfortable and functional home environment is crucial for ensuring a high\nquality of life in today’s fast-paced world. However, homeowners often face challenges due\nto home maintenance tasks’ time-intensive and complex nature. This project emphasizes the\nimportance of efficient home maintenance and proposes innovative solutions to address these\nissues. A thorough review of existing home maintenance applications and platforms was conducted to identify their strengths and limitations. Based on these findings, practical solutions\nwere proposed, including object detection for identifying maintenance issues and virtual assistants to assist with self-service scenarios. This project introduces an online home maintenance\nservices application developed using Flutter to bridge gaps between homeowners and service\nproviders. By offering user-centric solutions to common challenges, the application enhances\nthe maintenance experience by providing reliable, efficient, and accessible services. Ultimately,\nthis initiative aims to improve customer satisfaction, streamline interactions, and set a new\nstandard for home maintenance solutions.",
+        "Project Field": [
+            "AI"
+        ],
+        "Project Poster": "/assets/G1 - Poster_العنود الحصان-page-00001.jpg",
+        "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/G1-Extra_%D8%A7%D9%84%D8%B9%D9%86%D9%88%D8%AF%20%D8%A7%D9%84%D8%AD%D8%B5%D8%A7%D9%86.pdf",
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 26,
+        "Email": "421201960@qu.edu.sa",
+        "Name": "ليان السلوم",
+        "Campus": "المقر الرئيسي",
+        "Section": "طالبات",
+        "Department": "تقنية المعلومات",
+        "Project Title": "SO’ORAT: A Machine Learning-Based Image Recognition And LLM-Assisted Calories Measurement And Tracking Application",
+        "Students Names with IDs": [
+            {
+                "name": "Layan Yousef Alsalloum",
+                "id": "421201960"
+            },
+            {
+                "name": "Alanoud Abduallah Altuwaijri",
+                "id": "421202025"
+            },
+            {
+                "name": "Deem Abduallah Alqasir",
+                "id": "421201826"
+            }
+        ],
+        "Supervisor Name": "Dr. Ziyad Alsaeed",
+        "Full Project Description": "So’orat is a smart application designed to simplify the process of tracking calories and nutritional elements (carbohydrates, fats, proteins) through just a single image of a meal. The app uses AI-powered image recognition technologies to analyze meals and accurately estimate their nutritional values. The user takes a photo of their dish, and the intelligent model analyzes the image and provides instant nutritional predictions along with personalized advice. This advice is based on the estimated nutritional content of the meal and the user’s personal information such as age, weight, dietary goals, and physical activity level. The aim of this advice is to help the user make informed dietary decisions and guide them toward balanced nutrient consumption aligned with their health goals. For example, the user might be alerted that “The meal is high in fat; it’s recommended to opt for a lighter meal later,” or encouraged with phrases like “Excellent meal to support your muscle-gain goal.”\n\nUsers can also share their meal with friends and track their nutritional progress through an interactive dashboard.",
+        "Project Field": [
+            "AI",
+            " Computer Vision",
+            " Data Analysis",
+            " ML",
+            " Mobile App",
+            " User Experience"
+        ],
+        "Project Poster": "/assets/So_orat Poster_ليان السلوم-page-00001.jpg",
+        "Additional Project Images": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 27,
+        "Email": "392216770@qu.edu.sa",
+        "Name": "خديجه قايد محمد",
+        "Campus": "مقر عنيزة",
+        "Section": "طالبات",
+        "Department": "علوم الحاسب",
+        "Project Title": "Missing people ",
+        "Students Names with IDs": [
+            {
+                "name": "Layan Alzain",
+                "id": "411203048"
+            },
+            {
+                "name": "Khdijah Abdullah",
+                "id": "392216770"
+            },
+            {
+                "name": "Reham Aljardan",
+                "id": "412205508"
+            },
+            {
+                "name": "Dona Alhablin",
+                "id": "411202107"
+            }
+        ],
+        "Supervisor Name": "Dr. Tahani Alwaneen",
+        "Full Project Description": "This project focuses on developing a dedicated mobile application to assist in locating missing individuals more efficiently. It utilizes AI-powered facial recognition to compare reported missing persons' images against a database of found individuals or public sightings. The app facilitates real-time reporting, alerts for potential matches, and streamlined communication between the public, families (Seekers), and law enforcement. The core aim is to leverage technology and community engagement to accelerate search efforts and improve outcomes in missing persons cases.",
+        "Project Field": [
+            "AI",
+            " Computer Vision",
+            " ML"
+        ],
+        "Project Poster": "/assets/Missing people App poster_خديجه قايد محمد-page-00001.jpg",
+        "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/IMG_5660_%D8%AE%D8%AF%D9%8A%D8%AC%D9%87%20%D9%82%D8%A7%D9%8A%D8%AF%20%D9%85%D8%AD%D9%85%D8%AF.png; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/IMG_5659_%D8%AE%D8%AF%D9%8A%D8%AC%D9%87%20%D9%82%D8%A7%D9%8A%D8%AF%20%D9%85%D8%AD%D9%85%D8%AF.png; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/IMG_5658_%D8%AE%D8%AF%D9%8A%D8%AC%D9%87%20%D9%82%D8%A7%D9%8A%D8%AF%20%D9%85%D8%AD%D9%85%D8%AF.png",
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 28,
+        "Email": "421108201@qu.edu.sa",
+        "Name": "عبدالعزيز المطرودي",
+        "Campus": "المقر الرئيسي",
+        "Section": "طلاب",
+        "Department": "تقنية المعلومات",
+        "Project Title": "Carry It",
+        "Students Names with IDs": [
+            {
+                "name": "Abdulaziz Almatroudi",
+                "id": "421108201"
+            },
+            {
+                "name": "Emad Aljumah",
+                "id": "391110337"
+            },
+            {
+                "name": "Ibrahim Aldubyyan",
+                "id": "391108412"
+            },
+            {
+                "name": "Hamed Alharbi",
+                "id": "361117833"
+            },
+            {
+                "name": "Yazeed Alshomar",
+                "id": "421108237"
+            }
+        ],
+        "Supervisor Name": "Dr. Waleed Albattah",
+        "Full Project Description": "Carry it” is a mobile application that provides a platform for service providers and customers of quick shipping services. ",
+        "Project Field": [
+            "Transportation"
+        ],
+        "Project Poster": "/assets/CARRY IT_عبدالعزيز المطرودي-page-00001.jpg",
+        "Additional Project Images": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 29,
+        "Email": "411200703@qu.edu.sa",
+        "Name": "هاجر العميريني",
+        "Campus": "المقر الرئيسي",
+        "Section": "طالبات",
+        "Department": "علوم الحاسب",
+        "Project Title": "Event planning",
+        "Students Names with IDs": [
+            {
+                "name": "هاجر عثمان العميريني",
+                "id": "411200703"
+            },
+            {
+                "name": "شهاليل عثمان العميريني",
+                "id": "421202069"
+            }
+        ],
+        "Supervisor Name": "دكتور جمال العتيبي",
+        "Full Project Description": "This project aims to develop a mobile application that simplifies event planning by providing a centralized platform where users can find and book services such as venues, decorations, desserts, and photography. Many people face difficulties in locating reliable providers, comparing prices, and maintaining effective communication, making the planning process time-consuming and stressful.\n\nThe app offers a simple and efficient solution by allowing users to browse services, view ratings, compare prices, check availability, and chat directly with providers. It is built using Flutter for the frontend and Django for the backend to ensure a smooth and reliable user experience.",
+        "Project Field": [
+            "Mobile App"
+        ],
+        "Project Poster": "/assets/Poster - Event Planning App_هاجر العميريني 1-page-00001.jpg",
+        "Additional Project Images": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 30,
+        "Email": "411203010@qu.edu.sa",
+        "Name": "سمى صالح السويل",
+        "Campus": "مقر عنيزة",
+        "Section": "طالبات",
+        "Department": "علوم الحاسب",
+        "Project Title": "A unified web platform for AI customer support chat bot ",
+        "Students Names with IDs": [
+            {
+                "name": "Sama Alsuwaiyel",
+                "id": "411203010"
+            },
+            {
+                "name": "Areen Aljohani",
+                "id": "421202185"
+            }
+        ],
+        "Supervisor Name": "Ghaida Alhamidi",
+        "Full Project Description": "\nThis project delivers the design for a unified web platform allowing businesses to centrally create, customize, and manage AI-powered chatbots for customer support. Leveraging Conversational AI and NLP, the system aims to automate responses, provide performance analytics, and offer seamless escalation to human agents. The platform is designed to streamline support operations across various channels, enhance customer interaction quality, and reduce operational complexity for businesses.",
+        "Project Field": [
+            "AI",
+            " Web Development"
+        ],
+        "Project Poster": "/assets/Poster 2_سمى صالح السويل-page-00001.jpg",
+        "Additional Project Images": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 31,
+        "Email": "412111599@qu.edu.sa",
+        "Name": "يزيد الرمضى",
+        "Campus": "المقر الرئيسي",
+        "Section": "طلاب",
+        "Department": "تقنية المعلومات",
+        "Project Title": "Taqdeer: Resolving the Real-Estate Negotiation Phase Using Machine Learning to Determine Selling Price",
+        "Students Names with IDs": [
+            {
+                "name": "Yazeed Asim Alramadi",
+                "id": "412111599"
+            },
+            {
+                "name": "Salman Saleh Alkhalifah",
+                "id": "412111490"
+            },
+            {
+                "name": "Mohammed Ali Aldubayyan",
+                "id": "411109658"
+            },
+            {
+                "name": "Abdulrrahman Abdullah Alowaymir",
+                "id": "411109566"
+            }
+        ],
+        "Supervisor Name": "Dr. Ziyad Alsaeed",
+        "Full Project Description": "Taqdeer is a machine learning-powered platform designed to enhance the transparency and efficiency of real estate negotiations in Saudi Arabia. The project addresses challenges such as unreliable data, inconsistent pricing, and poor access to accurate property valuations. By using historical transaction records from the Ministry of Justice and integrating real-time economic and geographic data, the platform estimates property prices with high accuracy.\n\nThe system is built with a user-friendly web interface that features interactive maps, property filtering options, and visual data displays. At its core, the project uses a machine learning model (CatBoost) to predict property prices based on features like location, type, size, and market trends. GIS (Geographic Information System) integration helps visualize price data across regions.\n\nTaqdeer aims to support both buyers and sellers by offering data-driven, fair market price estimates, empowering users to make informed decisions and avoid overpaying. This tool has the potential to improve real estate transparency and contribute to the long-term stability of the housing market in Saudi Arabia.\n\nTools & Technologies Used:\n\n- Machine Learning: CatBoost, Scikit-learn\n\n- Data Handling: Pandas, NumPy\n\n- Backend: Flask\n\n- Frontend: HTML, CSS, JavaScript\n\n- Database: MySQL\n\n- Deployment: Docker\n\n- GIS: Google Maps API",
+        "Project Field": [
+            "AI",
+            " Data Analysis",
+            " GIS"
+        ],
+        "Project Poster": "/assets/Taqdeer_Group8.pdf_يزيد الرمضى-page-00001.jpg",
+        "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/1734822721992_%D9%8A%D8%B2%D9%8A%D8%AF%20%D8%A7%D9%84%D8%B1%D9%85%D8%B6%D9%89.mp4",
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 32,
+        "Email": "411116596@qu.edu.sa",
+        "Name": "بدر البراك",
+        "Campus": "المقر الرئيسي",
+        "Section": "طلاب",
+        "Department": "هندسة الحاسب",
+        "Project Title": "AI-Driven Real-time Haram Crowd Detection & Warning System",
+        "Students Names with IDs": [
+            {
+                "name": "بدر البراك",
+                "id": "411116596"
+            },
+            {
+                "name": "مالك الحربي",
+                "id": "411107740"
+            },
+            {
+                "name": "حسن العضيب",
+                "id": "371112288"
+            }
+        ],
+        "Supervisor Name": "Dr. Muhammad Ali Martuza",
+        "Full Project Description": "Haram is the largest mosque in the world. Millions of Muslims of different nationalities visit\nthe Haram to worship Allah. They pray five times a day and perform Hajj and Umra rituals.\nThe Haram authority needs massive work to manage this big crowd. A slight mismanagement\nmay lead to a catastrophe. To overcome this problem, we will use machine learning models to\nconstruct an autonomous system for crowd identification. Also, the system will send alerts\nwhen there is a crowd, and then the authority will do the job. The project addresses the issue\nof crowd control inside the Sanctuary by identifying the crowd level and then sending alerts to\nthe authorities.",
+        "Project Field": [
+            "AI"
+        ],
+        "Project Poster": "/assets/IMG_5807_بدر البراك.png",
+        "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/530b3d66-43d6-46d7-84e8-37640d3b717e_%D8%A8%D8%AF%D8%B1%20%D8%A7%D9%84%D8%A8%D8%B1%D8%A7%D9%83.jpeg",
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 33,
+        "Email": "421108027@qu.edu.sa",
+        "Name": "عمر النمله",
+        "Campus": "المقر الرئيسي",
+        "Section": "طلاب",
+        "Department": "تقنية المعلومات",
+        "Project Title": "Lock N Share: A Secure Platform for File and Image Encryption",
+        "Students Names with IDs": [
+            {
+                "name": "Omar Alnamlah",
+                "id": "421108027"
+            },
+            {
+                "name": "Amer Alshaibi",
+                "id": "421107937"
+            },
+            {
+                "name": "Abdulaziz Alshuwaysh",
+                "id": "421107977"
+            },
+            {
+                "name": "Mohammed Alhoshani",
+                "id": "411107600"
+            }
+        ],
+        "Supervisor Name": "Dr. Waleed Albattah",
+        "Full Project Description": "Enabled SecureVault is a secure platform developed to encrypt and decrypt files and images using strong cryptographic algorithms like AES-256. The system offers a user-friendly interface, robust key management, file sharing with access limits, and secure storage. It focuses on protecting user data from unauthorized access while maintaining performance and usability. The project adopts a client-server architecture and was built using technologies such as PHP, Laravel, MySQL, and Bootstrap.",
+        "Project Field": [
+            "Cloud",
+            " Cybersecurity"
+        ],
+        "Project Poster": "/assets/G6-461 Poster_عمر النمله-page-00001.jpg",
+        "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/IMG_8666_%D8%B9%D9%85%D8%B1%20%D8%A7%D9%84%D9%86%D9%85%D9%84%D9%87.jpeg",
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 34,
+        "Email": "421109606@qu.edu.sa",
+        "Name": "ابراهيم المشيقح",
+        "Campus": "المقر الرئيسي",
+        "Section": "طلاب",
+        "Department": "هندسة الحاسب",
+        "Project Title": "Sign Language Classification to Text Conversion -  تحويل لغة الإشارة إلى نص مكتوب",
+        "Students Names with IDs": [
+            {
+                "name": "ابراهيم المشيقح",
+                "id": "421109606"
+            },
+            {
+                "name": "جواد أبا الخيل",
+                "id": "421109580"
+            },
+            {
+                "name": "فتحي العيسى",
+                "id": "421115154"
+            }
+        ],
+        "Supervisor Name": "د. صالح عبدالحفيظ",
+        "Full Project Description": "مشروع تحويل لغة الإشارة إلى نص مكتوب\nيهدف هذا المشروع إلى تطوير نظام ذكي قادر على التعرف على إشارات اليد بلغة الإشارة وتحويلها إلى نص مكتوب في الوقت الفعلي، مما يسهم في تسهيل التواصل مع ذوي الإعاقة السمعية.\n\n1. جمع البيانات:\nتم إنشاء مجموعة بيانات متوازنة تتضمن إشارات تمثل الحروف الأبجدية وبعض الإشارات الخاصة:\n\nعدد الفئات: 29 فئة:\n\n26 فئة تمثل حروف الأبجدية الإنجليزية (A-Z).\n\n3 فئات مخصصة: \"Next\"، \"Delete\"، و\"Space\".\n\nعدد الصور لكل فئة: 1,000 صورة تقريبًا.\n\nمصادر الصور:\n\nصور تم التقاطها يدويًا.\n\nصور تم جمعها من الإنترنت لضمان تنوع الأشكال والخلفيات.\n\n2. استخراج الخصائص باستخدام MediaPipe:\nتم استخدام مكتبة MediaPipe لاستخراج معالم اليد (Landmarks):\n\nيتم استخراج 21 نقطة لكل يد.\n\nاستخدمنا فقط الإحداثيات x و y، ما نتج عنه 42 ميزة تمثل كل صورة.\n\nهذه الميزات تُستخدم كمدخلات للنموذج بعد التجهيز والمعالجة.\n\n3. بناء النموذج:\nتم استخدام شبكة عصبية متعددة الطبقات (MLP) لتصنيف الإشارات بناءً على الإحداثيات:\n\nالمدخلات: 42 قيمة رقمية (x, y).\n\n\nالمخرجات: 29 فئة بدالة تفعيل Softmax.\n\n\n4. النشر (Deployment):\nتم نشر النظام على جهاز Raspberry Pi لجعله محمولًا ومستقلًا.\n\nالكاميرا (Webcam): تُستخدم لالتقاط صور اليد بشكل مباشر.\n\nشاشة LCD: تُعرض عليها المخرجات النصية بعد تعرف النموذج على الإشارة.\n\nالنظام يعمل في الزمن الحقيقي، حيث يتم استخراج النقاط، تمريرها إلى النموذج، ثم عرض الإشارة النصية مباشرةً.",
+        "Project Field": [
+            "AI"
+        ],
+        "Project Poster": "/assets/Poster_ابراهيم المشيقح.png",
+        "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/Poster_%D8%A7%D8%A8%D8%B1%D8%A7%D9%87%D9%8A%D9%85%20%D8%A7%D9%84%D9%85%D8%B4%D9%8A%D9%82%D8%AD.pdf",
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 35,
+        "Email": "421202253@qu.edu.sa",
+        "Name": "لينا الدغيم",
+        "Campus": "مقر الرس",
+        "Section": "طالبات",
+        "Department": "تقنية المعلومات",
+        "Project Title": "PERSONALIZED SKINCARE GUIDE APP",
+        "Students Names with IDs": [
+            {
+                "name": "DANAH MAHMOUD ALGHOFAILY",
+                "id": "421202300"
+            },
+            {
+                "name": "KADI MOHAMMED ALDUGHAYYIM",
+                "id": "421202303"
+            },
+            {
+                "name": "LINA BADER ALDOUGHAYEM",
+                "id": "421202253"
+            },
+            {
+                "name": "AMIRAH HABIB ALHARBI",
+                "id": "412205611"
+            }
+        ],
+        "Supervisor Name": "Dr. Fahad Alturise",
+        "Full Project Description": "This project aims to develop an intelligent application that helps users analyze their skin and recommend suitable products based on their skin type and concerns. The app performs a comprehensive analysis by analyzing facial images, while also checking for potential product ingredient interactions. It includes a chemical conflict checker to ensure users avoid using incompatible skincare products. The goal is to provide a personalized and effective skincare experience, improving users' routines with accuracy and safety.",
+        "Project Field": [
+            "AI",
+            " Healthcare"
+        ],
+        "Project Poster": "/assets/PERSONALIZED SKINCARE GUIDE APP Poster_لينا الدغيم-page-00001.jpg",
+        "Additional Project Images": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 36,
+        "Email": "411202237@qu.edu.sa",
+        "Name": "لمى الهجله المطيري",
+        "Campus": "مقر الرس",
+        "Section": "طالبات",
+        "Department": "تقنية المعلومات",
+        "Project Title": "Skin cancer detection using deep learning models ",
+        "Students Names with IDs": [
+            {
+                "name": "NAJWA ALHADYANI",
+                "id": "391202729"
+            },
+            {
+                "name": "SHROUG ALHARBI",
+                "id": "392206491"
+            },
+            {
+                "name": "ALJAWHARAH ALRUTHAYA",
+                "id": "411216533"
+            },
+            {
+                "name": "41120223 LAMA ALMUTAIRI",
+                "id": null
+            },
+            {
+                "name": "لمى الهجله المطيري",
+                "id": "411202237"
+            }
+        ],
+        "Supervisor Name": "Dr.fahad Alharbi",
+        "Full Project Description": "The project aims to evaluate and compare the performance of four\ndeep learning algorithms: Convolutional Neural \nNetwork (CNN),\nMobileNetV3Large, \nVGG16, \n EfficientNetB4.\n \nEach model will be\nassessed for its effectiveness in accurately classifying skin lesions,\ncontributing to improved diagnostic processes in clinical settings. By\nanalyzing the performance of these deep learning models, the project\nseeks to identify the most effective algorithm for early skin cancer\ndiagnosis and classification, ",
+        "Project Field": [
+            "AI",
+            " DL",
+            " Data Analysis"
+        ],
+        "Project Poster": "/assets/Skin_Cancer_Poster_V4_لمى الهجله المطيري-page-00001.jpg",
+        "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/IMG_0391_%D9%84%D9%85%D9%89%20%D8%A7%D9%84%D9%87%D8%AC%D9%84%D9%87%20%D8%A7%D9%84%D9%85%D8%B7%D9%8A%D8%B1%D9%8A.jpeg; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/IMG_0390_%D9%84%D9%85%D9%89%20%D8%A7%D9%84%D9%87%D8%AC%D9%84%D9%87%20%D8%A7%D9%84%D9%85%D8%B7%D9%8A%D8%B1%D9%8A.jpeg",
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 37,
+        "Email": "421202209@qu.edu.sa",
+        "Name": "سجى الغفيلي",
+        "Campus": "مقر عنيزة",
+        "Section": "طالبات",
+        "Department": "علوم الحاسب",
+        "Project Title": "Darb ",
+        "Students Names with IDs": [
+            {
+                "name": "Jomanh Alfurayhidi",
+                "id": "412205557"
+            },
+            {
+                "name": "Saja Alghofili",
+                "id": "421202209"
+            },
+            {
+                "name": "Maitha Alanzi",
+                "id": "412205594"
+            },
+            {
+                "name": "Maram Almutairi",
+                "id": "412205577"
+            }
+        ],
+        "Supervisor Name": "T.Alanoud Alsalman ",
+        "Full Project Description": "Transportation challenges in the Qassim region affect university students and employees, causing inconvenience and inefficiency. This project introduces Darb, a mobile application designed to offer reliable and affordable transportation solutions. The application includes features like monthly subscriptions for fixed routes, communication tools, and a filtering system to customize user preferences. \n\nDeveloped using Flutter, Darb provides a user-friendly and scalable platform to simplify daily commutes and enhance the transportation experience for its users. \nwe have used : Flutter, Firebase and Google cloud solutions, Github, Figma, Trello, and alot of Flutter Libraries to speed up Devlopment.",
+        "Project Field": [
+            "Mobile App"
+        ],
+        "Project Poster": "/assets/Darb .pdf_سجى الغفيلي-page-00001.jpg",
+        "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/DarbPic1_%D8%B3%D8%AC%D9%89%20%D8%A7%D9%84%D8%BA%D9%81%D9%8A%D9%84%D9%8A.png; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/darbpic2_%D8%B3%D8%AC%D9%89%20%D8%A7%D9%84%D8%BA%D9%81%D9%8A%D9%84%D9%8A.png; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/darbpic3_%D8%B3%D8%AC%D9%89%20%D8%A7%D9%84%D8%BA%D9%81%D9%8A%D9%84%D9%8A.png",
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 38,
+        "Email": "421107968@qu.edu.sa",
+        "Name": "ريان المسعودي الشمري",
+        "Campus": "المقر الرئيسي",
+        "Section": "طلاب",
+        "Department": "تقنية المعلومات",
+        "Project Title": "HEALTH MONITORING WEARABLE DEVICE",
+        "Students Names with IDs": [
+            {
+                "name": "ريان الشمري",
+                "id": "421107968"
+            },
+            {
+                "name": "عبدالله العليان",
+                "id": "421109584"
+            },
+            {
+                "name": "حمد السحيباني",
+                "id": "391108098"
+            }
+        ],
+        "Supervisor Name": "سليم الخذيري",
+        "Full Project Description": "يهدف هذا المشروع بكل اختصار إلى تصميم وتنفيذ جهاز قابل للارتداء لمراقبة الصحة الحيوية بشكل مستمر وذكي، باستخدام تقنيات إنترنت الأشياء (IoT) وتعلم الآلة (ML). يقوم الجهاز بقياس ثلاث علامات حيوية رئيسية هي: معدل نبضات القلب، ضغط الدم، ونسبة الأوكسجين في الدم (SpO2)، ويعرض البيانات بشكل لحظي على شاشة LCD",
+        "Project Field": [
+            " IoT",
+            " Healthcare"
+        ],
+        "Project Poster": "/assets/71F7D7A4-C305-4655-9AF0-E87AC3DE5103_ريان المسعودي الشمري 1.jpeg",
+        "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/71F7D7A4-C305-4655-9AF0-E87AC3DE5103_%D8%B1%D9%8A%D8%A7%D9%86%20%D8%A7%D9%84%D9%85%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%20%D8%A7%D9%84%D8%B4%D9%85%D8%B1%D9%8A.jpeg",
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 39,
+        "Email": "391202139@qu.edu.sa",
+        "Name": "في الرشيد",
+        "Campus": "مقر الرس",
+        "Section": "طالبات",
+        "Department": "تقنية المعلومات",
+        "Project Title": "SecureJoin: Web-based Platform for Secure Group access",
+        "Students Names with IDs": [
+            {
+                "name": "Fai AlRasheed",
+                "id": "391202139"
+            },
+            {
+                "name": "Hanan AlShoshan",
+                "id": "412205599"
+            },
+            {
+                "name": "Sarah AlMuzaini",
+                "id": "421202238"
+            },
+            {
+                "name": "Shaden AlAwaji",
+                "id": "421202289"
+            }
+        ],
+        "Supervisor Name": "Dr. Ahmad Reeves",
+        "Full Project Description": "SecureJoin\n\nSecureJoin is a web-based platform designed to enhance the security of group access on popular messaging applications like WhatsApp and Telegram. As digital communication platforms grow in popularity, the associated challenges of spam, unauthorized access, and inadequate user verification have also increased. SecureJoin aims to address these vulnerabilities through a multi-layered verification system that ensures only legit\nSecureJoin is a web-based platform designed to enhance the security of group access on popular messaging applications like WhatsApp and Telegram. As digital communication platforms grow in popularity, the associated challenges of spam, unauthorized access, and inadequate user verification have also increased. SecureJoin aims to address these vulnerabilities through a multi-layered verification system that ensures only legitimate users gain access to chat groups.\n\nThe primary objectives of SecureJoin are as follows:\n1. Custom Verification Questions: Allow group administrators to create tailored verification questions that reflect the group's context, enhancing security.\n2. Verification Messaging System: Implement a system for sending unique verification codes via SMS or email, adding an additional layer of security.\n3. Prevent Credential Reuse: Ensure that once a user is granted access, their credentials cannot be reused, preventing unauthorized sharing.\n4. Seamless Integration: Facilitate integration with existing messaging platforms to automate group membership control based on established verification processes.\n5. User-Friendly Interface: Create an intuitive interface that simplifies the management of verification questions and authorized user lists.\n6. Support for Digital Transformation: Align with Saudi Vision 2030's goals for cybersecurity and digital innovation by providing a secure digital ecosystem.\n\nMethodology\nThe development of SecureJoin follows an iterative, prototype-based approach grounded in Agile principles. This methodology emphasizes rapid prototyping, user feedback, and continuous improvement.\n\nPhases of Development\n1. Project Planning and Research: Define objectives, research similar platforms, and gather user requirements.\n2. Report Drafting: Draft key chapters, including the introduction, literature review, and methodology.\n3. Platform Design and Development: Design the user interface, develop backend functionalities, and implement database systems.\n4. Testing and Debugging: Conduct unit testing, integration testing, and usability testing to ensure the platform functions correctly.\n5. Final Presentation: Prepare and present the project outcomes, summarizing the problem statement, objectives, and research findings.\n\nFeatures\n- Multi-Layered Verification: Combines various verification methods to ensure robust security.\n- User Management: Admins can manage user access effectively, enhancing group control.\n- Spam Prevention: Implement rule-based spam detection to filter unauthorized users.\n- Real-Time Monitoring: Provides immediate feedback and monitoring for group access.\n\nImpact\nBy addressing critical security gaps in digital communication, SecureJoin aims to create a safer and more efficient online environment for group interactions. The platform not only protects users but also enhances the overall quality of communication in various contexts, including educational, professional, and community settings.\n\nFuture enhancements for SecureJoin include:\n- Expanding to support multiple apps types.\n- Developing a mobile application for increased accessibility.\n- Implementing security features like data encryption.\n- Conducting further user training to maximize platform adoption.\n- Enable group admins to upload lists of authorized users, ensuring that only pre-approved individuals can join\n\nThis comprehensive approach ensures that SecureJoin not only meets current security challenges but also adapts to future needs in a rapidly evolving digital landscape.",
+        "Project Field": [
+            "Cybersecurity"
+        ],
+        "Project Poster": "/assets/Graduation Project (SecureJoin) Poster_في الرشيد-page-00001.jpg",
+        "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/3_%D9%81%D9%8A%20%D8%A7%D9%84%D8%B1%D8%B4%D9%8A%D8%AF.jpg; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/2_%D9%81%D9%8A%20%D8%A7%D9%84%D8%B1%D8%B4%D9%8A%D8%AF.jpg; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/1_%D9%81%D9%8A%20%D8%A7%D9%84%D8%B1%D8%B4%D9%8A%D8%AF.png",
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 40,
+        "Email": "421108000@qu.edu.sa",
+        "Name": "عبدالرحمن اللحيدان",
+        "Campus": "المقر الرئيسي",
+        "Section": "طلاب",
+        "Department": "تقنية المعلومات",
+        "Project Title": "Online Health Hub",
+        "Students Names with IDs": [
+            {
+                "name": "Fahad Almutiri",
+                "id": "421108233"
+            },
+            {
+                "name": "Abdullrahman Allhidan",
+                "id": "421108000"
+            },
+            {
+                "name": "Osama Alsalman",
+                "id": "421107869"
+            },
+            {
+                "name": "Ahmed Alrashidi",
+                "id": "421108239"
+            },
+            {
+                "name": "Mohammed Alhomaidan",
+                "id": "412112486"
+            }
+        ],
+        "Supervisor Name": "Dr. Abdullah Alnajem",
+        "Full Project Description": "Online Health Hub is a web-based platform that improves access to healthcare by connecting patients and doctors through virtual services. The system allows users to book appointments, request prescription refills, consult with healthcare professionals via chat or video, and access their medical records securely. It also supports insurance verification and online payments to streamline the healthcare process. Designed using, MySQL, HTML, CSS, and Bootstrap, the platform aims to make medical services more convenient, faster, and accessible—anytime, anywhere.",
+        "Project Field": [
+            "Healthcare"
+        ],
+        "Project Poster": "/assets/Online Health Hub Poster (for digital use)_عبدالرحمن اللحيدان-page-00001.jpg",
+        "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/PHOTO-2025-04-13-08-31-06_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D8%B1%D8%AD%D9%85%D9%86%20%D8%A7%D9%84%D9%84%D8%AD%D9%8A%D8%AF%D8%A7%D9%86.png; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/PHOTO-2025-04-13-08-31-06%202_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D8%B1%D8%AD%D9%85%D9%86%20%D8%A7%D9%84%D9%84%D8%AD%D9%8A%D8%AF%D8%A7%D9%86.png",
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 41,
+        "Email": "421107668@qu.edu.sa",
+        "Name": "عبدالرحمن العقيل",
+        "Campus": "المقر الرئيسي",
+        "Section": "طلاب",
+        "Department": "علوم الحاسب",
+        "Project Title": "Heart Disease  prediction system ",
+        "Students Names with IDs": [
+            {
+                "name": "عبدالرحمن العقيل",
+                "id": "421107668"
+            },
+            {
+                "name": "محمد العقيل",
+                "id": "421108062"
+            },
+            {
+                "name": "ياسر العبيد",
+                "id": "411107822"
+            },
+            {
+                "name": "ثامر الحماد",
+                "id": "422112105"
+            }
+        ],
+        "Supervisor Name": "د.عبدالعزيز الدريبي",
+        "Full Project Description": "Heart disease is a leading global cause of mortality, with many cases being curable if detected early. However, individuals with low-risk symptoms often delay seeking medical attention. This project aims to reduce mortality rates by developing a mobile-optimized web application that simplifies heart disease risk assessment. By analyzing an individual’s medical history and relevant risk factors, the tool provides an accessible and straightforward solution for early detection and intervention.",
+        "Project Field": [
+            "AI"
+        ],
+        "Project Poster": "/assets/Poster_عبدالرحمن العقيل-page-00001.jpg",
+        "Additional Project Images": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 42,
+        "Email": "421202011@qu.edu.sa",
+        "Name": "رغد السحيباني",
+        "Campus": "المقر الرئيسي",
+        "Section": "طالبات",
+        "Department": "علوم الحاسب",
+        "Project Title": "Moneer: Audio-Recognition System for Quranic Recitations",
+        "Students Names with IDs": [
+            {
+                "name": "Ghadi Alsuhaibani",
+                "id": "421202093"
+            },
+            {
+                "name": "Jana Alsuhaibani",
+                "id": "421202022"
+            },
+            {
+                "name": "Raghad Alsuhaibani",
+                "id": "421202011"
+            },
+            {
+                "name": "Razan Alfayaz",
+                "id": "421202106"
+            },
+            {
+                "name": "Shahd Alsuhaibani",
+                "id": "421202028"
+            }
+        ],
+        "Supervisor Name": "Dr. Faisal Alhwikem",
+        "Full Project Description": "Many Muslims face challenges in identifying specific Ayahs from the Quran, especially when distinguishing between similar ones. This project seeks to bridge that gap by developing an audio-based system that simplifies the process of finding and understanding Quranic verses. Moneer is a web application that built on Quranic speech-to-text technology, allowing users to recite any portion of an Ayah and instantly retrieve the full verse along with its location (Surah and Ayah number) and translation. The core objective is to help users accurately identify and connect with Quranic content through voice input. The system leverages OpenAI’s Whisper model, fine-tuned on Quranic recitations across various Qira’at, including Hafs, Warsh, and Qaloon.",
+        "Project Field": [
+            "AI"
+        ],
+        "Project Poster": "/assets/Moneer Poster_رغد السحيباني-page-00001.jpg",
+        "Additional Project Images": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 43,
+        "Email": "412117697@qu.edu.sa",
+        "Name": "فارس المقيد",
+        "Campus": "المقر الرئيسي",
+        "Section": "طلاب",
+        "Department": "علوم الحاسب",
+        "Project Title": "Generative Arabic Calligraphy Using AI (Medad)",
+        "Students Names with IDs": [
+            {
+                "name": "Faris Alhammad",
+                "id": "421107759"
+            },
+            {
+                "name": "Faris Almuqayyad",
+                "id": "412117697"
+            },
+            {
+                "name": "Mustafa Sallat",
+                "id": "412117552"
+            }
+        ],
+        "Supervisor Name": "Dr. Mohammed Alsuhaibani",
+        "Full Project Description": "Despite recent advances in generative AI, creating high-quality Arabic calligraphy remains a challenge. Most models treat it as decorative art rather than a structured writing system, resulting in outputs that lack the precision and aesthetic balance of traditional calligraphy.\n\nWe developed Medad, an AI model that transforms plain Arabic text into authentic calligraphic art. Users input text through a web interface, which then is converted to an image and then processed by a Vision Transformer (ViT) model. The model generates a calligraphy-style image while preserving the text’s structure and artistic integrity. A final enhancement step improves the image resolution for better visual quality.\n\nMedad reimagines Arabic calligraphy in the digital age, offering designers, artists, and developers a tool that combines cultural depth with modern AI capabilities.",
+        "Project Field": [
+            "AI"
+        ],
+        "Project Poster": "/assets/Generative Arabic Calligraphy Through Image-t_فارس المقيد-page-00001.jpg",
+        "Additional Project Images": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 44,
+        "Email": "411202269@qu.edu.sa",
+        "Name": "الهام الصويان",
+        "Campus": "مقر عنيزة",
+        "Section": "طالبات",
+        "Department": "علوم الحاسب",
+        "Project Title": "SmartLab ",
+        "Students Names with IDs": [
+            {
+                "name": "الهام الصويان",
+                "id": "411202269"
+            },
+            {
+                "name": "غزلان الرشيدي",
+                "id": "421202118"
+            },
+            {
+                "name": "امجاد المطيري",
+                "id": "391202735"
+            }
+        ],
+        "Supervisor Name": "غيداء عبدالعزيز سليمان الحميدي ",
+        "Full Project Description": "تطبيق SmartLab هو تطبيق ذكي مبني باستخدام Flutter ولغة Dart، يهدف إلى مساعدة المستخدمين على فهم نتائج تحاليلهم الطبية بسهولة. يستخدم التطبيق تقنيات الذكاء الاصطناعي للتعرف على نتائج التحاليل من الصور أو الملفات، ثم يقوم بتحليلها وتبسيطها بلغة مفهومة، مع تقديم نصائح صحية بناءً على النتائج.\n\nيوفر التطبيق أيضاً إمكانية حفظ نتائج التحاليل السابقة وتتبع التغيرات فيها. يدعم التطبيق واجهة ثنائية اللغة (العربية والإنجليزية)، ويحتوي على صفحات متعددة تشمل: رفع التقارير، عرض النتائج، صفحة الملف الشخصي، وسجل التحاليل.\n\nأهم الميزات:\n\t•\tقراءة نتائج التحاليل من الصور باستخدام تقنيات OCR.\n\t•\tتحليل النتائج باستخدام Gemini AI وتقديم شرح مبسط لها.\n\t•\tتقديم نصائح لتحسين الصحة بناءً على التحليل.\n\t•\tحفظ وتتبع نتائج التحاليل السابقة.\n\t•\tواجهة سهلة الاستخدام وداعمة للغتين العربية والإنجليزية",
+        "Project Field": [
+            "AI",
+            " Data Analysis",
+            " Healthcare"
+        ],
+        "Project Poster": "/assets/SmartLabs_الهام الصويان.png",
+        "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/IMG_0165_%D8%A7%D9%84%D9%87%D8%A7%D9%85%20%D8%A7%D9%84%D8%B5%D9%88%D9%8A%D8%A7%D9%86.jpeg; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/IMG_0166_%D8%A7%D9%84%D9%87%D8%A7%D9%85%20%D8%A7%D9%84%D8%B5%D9%88%D9%8A%D8%A7%D9%86.jpeg; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/IMG_0168_%D8%A7%D9%84%D9%87%D8%A7%D9%85%20%D8%A7%D9%84%D8%B5%D9%88%D9%8A%D8%A7%D9%86.jpeg",
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 45,
+        "Email": "421202087@qu.edu.sa",
+        "Name": "ريف الخضيري",
+        "Campus": "المقر الرئيسي",
+        "Section": "طالبات",
+        "Department": "تقنية المعلومات",
+        "Project Title": "A Smart Child Safety Monitoring System in Vehicles Using Object Detection and Age Estimation Deep Learning Models",
+        "Students Names with IDs": [
+            {
+                "name": "Lina Altuwayjiri",
+                "id": "421201911"
+            },
+            {
+                "name": "Latifah Alamer",
+                "id": "421201944"
+            },
+            {
+                "name": "Reef Alkhudhairy",
+                "id": "421202087"
+            }
+        ],
+        "Supervisor Name": "Dr. Abeer Alhujaylan",
+        "Full Project Description": "Every year, a number of children lose their lives due to being left alone unattended in vehicles, which results in suffocation or heatstroke. As a solution, this project seeks to address these incidents by developing advanced Deep Learning (DL) models for detecting children left alone in vehicles and estimating their ages. The research utilizes three object detection models, which are YOLOv8, YOLOv9, and YOLOv10, to determine the best performing model, which will then serve as the basis for an age estimation model using EfficientNet-B4. The models are evaluated using two datasets: a private dataset from prior research for object detection, as well as the UTKFace dataset for the age estimation model. Among the object detection models, YOLOv8 achieved the best overall performance with 95.4% precision, making it the chosen model for the subsequent age estimation phase, performed using EfficientNet-B4, which achieved an accuracy of 88%. The developed system demonstrates the potential to enhance child safety by detecting children left alone in vehicles and automatically sending alert messages to parents, contributing to the prevention of pediatric vehicular tragedies.",
+        "Project Field": [
+            "AI"
+        ],
+        "Project Poster": "/assets/G9POSTER_ريف الخضيري-page-00001.jpg",
+        "Additional Project Images": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 46,
+        "Email": "421109639@qu.edu.sa",
+        "Name": "علي الحبيب",
+        "Campus": "المقر الرئيسي",
+        "Section": "طلاب",
+        "Department": "علوم الحاسب",
+        "Project Title": "Interactive Diabetes Prediction System Using Machine Learning",
+        "Students Names with IDs": [
+            {
+                "name": "Ali Khalid Alhabeeb",
+                "id": "421109639"
+            },
+            {
+                "name": "Hamad Mohammed Alsawyan",
+                "id": "411109618"
+            },
+            {
+                "name": "Abdulsalam Hamdan Alshrqy",
+                "id": "411109447"
+            },
+            {
+                "name": "Abdulrhman Khalid Alkrida",
+                "id": "421109519"
+            }
+        ],
+        "Supervisor Name": "Dr. Ali Ben Mrad",
+        "Full Project Description": "Our project aims to build a machine learning-\nbased system to predict the likelihood of\ndiabetes in users. Using health and lifestyle\ndata input by the user, the system classifies\nwhether the user is likely to have diabetes or\nnot. The model was trained on a diverse\ndataset and integrated into an easy-to-use\nweb interface to make early detection more\naccessible for the general public.",
+        "Project Field": [
+            "AI",
+            " Data Analysis",
+            " ML"
+        ],
+        "Project Poster": "/assets/Graduation project poster_علي الحبيب-page-00001.jpg",
+        "Additional Project Images": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 47,
+        "Email": "421108130@qu.edu.sa",
+        "Name": "يزيد الوهيبي",
+        "Campus": "المقر الرئيسي",
+        "Section": "طلاب",
+        "Department": "علوم الحاسب",
+        "Project Title": "Summer Training Management System",
+        "Students Names with IDs": [
+            {
+                "name": "Yazeed Ali Alwehaibi",
+                "id": "421108130"
+            },
+            {
+                "name": "Ibrahim Abdulrahman Almania",
+                "id": "411107862"
+            },
+            {
+                "name": "Abdulmalik Mohammed Altwaijry",
+                "id": "421107900"
+            },
+            {
+                "name": "Azzam Fahad Alredini",
+                "id": "371111227"
+            }
+        ],
+        "Supervisor Name": "Dr. Ibrahim Sulaiman Alskiety",
+        "Full Project Description": "Summer Training Management System (STMS) is a comprehensive web-based system designed to streamline and manage the entire lifecycle of student summer training. It facilitates the process from application submission to final evaluation, ensuring efficient coordination between students, supervisors, and training coordinators. The platform allows students to apply for training opportunities, submit progress and final reports, and schedule presentations. Supervisors can review applications, monitor student progress, provide feedback, and assign training scores. STMS enhances transparency, accountability, and organization in managing summer training programs within academic institutions.\n\n",
+        "Project Field": [
+            "Education"
+        ],
+        "Project Poster": "/assets/FYP-Poster_يزيد الوهيبي-page-00001.jpg",
+        "Additional Project Images": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 48,
+        "Email": "421201939@qu.edu.sa",
+        "Name": "لينا المطيري",
+        "Campus": "المقر الرئيسي",
+        "Section": "طالبات",
+        "Department": "تقنية المعلومات",
+        "Project Title": "Interactive Programming Learning Platform for Beginner (HERE CODE)",
+        "Students Names with IDs": [
+            {
+                "name": "Lina Ali Almutairi",
+                "id": "421201939"
+            },
+            {
+                "name": "Fatimah Alsudais",
+                "id": "421202241"
+            },
+            {
+                "name": "Razan Alothaim",
+                "id": "421202014"
+            }
+        ],
+        "Supervisor Name": "Dr. Abeer Alsheaibi",
+        "Full Project Description": "Project \"Here Code\": An Interactive E-Learning Platform for Teaching Python to University Beginners .\n\n**Description **:\nThe \"Here Code\" project aims to develop a comprehensive digital platform dedicated to teaching Python\nprogramming fundamentals to beginner university students through an interactive environment that\ncombines self-paced learning, practical challenges, and community engagement .\n**Key Features **:\n1- Interactive Lessons: Structured educational content covering Python concepts from basic to\nintermediate levels, accompanied by practical examples .\n2- Gamified Learning: Integration of problem-solving coding games to enhance comprehension and\nmotivate students .\n3- Points & Ranking System: Awarding points for academic achievements and completed challenges,\nwith a leaderboard to foster healthy competition .\n4- Community Hub: A space for students to ask questions, share solutions, and collaborate with\npeers under expert supervision .\n5- Progress Dashboard: A simplified interface displaying cumulative earned points, achievement\nbadges, and the student’s last interaction date to track their engagement.\n6- Dynamic Courses Page: Regularly updated advanced courses or workshops in collaboration with\nindustry experts .\n\n**Value Proposition **:\n- Simplifying programming education through an engaging and applicable methodology .\n- Promoting teamwork and knowledge exchange among students .\n- Providing performance-tracking tools to help students identify strengths and areas for improvement .",
+        "Project Field": [
+            "Education"
+        ],
+        "Project Poster": "/assets/G14 Poster.pdf_لينا المطيري-page-00001.jpg",
+        "Additional Project Images": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 49,
+        "Email": "421202227@qu.edu.sa",
+        "Name": "دانا الدعيجي",
+        "Campus": "المقر الرئيسي",
+        "Section": "طالبات",
+        "Department": "علوم الحاسب",
+        "Project Title": "Samkara - An AI-powered vehicle damage assessment ",
+        "Students Names with IDs": [
+            {
+                "name": "Dana AlDuayji",
+                "id": "421202227"
+            },
+            {
+                "name": "Emtenan AlFozan",
+                "id": "421215099"
+            },
+            {
+                "name": "Shrooq AlQaied",
+                "id": "421202213"
+            },
+            {
+                "name": "Khuolod AlZaid",
+                "id": "412205548"
+            }
+        ],
+        "Supervisor Name": "Dr. Ali mustafa",
+        "Full Project Description": "Our project aims to develop a smart mobile application that uses artificial intelligence technologies to simplify the assessment of car damages after accidents. It allows users to capture photos of the damaged vehicle and analyzes them using deep learning and computer vision to identify the car model, the year of the car, the damaged parts, and the type of damage. The application provides a comprehensive report that includes an estimated repair cost and recommendations for the required parts. It also shows nearby repair shops , helping drivers save time and effort, while giving repair shops a greater opportunity to reach customers. This solution is particularly suitable for regions with high accident rates, such as Saudi Arabia, and supports the goals of Vision 2030 in enhancing maintenance services through technology.",
+        "Project Field": [
+            "AI",
+            " Mobile App"
+        ],
+        "Project Poster": "/assets/POSTER .pdf 4_دانا الدعيجي-page-00001.jpg",
+        "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/%D8%B5%D9%81%D8%AD%D9%87%20%D8%A7%D9%84%D8%AA%D9%82%D8%B1%D9%8A%D8%B1%20.pdf_%D8%AF%D8%A7%D9%86%D8%A7%20%D8%A7%D9%84%D8%AF%D8%B9%D9%8A%D8%AC%D9%8A.pdf; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/%D8%AA%D8%AD%D9%84%D9%8A%D9%84%20%D8%A7%D9%84%D8%B6%D8%B1%D8%B1%20.pdf_%D8%AF%D8%A7%D9%86%D8%A7%20%D8%A7%D9%84%D8%AF%D8%B9%D9%8A%D8%AC%D9%8A.pdf; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/f04d646c-22ff-4a85-90cd-36c20e249536_%D8%AF%D8%A7%D9%86%D8%A7%20%D8%A7%D9%84%D8%AF%D8%B9%D9%8A%D8%AC%D9%8A.jpeg",
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 50,
+        "Email": "421107672@qu.edu.sa",
+        "Name": "معاذ الطريسي",
+        "Campus": "المقر الرئيسي",
+        "Section": "طلاب",
+        "Department": "علوم الحاسب",
+        "Project Title": "MEETING MANAGEMENT SYSTEM POWERED BY AI",
+        "Students Names with IDs": [
+            {
+                "name": "Muath Altresy",
+                "id": "421107672"
+            },
+            {
+                "name": "Tariq Alsamani",
+                "id": "421107777"
+            }
+        ],
+        "Supervisor Name": "Dr.Ibrahim Alskiety",
+        "Full Project Description": "The project introduces an AI-powered system to automate and improve meeting management. By using artificial intelligence, it aims to improve the process, reduce manual workload, increase productivity, and improve the overall meeting experience",
+        "Project Field": [
+            "AI"
+        ],
+        "Project Poster": "/assets/poster_معاذ الطريسي-page-00001.jpg",
+        "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/front%20end_%D9%85%D8%B9%D8%A7%D8%B0%20%D8%A7%D9%84%D8%B7%D8%B1%D9%8A%D8%B3%D9%8A.png",
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 51,
+        "Email": "421108117@qu.edu.sa",
+        "Name": "اسامه القرعاوي",
+        "Campus": "المقر الرئيسي",
+        "Section": "طلاب",
+        "Department": "هندسة الحاسب",
+        "Project Title": "Blind Aid Reading Glasses",
+        "Students Names with IDs": [
+            {
+                "name": "Osamah Brahim Alqarawi",
+                "id": "421108117"
+            },
+            {
+                "name": "Osama Abdulrazaq Alzahrani",
+                "id": "421109566"
+            },
+            {
+                "name": "Nawaf Abdullah Alowais",
+                "id": "421107888"
+            }
+        ],
+        "Supervisor Name": "Dr. Muhammad Ali Martuza",
+        "Full Project Description": "The \"Blind Aid Reading Glasses\" project aims to provide visually impaired individuals with\nan innovative, wearable solution to enhance their independence and interaction with the world.\nThe glasses integrate Optical Character Recognition (OCR), Natural Language Processing\n(NLP), and Text-to-Speech (TTS) technologies into a compact, user-friendly device. Using a\nfine-tuned OCR model, the system captures and processes text from the environment—such as\nsigns, books, or documents—and converts it into spoken words via a customized TTS model.\nThe NLP component improves the accuracy and coherence of the extracted text.\nMotivated by the challenges faced by visually impaired individuals in accessing written\ninformation, especially in Arabic, this project seeks to offer a cost-effective, portable solution.\nExisting assistive technologies are often expensive or lack integration or proper support,\nlimiting their accessibility.\nBy combining fine-tuned models, deployed on a Raspberry Pi 5 and\nintegrated into a 3D-printed glasses frame, the system has the potential to efficiently process\nreal-time scenarios. Once implemented, the system is expected to successfully convert\nenvironmental text into clear audio feedback. This project aims to explore how combining AI-\ndriven technologies with accessible hardware can create powerful assistive devices for the\nvisually impaired.",
+        "Project Field": [
+            "AI",
+            " Assistive Technology"
+        ],
+        "Project Poster": "/assets/Blind-Aid-Reading-Glasses_Poster_اسامه القرعاوي-page-00001.jpg",
+        "Additional Project Images": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 52,
+        "Email": "412205512@qu.edu.sa",
+        "Name": "أسماء علي الجربوع",
+        "Campus": "المقر الرئيسي",
+        "Section": "طالبات",
+        "Department": "علوم الحاسب",
+        "Project Title": "Project Management Website (Projectly)",
+        "Students Names with IDs": [
+            {
+                "name": "اسماء الجربوع",
+                "id": null
+            },
+            {
+                "name": "Asma Aljrbua",
+                "id": "412205512"
+            },
+            {
+                "name": "Sarah Aljamhan",
+                "id": null
+            },
+            {
+                "name": "سارة الجمحان",
+                "id": "412205562"
+            },
+            {
+                "name": "Nouf Alhamed",
+                "id": null
+            },
+            {
+                "name": "نوف الحامد",
+                "id": "391202479"
+            }
+        ],
+        "Supervisor Name": "Dr. Walid Karamati ، د. وليد كرامتي",
+        "Full Project Description": "This project presents a software solution designed to streamline task organization and tracking for individuals and teams. The Task Management Application enhances collaboration and Interaction through features like task and time Division, collaboration tools, notifications, and track of progress . It provides a platform for efficiently managing activities and projects.",
+        "Project Field": [
+            "Web Development"
+        ],
+        "Project Poster": "/assets/PROJECTLY Project Management Website (2)_أسماء علي الجربوع-page-00001.jpg",
+        "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/IMG_8163_%D8%A3%D8%B3%D9%85%D8%A7%D8%A1%20%D8%B9%D9%84%D9%8A%20%D8%A7%D9%84%D8%AC%D8%B1%D8%A8%D9%88%D8%B9.jpeg; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/IMG_8164_%D8%A3%D8%B3%D9%85%D8%A7%D8%A1%20%D8%B9%D9%84%D9%8A%20%D8%A7%D9%84%D8%AC%D8%B1%D8%A8%D9%88%D8%B9.jpeg; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/IMG_8165_%D8%A3%D8%B3%D9%85%D8%A7%D8%A1%20%D8%B9%D9%84%D9%8A%20%D8%A7%D9%84%D8%AC%D8%B1%D8%A8%D9%88%D8%B9.jpeg",
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 53,
+        "Email": "421201837@qu.edu.sa",
+        "Name": "شدن العمر",
+        "Campus": "المقر الرئيسي",
+        "Section": "طالبات",
+        "Department": "علوم الحاسب",
+        "Project Title": "Assila A Journey with Saudi Culture ",
+        "Students Names with IDs": [
+            {
+                "name": "Shaden Abdullah Alomar",
+                "id": "421201837"
+            },
+            {
+                "name": "Remaz Muath Aloudah",
+                "id": "421201869"
+            },
+            {
+                "name": "Layan Khalid Almushayti",
+                "id": "421202061"
+            }
+        ],
+        "Supervisor Name": "D. Abdullah Alabdulatif",
+        "Full Project Description": "Assila is an immersive and educational mobile game designed to celebrate and preserve the rich heritage of Saudi Arabia. It aims to reconnect younger generations with their cultural roots and introduce international audiences to the Kingdom’s traditions in a fun, interactive way.\n\nSet against a vibrant backdrop of Saudi culture, the game blends gamification with storytelling, puzzles, and simulations inspired by real-life customs such as date harvesting, traditional attire, and regional celebrations. Guided by a young Saudi character named Assila, players explore cultural levels that highlight the beauty and diversity of Saudi traditions. Each level is filled with challenges, trivia, and memory-based tasks, offering rewards and fostering learning through play.\n\nCurrently, the game features the “Tammar” level, which introduces players to the world of Saudi dates through three culturally themed mini-games: AlKhraf AlMuzrih and AlSouq. These games focus on the harvesting and trading traditions associated with dates in the Kingdom. Additional levels showcasing other cultural elements are planned for future updates.\n\nBuilt with Unity and designed using tools like Figma, Procreate, and Adobe products, Assila reflects modern game development practices while staying rooted in cultural authenticity. It currently supports offline play, with plans for online features in the future, and includes progression systems, leaderboards, and a user-friendly interface that makes it accessible for players of all ages.\n\nMore than just a game, Assila is a step toward achieving the goals of Saudi Vision 2030, promoting cultural awareness through innovation and technology. With strong support from Qassim University and potential collaborations with national ministries, Assila stands as a pioneering project in the field of cultural gamification in the Kingdom.",
+        "Project Field": [
+            "Game Development"
+        ],
+        "Project Poster": "/assets/AssilaPoster_شدن العمر-page-00001.jpg",
+        "Additional Project Images": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 54,
+        "Email": "412112496@qu.edu.sa",
+        "Name": "محمد البيضاني",
+        "Campus": "المقر الرئيسي",
+        "Section": "طلاب",
+        "Department": "علوم الحاسب",
+        "Project Title": "ISLAMIC FATWA ASSISTANCE SYSTEM",
+        "Students Names with IDs": [
+            {
+                "name": "Mohammed Saad",
+                "id": "412112496"
+            },
+            {
+                "name": "Tamim Rashid Al Eid",
+                "id": "412111473"
+            },
+            {
+                "name": "Mohammed Muthanna",
+                "id": "412117700"
+            },
+            {
+                "name": "Jibali Aljibali",
+                "id": "361109866"
+            }
+        ],
+        "Supervisor Name": "Dr. Fethi Fkih",
+        "Full Project Description": "This project aims to develop an AI-driven Islamic fatwa website that\nutilizes advanced Natural Language Processing (NLP) techniques and\nmachine learning to provide accurate and reliable fatwas based on\ntrusted Islamic sources",
+        "Project Field": [
+            "AI",
+            " ML"
+        ],
+        "Project Poster": "/assets/islamic fatwa assistance system_محمد البيضاني-page-00001.jpg",
+        "Additional Project Images": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 55,
+        "Email": "412112470@qu.edu.sa",
+        "Name": "عمر النصار",
+        "Campus": "المقر الرئيسي",
+        "Section": "طلاب",
+        "Department": "علوم الحاسب",
+        "Project Title": "A Management and Organization System for Students’ Exit from Schools",
+        "Students Names with IDs": [
+            {
+                "name": "Omar Alnassar",
+                "id": "412112470"
+            },
+            {
+                "name": "Abdullah Aldahlawy",
+                "id": "421108221"
+            },
+            {
+                "name": "Moaiad Alshaya",
+                "id": "421109666"
+            },
+            {
+                "name": "Abdullah Alwadhakhi",
+                "id": "421109538"
+            }
+        ],
+        "Supervisor Name": "Prof. Dr. Mohammed Al-Hagery",
+        "Full Project Description": "Overview:\nThis project introduces a smart system designed to manage and organize the student dismissal process in schools. The goal is to reduce traffic congestion, accidents, and waiting times during student pickup hours. It provides a safe, efficient, and organized environment for students, parents, and school staff by integrating real-time technologies and effective communication tools.\n\n⸻\n\nProblem:\nMany schools face serious issues during student dismissal time, such as:\n\t•\tHeavy traffic congestion.\n\t•\tIncreased risk of accidents near school gates.\n\t•\tLong waiting times for parents and drivers.\n\t•\tPoor coordination between school staff and guardians.\n\t•\tOverall stress and frustration for everyone involved.\n\n⸻\n\nProject Objectives:\n\t•\tReduce traffic congestion around schools during peak hours.\n\t•\tMinimize accidents and safety risks.\n\t•\tNotify parents in real time when their children are ready to leave.\n\t•\tAllow parents to authorize others (like drivers or relatives) to pick up their children.\n\t•\tMonitor each student’s status (picked up or still waiting).\n\t•\tImprove school operational efficiency.\n\t•\tEnhance communication and trust between schools and parents.\n\n⸻\n\nSystem Features:\n\t•\tParents notify the system upon arrival.\n\t•\tThe student’s name appears on screens inside the school.\n\t•\tSchool staff receives pickup instructions in real time.\n\t•\tPickup confirmations are sent to parents.\n\t•\tParents can securely assign someone else to pick up their child.\n\t•\tThe school dashboard displays each student’s real-time status.",
+        "Project Field": [
+            "IoT"
+        ],
+        "Project Poster": "/assets/poster_عمر النصار-page-00001.jpg",
+        "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/pic_%D8%B9%D9%85%D8%B1%20%D8%A7%D9%84%D9%86%D8%B5%D8%A7%D8%B1.pdf",
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 56,
+        "Email": "422205657@qu.edu.sa",
+        "Name": "جود البليهد",
+        "Campus": "المقر الرئيسي",
+        "Section": "طالبات",
+        "Department": "علوم الحاسب",
+        "Project Title": "FRAUD DETECTION USING ARTIFICIAL INTELLIGENCE",
+        "Students Names with IDs": [
+            {
+                "name": "Joud Alblaihed",
+                "id": "422205657"
+            },
+            {
+                "name": "Dalal Alsalama",
+                "id": "422205656"
+            },
+            {
+                "name": "Safinat Alamri",
+                "id": "422205682"
+            },
+            {
+                "name": "Mayadh Alfouzan",
+                "id": "422205685"
+            }
+        ],
+        "Supervisor Name": "Dr. Ali Mustafa Qamar Khan",
+        "Full Project Description": "Project Title: Fraud Detection Using Artificial Intelligence\n\nThis project aims to develop a machine learning-based system to detect phishing websites, which are fake sites designed to steal user information by imitating legitimate websites.\n\n⸻\n\nObjectives:\n\t1.\tMachine Learning Application: Use algorithms like Logistic Regression, Decision Trees, and XGBoost to detect phishing websites based on URL analysis.\n\t2.\tReal-Time Detection: Build a browser extension that alerts users when they visit a suspicious website.\n\t3.\tData Analysis: Collect and prepare data from sources like PhishTank and Alexa to train and test the model.\n\n⸻\n\nMethodology:\n\t•\tData Collection: Gather a dataset of both phishing and legitimate website URLs.\n\t•\tFeature Extraction: Analyze URL features like length, special characters, and domain information.\n\t•\tModel Development: Test different machine learning algorithms to find the best-performing one.\n\t•\tEvaluation: Measure model performance using accuracy, precision, and recall.\n\n⸻\n\nExpected Outcomes:\n\nThe goal is to create an effective and scalable system that improves online security by accurately detecting phishing websites. This project will support the fight against cybercrime by using smart detection techniques that adapt to new phishing strategies.",
+        "Project Field": [
+            "AI",
+            " Cybersecurity"
+        ],
+        "Project Poster": "/assets/Poster_جود البليهد-page-00001.jpg",
+        "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/3016eb80-07f8-458d-8268-532ef3026d8f_%D8%AC%D9%88%D8%AF%20%D8%A7%D9%84%D8%A8%D9%84%D9%8A%D9%87%D8%AF.jpeg; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/142f8e7e-e20f-4904-8b96-19c2f7310501_%D8%AC%D9%88%D8%AF%20%D8%A7%D9%84%D8%A8%D9%84%D9%8A%D9%87%D8%AF.jpeg; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/110bbca2-cb38-4a35-86fd-e2d77e47b375_%D8%AC%D9%88%D8%AF%20%D8%A7%D9%84%D8%A8%D9%84%D9%8A%D9%87%D8%AF.jpeg",
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 57,
+        "Email": "421107804@qu.edu.sa",
+        "Name": "عبدالعزيز بن حسين",
+        "Campus": "المقر الرئيسي",
+        "Section": "طلاب",
+        "Department": "هندسة الحاسب",
+        "Project Title": "SafeHouse",
+        "Students Names with IDs": [
+            {
+                "name": "Abdulaziz Almithn",
+                "id": "421107804"
+            },
+            {
+                "name": "Rayan Alharbi",
+                "id": "421107886"
+            },
+            {
+                "name": "Mohammed Almutlaq",
+                "id": "421107679"
+            }
+        ],
+        "Supervisor Name": "Dr. Jamal Alotaibi",
+        "Full Project Description": "Imagine a home that thinks before danger strikes. SafeHouse empowers modern homes with IoT, AI, and ML to instantly detect gas leaks, monitor risky zones, and protect children from hazards. Real-time sensors and machine learning work silently to spot threats, so you don’t have to!\nGet lightning-fast alerts on your phone, act before accidents happen, and breathe easy, knowing every corner is watched 24/7.",
+        "Project Field": [
+            "AI",
+            " IoT",
+            " ML"
+        ],
+        "Project Poster": "/assets/SafeHouse Poster_عبدالعزيز بن حسين-page-00001.jpg",
+        "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/User_interface_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D8%B9%D8%B2%D9%8A%D8%B2%20%D8%A8%D9%86%20%D8%AD%D8%B3%D9%8A%D9%86.jpg; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/Child_detection(2)_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D8%B9%D8%B2%D9%8A%D8%B2%20%D8%A8%D9%86%20%D8%AD%D8%B3%D9%8A%D9%86.jpg; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/Child_detection(1)_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D8%B9%D8%B2%D9%8A%D8%B2%20%D8%A8%D9%86%20%D8%AD%D8%B3%D9%8A%D9%86.jpg",
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 58,
+        "Email": "421202152@qu.edu.sa",
+        "Name": "نوره القويفلي",
+        "Campus": "المقر الرئيسي",
+        "Section": "طالبات",
+        "Department": "علوم الحاسب",
+        "Project Title": "\"MACS\"  Mobile Medical Alert & Coordination System ",
+        "Students Names with IDs": [
+            {
+                "name": "Nora Alquwayfili",
+                "id": "421202152"
+            },
+            {
+                "name": "Lama Alshmali",
+                "id": "421202170"
+            },
+            {
+                "name": "Nsreen Salem",
+                "id": "411216174"
+            }
+        ],
+        "Supervisor Name": "Dr. Abdulatif Alabdulatif",
+        "Full Project Description": "Mobile Medical Alert and Coordination System (MACS)\n\nMACS is an intelligent system built on a dedicated mobile application designed to revolutionize medical coordination and communication within emergency departments in hospitals. In critical situations, every second can make the difference between life and death, and delays in communication often lead to worsened conditions or even the loss of lives.\n\nThe mobile application allows doctors and nurses to send urgent alerts using standardized medical codes, which are instantly delivered to the relevant personnel based on their role and current shift, ensuring a fast and accurate response. It also helps reduce response time and supports effective medical decision-making during critical moments.\n\nThe mobile application features a comprehensive supervisory interface that enables supervisors to monitor all alerts, analyze performance, and measure response times, allowing for improved planning, enhanced accountability, and continuous development of emergency protocols.\n\nIn addition to the alerts, the mobile application provides real-time reports on medical team performance and contributes to optimal resource utilization by directing alerts only to on-duty staff, preventing unnecessary activation of backup personnel and reducing resource consumption.\n\nThe mobile application is developed using Flutter to build a cross-platform application and Firebase to support real-time alert delivery, manage databases, and provide immediate and secure reporting.\n\nFuture Development (Feature Work):\n\nIn the future, the mobile application will support AI-driven analysis of the patient’s condition to accurately determine the appropriate medical code based on the case’s needs. This feature will enhance the accuracy of medical alerts by analyzing available medical data and issuing the relevant alert. The system will also be integrated with patient medical records, providing comprehensive and precise data to improve medical decision-making and deliver integrated, effective healthcare.\n\nIn summary, MACS is not just a technical tool, but an innovative solution designed to save lives, reduce medical errors, and improve operational efficiency within hospitals. It also reflects the kingdom’s move toward digital transformation in the healthcare sector, aligning with the goals of Vision 2030.",
+        "Project Field": [
+            "Data Analysis",
+            " Mobile App"
+        ],
+        "Project Poster": "/assets/Mobile MACS_نوره القويفلي-page-00001.jpg",
+        "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/bab1b643-80c7-4a92-a44f-d90e96c753ba_%D9%86%D9%88%D8%B1%D9%87%20%D8%A7%D9%84%D9%82%D9%88%D9%8A%D9%81%D9%84%D9%8A.mov",
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 59,
+        "Email": "412205495@qu.edu.sa",
+        "Name": "لينا الربع",
+        "Campus": "المقر الرئيسي",
+        "Section": "طالبات",
+        "Department": "علوم الحاسب",
+        "Project Title": "Mo'een - Arabic Sign Language Recognition and Translation",
+        "Students Names with IDs": [
+            {
+                "name": "موده الشبرمي",
+                "id": "412205587"
+            },
+            {
+                "name": "لينا الربع",
+                "id": "412205495"
+            }
+        ],
+        "Supervisor Name": "د. محمد بن عثمان",
+        "Full Project Description": "An AI Computer Vision system for Arabic Sign Language Detection, Recognition, and Translation.\n",
+        "Project Field": [
+            "AI"
+        ],
+        "Project Poster": "/assets/GP-Poster_لينا الربع-page-00001.jpg",
+        "Additional Project Images": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 60,
+        "Email": "421201967@qu.edu.sa",
+        "Name": "شذا شجاع الغرابي الحربي",
+        "Campus": "المقر الرئيسي",
+        "Section": "طالبات",
+        "Department": "علوم الحاسب",
+        "Project Title": "O/AD : A Cafe’s Decision Support System",
+        "Students Names with IDs": [
+            {
+                "name": "Jumanah Almatrood",
+                "id": "421201953"
+            },
+            {
+                "name": "Shatha Alharbi",
+                "id": "421201967"
+            },
+            {
+                "name": "Talah Almuhawwis",
+                "id": "421201850"
+            }
+        ],
+        "Supervisor Name": "Dr. Mohammed Alsuhaibani",
+        "Full Project Description": "A smart decision support system for café managers that uses AI and Business Intelligence to analyze sales data, predict future performance, and suggest personalized marketing promotions. The platform includes a chatbot, admin control panel, sales analysis, and event-based suggestions to help managers improve their strategies and increase sales.",
+        "Project Field": [
+            "AI",
+            " Data Analysis",
+            " Web Development"
+        ],
+        "Project Poster": "/assets/oad-poster_شذا شجاع الغرابي الح-page-00001.jpg",
+        "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/promtion-ar_%D8%B4%D8%B0%D8%A7%20%D8%B4%D8%AC%D8%A7%D8%B9%20%D8%A7%D9%84%D8%BA%D8%B1%D8%A7%D8%A8%D9%8A%20%D8%A7%D9%84%D8%AD.png; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/analysis-ar_%D8%B4%D8%B0%D8%A7%20%D8%B4%D8%AC%D8%A7%D8%B9%20%D8%A7%D9%84%D8%BA%D8%B1%D8%A7%D8%A8%D9%8A%20%D8%A7%D9%84%D8%AD.png; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/admin-dashboard1_%D8%B4%D8%B0%D8%A7%20%D8%B4%D8%AC%D8%A7%D8%B9%20%D8%A7%D9%84%D8%BA%D8%B1%D8%A7%D8%A8%D9%8A%20%D8%A7%D9%84%D8%AD.png",
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 61,
+        "Email": "421108162@qu.edu.sa",
+        "Name": "جهاد المحسن",
+        "Campus": "المقر الرئيسي",
+        "Section": "طلاب",
+        "Department": "علوم الحاسب",
+        "Project Title": "Tfahhas",
+        "Students Names with IDs": [
+            {
+                "name": "Jehad Saleh Almohsen",
+                "id": "421108162"
+            },
+            {
+                "name": "Abdulrhman Mohamed Alismail",
+                "id": "421115142"
+            },
+            {
+                "name": "Jehad Abdullah Alqhelaigah",
+                "id": "421107703"
+            },
+            {
+                "name": "Sulaiman Abdullah Alhelwah",
+                "id": "421108265"
+            }
+        ],
+        "Supervisor Name": "Dr. Abdulaziz Aldribi",
+        "Full Project Description": "Tfahhas combines technology and accessibility to create a secure digital space for vulnerable users. Its intuitive design, strong backend, and multi-language support make it a powerful yet easy-to-use cybersecurity tool for all.",
+        "Project Field": [
+            "Cybersecurity"
+        ],
+        "Project Poster": "/assets/IMG-20250417-WA0013_جهاد المحسن.jpg",
+        "Additional Project Images": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 62,
+        "Email": "412205583@qu.edu.sa",
+        "Name": "كادي العوفي الحربي",
+        "Campus": "المقر الرئيسي",
+        "Section": "طالبات",
+        "Department": "علوم الحاسب",
+        "Project Title": "AI-Powered Energy Management System",
+        "Students Names with IDs": [
+            {
+                "name": "Kadi Alharbi",
+                "id": "412205583"
+            },
+            {
+                "name": "Yara AlArbeed",
+                "id": "412217663"
+            },
+            {
+                "name": "Hatoun Aldahami",
+                "id": "411202079"
+            }
+        ],
+        "Supervisor Name": "Dr. Mohammad Alsuhaibani",
+        "Full Project Description": "The AI-Powered Energy Management Systems for Energy Storage in Saudi Arabia project focuses on optimizing energy storage systems by replacing traditional rule-based controllers with AI-based controllers. Aligned with Saudi Arabia’s Vision 2030 goal of a 50% renewable energy mix, the project aims to enhance energy storage efficiency, reduce reliance on conventional control methods and overall costs, and empower consumers to become prosumers—actively producing and managing their own energy.\n\nMATLAB Simulink simulations are used to build the grid-connected PV system, incorporating components such as solar panels, converters, and batteries. These simulations demonstrate how the system can be scaled and adapted to a variety of applications while ensuring no energy is wasted in the process.\n\nThe system uses advanced reinforcement learning models—Q-Learning, Deep Q-Network (DQN), and Deep Deterministic Policy Gradient (DDPG)—to dynamically adapt to energy demand and storage fluctuations. After testing and comparing the algorithms, DDPG was found to be the most effective in optimizing energy flow and decision-making.",
+        "Project Field": [
+            "AI"
+        ],
+        "Project Poster": "/assets/ICCIT-2025 poster-project expo template(AI-Po_كادي العوفي الحربي-page-00001.jpg",
+        "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/Achievements_%D9%83%D8%A7%D8%AF%D9%8A%20%D8%A7%D9%84%D8%B9%D9%88%D9%81%D9%8A%20%D8%A7%D9%84%D8%AD%D8%B1%D8%A8%D9%8A.pdf; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/Web%20App_%D9%83%D8%A7%D8%AF%D9%8A%20%D8%A7%D9%84%D8%B9%D9%88%D9%81%D9%8A%20%D8%A7%D9%84%D8%AD%D8%B1%D8%A8%D9%8A.pdf",
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 63,
+        "Email": "421202024@qu.edu.sa",
+        "Name": "الهنوف الفضل",
+        "Campus": "المقر الرئيسي",
+        "Section": "طالبات",
+        "Department": "علوم الحاسب",
+        "Project Title": "بصيرة ( Gaze Analytics Utilizing AI for Early Detection of ASD)",
+        "Students Names with IDs": [
+            {
+                "name": "1Alhanof saleh Alfadhel",
+                "id": "421202024"
+            },
+            {
+                "name": "2 Lubna mohammed Alghamdi",
+                "id": "422205694"
+            },
+            {
+                "name": "3 Jumana Alhudaithy",
+                "id": "392206357"
+            }
+        ],
+        "Supervisor Name": "Dr. Suliman Aladhadh",
+        "Full Project Description": "Project Title:\nGaze Analytics Utilizing AI for Early Detection of Autism Spectrum Disorder (ASD)\n\nProject Description:\n\nThis project aims to develop an intelligent system that leverages artificial intelligence (AI) and eye-tracking technology to enable early detection of Autism Spectrum Disorder (ASD). The system analyzes visual attention patterns and gaze behavior in children using deep learning techniques such as Convolutional Neural Networks (CNN) and Long Short-Term Memory (LSTM) networks.\n\nThe project uses two types of datasets: the first consists of eye-tracking scanpath images, while the second includes numerical data such as pupil diameter and tracking ratio. The VGG16 model is used for analyzing images, while the Random Forest model is applied to the numerical dataset. Both models are trained to classify participants into two groups: ASD and non-ASD.\n\nThe system follows a multi-phase process, including data collection, preprocessing, model training, prediction, and evaluation. It is designed to be integrated into medical settings, assisting clinicians in making fast and accurate diagnostic decisions.\n\nProject Objectives:\n\nTo simplify and accelerate the diagnosis of ASD using advanced technological tools.\nTo develop AI models capable of distinguishing between ASD and non-ASD individuals based on eye-tracking data.\nTo build a scalable system that can be integrated into clinics or used in educational environments.\nProject Outcomes: The VGG16 model for image analysis achieved an accuracy of 96.53%, while the Random Forest model for numerical data achieved 96.36%. These results demonstrate the effectiveness of using AI technologies in the accurate detection of ASD.",
+        "Project Field": [
+            "AI"
+        ],
+        "Project Poster": "/assets/Gaze Analytics Utilizing AI for Early Detecti_الهنوف الفضل-page-00001.jpg",
+        "Additional Project Images": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 64,
+        "Email": "421107712@qu.edu.sa",
+        "Name": "عبدالله الخضير",
+        "Campus": "المقر الرئيسي",
+        "Section": "طلاب",
+        "Department": "هندسة الحاسب",
+        "Project Title": "Smart Security drone",
+        "Students Names with IDs": [
+            {
+                "name": "Abdullah AlKhadhir",
+                "id": "421107712"
+            },
+            {
+                "name": "Thinayyan AlThinayyan",
+                "id": "421107918"
+            },
+            {
+                "name": "Ahmad Fakhouri",
+                "id": "422117073"
+            },
+            {
+                "name": "Alwaleed AlQarni",
+                "id": "421107868"
+            },
+            {
+                "name": "faris ALluhaydi",
+                "id": "421107897"
+            }
+        ],
+        "Supervisor Name": "Prof. Mohammad Parvez and Dr. Jamal Al-Otaibi",
+        "Full Project Description": "This AI-powered security system presents a robust solution for monitoring and defending sensitive zones against unauthorized drones and suspicious individuals. By integrating real-time detection, intelligent tracking, and automated response capabilities, the system enhances situational awareness and ensures rapid threat mitigation.",
+        "Project Field": [
+            "AI"
+        ],
+        "Project Poster": "/assets/FYP Drone_عبدالله الخضير-page-00001.jpg",
+        "Additional Project Images": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 65,
+        "Email": "422112150@qu.edu.sa",
+        "Name": "احمد الكبير",
+        "Campus": "المقر الرئيسي",
+        "Section": "طلاب",
+        "Department": "علوم الحاسب",
+        "Project Title": "Predicting and enhancing students grade",
+        "Students Names with IDs": [
+            {
+                "name": "Ahmad Abdulaziz AlKabeer",
+                "id": "422112150"
+            },
+            {
+                "name": "Almonther Mohammed AlRebdi",
+                "id": "421107823"
+            },
+            {
+                "name": "Abdulelah Mohammed Al-Fozan",
+                "id": null
+            },
+            {
+                "name": "",
+                "id": "421108164"
+            },
+            {
+                "name": "Saleh Saed Al-Ghoul",
+                "id": "422117042"
+            }
+        ],
+        "Supervisor Name": "Dr. Sulaiman Al-Amro",
+        "Full Project Description": "This web-based platform uses machine learning to predictstudent performance and offer personalized academic support.Unlike traditional systems that only track grades, it providestailored study strategies, progress tracking, and quizzes toaddress areas of weakness. With predictive modeling based onacademic history, students receive early warnings andactionable insights. The intuitive, data-driven design enhancesmotivation and learning outcomes, making it a scalable andeffective educational tool",
+        "Project Field": [
+            "Data Analysis"
+        ],
+        "Project Poster": "/assets/PREDICT-2_احمد الكبير-page-00001.jpg",
+        "Additional Project Images": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 66,
+        "Email": "421201812@qu.edu.sa",
+        "Name": "رفيف السحيباني",
+        "Campus": "المقر الرئيسي",
+        "Section": "طالبات",
+        "Department": "علوم الحاسب",
+        "Project Title": "Dayjour: Enabling Privacy-Conscious Business Decisions Through Secure Multi-Party Computation and Explainable AI",
+        "Students Names with IDs": [
+            {
+                "name": "Rafeef Abdullah Alsuhaibani",
+                "id": "421201812"
+            },
+            {
+                "name": "Raghad Yaeesh Alyaeesh",
+                "id": "421202066"
+            },
+            {
+                "name": "Lamya Musaid Al Rashid",
+                "id": "421214616"
+            },
+            {
+                "name": "Mona Hamdan Aloufi",
+                "id": "421201985"
+            },
+            {
+                "name": "Najla Ali Alharbi",
+                "id": "421202013"
+            }
+        ],
+        "Supervisor Name": "Dr. Mohammed Alsuhaibani",
+        "Full Project Description": "Dayjour is an innovative AI framework designed to enable privacy-preserving collaboration across organizations. It empowers multiple parties to jointly train machine learning models on their data—without ever exposing their raw datasets. By integrating Secure Multi-Party Computation (SMPC), Federated Learning (FL), and Explainable AI (XAI), Dayjour strikes a balance between data privacy, transparency, and model performance.\n\nThe system is built to support scenarios where data confidentiality and interpretability are critical, allowing each participating entity to contribute their data, receive explainable insights, and benefit from stronger models—all while retaining full control over their information.\n\nKey Highlights:\n\n• Privacy-Preserving Learning: Data remains encrypted at all stages using SMPC and secure cryptographic protocols.  \n• Federated Learning: Models are trained collaboratively without centralizing sensitive data.  \n• Explainable AI: Both local and global explanations are provided to foster trust and understanding of model decisions.\n",
+        "Project Field": [
+            "AI",
+            " Data Analysis"
+        ],
+        "Project Poster": "/assets/Dayjour (40 x 55 سم)_رفيف السحيباني-page-00001.jpg",
+        "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/Dayjour%20website%203_%D8%B1%D9%81%D9%8A%D9%81%20%D8%A7%D9%84%D8%B3%D8%AD%D9%8A%D8%A8%D8%A7%D9%86%D9%8A.png",
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 67,
+        "Email": "411202086@qu.edu.sa",
+        "Name": "مها هرسان السبيعي",
+        "Campus": "مقر عنيزة",
+        "Section": "طالبات",
+        "Department": "علوم الحاسب",
+        "Project Title": "Child insight",
+        "Students Names with IDs": [
+            {
+                "name": "مها غالب السبيعي",
+                "id": "411202086"
+            },
+            {
+                "name": "طيف عبدالرحمن الحربي",
+                "id": "382215019"
+            }
+        ],
+        "Supervisor Name": "سرا الرشيدي",
+        "Full Project Description": "“Child Insight” website offers an accessible, user-friendly tool that helps parents to address potential Autism Spectrum Disorder (ASD) in children at an early stage. the website provides suggestions for nearby hospitals and specialists for treating the child and offers recommendations based on results, including activities, games or strategies for interacting with the child to help improve their condition. Additionally, the website contains a chat feature for parents of children with similar issues, allowing them to discuss and share experiences.",
+        "Project Field": [
+            "Web Development"
+        ],
+        "Project Poster": "/assets/Child Insight Poster.pdf_مها هرسان السبيعي-page-00001.jpg",
+        "Additional Project Images": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 68,
+        "Email": "421109567@qu.edu.sa",
+        "Name": "راشد العقل",
+        "Campus": "المقر الرئيسي",
+        "Section": "طلاب",
+        "Department": "هندسة الحاسب",
+        "Project Title": "Suspicious Activity Tracking AI Camera ",
+        "Students Names with IDs": [
+            {
+                "name": "راشد صالح العقل",
+                "id": "421109567"
+            },
+            {
+                "name": "راكان صالح الوهبي",
+                "id": "421108051"
+            }
+        ],
+        "Supervisor Name": "Dr. Syed Sohail Ahmed ",
+        "Full Project Description": "Our project explores the development of an AI-powered suspicious activity tracking camera\nsystem, designed to enhance physical access control in high-security environments. Leveraging\nfacial recognition technology, the system integrates AI algorithms and edge computing on a\nRaspberry Pi platform. It captures facial images via a surveillance camera, processes them\nusing TensorFlow Lite, and compares the data with a pre-existing database of authorized\nindividuals. Access is granted or denied based on the identification results, automating security\noperations and reducing reliance on manual processes.",
+        "Project Field": [
+            "AI"
+        ],
+        "Project Poster": "/assets/suspicious Activity Tracking AI Camera poster_راشد العقل-page-00001.jpg",
+        "Additional Project Images": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 69,
+        "Email": "421115178@qu.edu.sa",
+        "Name": "عمرو الطواشي",
+        "Campus": "المقر الرئيسي",
+        "Section": "طلاب",
+        "Department": "علوم الحاسب",
+        "Project Title": "EXTENDED DETECTION AND RESPONSE SYSTEM WITH CENTRALIZED SIEM",
+        "Students Names with IDs": [
+            {
+                "name": "Mohammed AL-dughaim",
+                "id": "421107707"
+            },
+            {
+                "name": "Abdulmajeed AL-rasheed",
+                "id": "421108217"
+            },
+            {
+                "name": "Ibrahim AL-bulayhi",
+                "id": "411107650"
+            },
+            {
+                "name": "Fahad AL-sunedi",
+                "id": "421108106"
+            },
+            {
+                "name": "Amro AL-tawashi",
+                "id": "421115178"
+            }
+        ],
+        "Supervisor Name": "Dr. Abdullah AL-abdulatif",
+        "Full Project Description": "This project presents a custom-built Security Information and Event Management (SIEM) system enhanced with Extended Detection and Response (XDR) agents. The system is designed for real-time security monitoring, analysis, and threat mitigation across Windows-based endpoints. Modular agents, written in C, independently collect data on logs, processes, network traffic, file changes, and system health. Data is encrypted, compressed, and transmitted via Apache Kafka to a central SIEM server built using Django. The server performs storage, analysis, and threat detection using a hybrid engine that combines rule-based detection, correlation analysis, and YARA rules. For visualization, a Bootstrap-based web dashboard provides structured views of agent status, system metrics, and detected threats. The system maintains a strong focus on efficiency, portability, secure communication, and modular design.",
+        "Project Field": [
+            "Cybersecurity"
+        ],
+        "Project Poster": "/assets/Final Poster._عمرو الطواشي-page-00001.jpg",
+        "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/Screenshot%202025-04-11%20at%2010.05.12%E2%80%AFPM_%D8%B9%D9%85%D8%B1%D9%88%20%D8%A7%D9%84%D8%B7%D9%88%D8%A7%D8%B4%D9%8A.png",
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 70,
+        "Email": "372207599@qu.edu.sa",
+        "Name": "عهود ابن الشيخ",
+        "Campus": "المقر الرئيسي",
+        "Section": "طالبات",
+        "Department": "علوم الحاسب",
+        "Project Title": "Mujeeb",
+        "Students Names with IDs": [
+            {
+                "name": "Ohoud Ahmad Ibn al Shaykh",
+                "id": "372207599"
+            },
+            {
+                "name": "Seham Sulaiman ALanizi",
+                "id": "391202167"
+            },
+            {
+                "name": "ِAmani Moaybid Alharbi",
+                "id": "411202046"
+            },
+            {
+                "name": "Raseel Abdulaziz Al Tuwaijri",
+                "id": "391202404"
+            }
+        ],
+        "Supervisor Name": "Dr. Boulbaba Abdelrazek Ben Ammar ",
+        "Full Project Description": "Project Title:\nAutoRescue – MUJEEB\n\nProject Type:\nGraduation Project – Applied IoT and Smart Emergency Response System\n\nProject Concept:\nAutoRescue – MUJEEB is a smart system designed to automatically detect car accidents and immediately alert emergency services with real-time location data. It uses an Arduino-based device installed in the vehicle, which triggers upon crash detection and communicates with a centralized web-based dashboard. The system aims to reduce response time and improve survival chances in road accidents.\n\nProject Objectives:\nMinimize the time between accident occurrence and emergency response.\n\nAutomatically detect car crashes without manual input.\n\nProvide emergency teams with accurate and real-time location information.\n\nAllow users to notify family members in case of accidents.\n\nIntegrate user identity securely via national platforms like Absher.\n\nTarget Audience:\nDrivers on highways or in remote areas\n\nEmergency services (ambulance, civil defense, police)\n\nGovernment authorities seeking smart safety solutions\n\nSystem Components:\n1. Smart Device Unit (Arduino-Based):\nGPS Module: Captures live coordinates of the crash location.\n\nGSM Module (SIM800L): Sends SMS alerts to the cloud/server.\n\nAccelerometer Sensor (MPU6050): Detects crashes through sudden motion or impact.\n\nArduino Board (UNO/Nano): Core controller handling sensor data.\n\nPower Source: Portable battery or car power adapter.\n\n2. Cloud Backend:\nReceives and stores incident data from the device.\n\nProvides API access to the dashboard and mobile app.\n\nEnsures secure communication and logging.\n\n3. Emergency Web Dashboard:\nDisplays live accident reports with exact location and timestamp.\n\nProvides driver details and accident status.\n\nVisual interface with cards, maps, icons, and status indicators.\n\n4. Mobile App for Drivers:\nSecure login via Absher.\n\nLink and manage the smart device.\n\nEnable/disable family notifications.\n\nView personal accident history.\n\nHow the System Works:\nThe Arduino-based device is installed in the vehicle.\n\nWhen a crash occurs, the accelerometer sensor detects the event.\n\nThe device activates, collects GPS coordinates, and sends data via GSM.\n\nThe cloud receives the data and logs it into the database.\n\nThe dashboard displays the alert to emergency personnel.\n\nOptionally, a notification is sent to the driver’s family via SMS or app alert.\n\nTechnical Details:\nHardware: Arduino, SIM800L GSM module, GPS module, MPU6050 accelerometer\n\nLanguages: C/C++ (Arduino), Python (Django backend), HTML/CSS/JS (Frontend)\n\nDatabase: PostgreSQL or Firebase Realtime DB\n\nAPIs Used: Google Maps API, Absher API (optional integration)\n\nHosting: Cloud platform or local server for dashboard hosting\n\nKey Features:\nAutonomous Detection: No need for driver interaction.\n\nReal-Time Alert: Immediate SMS with coordinates to the dashboard.\n\nCloud Integration: Central system for monitoring all active cases.\n\nGovernment-Ready: Can integrate with official platforms for identity and traffic data.\n\nExpandable Design: Can support more sensors or health status features in the future.\n\nBrand Name:\nMUJEEB (Arabic: مُجيب) – meaning “The Responder”\n\nLogo Style:\nModern and tech-inspired logo reflecting connectivity, urgency, and reliability.\n\n",
+        "Project Field": [
+            "IoT"
+        ],
+        "Project Poster": "/assets/Mujeeb(AutoRescue)-Poster_PDF_Standard_عهود ابن الشيخ-page-00001.jpg",
+        "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/IMG-20250413-WA0060_%D8%B9%D9%87%D9%88%D8%AF%20%D8%A7%D8%A8%D9%86%20%D8%A7%D9%84%D8%B4%D9%8A%D8%AE.jpg; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/IMG-20250413-WA0061_%D8%B9%D9%87%D9%88%D8%AF%20%D8%A7%D8%A8%D9%86%20%D8%A7%D9%84%D8%B4%D9%8A%D8%AE.jpg",
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 71,
+        "Email": "421107654@qu.edu.sa",
+        "Name": "فارس الدريبى",
+        "Campus": "المقر الرئيسي",
+        "Section": "طلاب",
+        "Department": "علوم الحاسب",
+        "Project Title": "Smart Academic Planner ( PLANISTRY )",
+        "Students Names with IDs": [
+            {
+                "name": "Faris Ali Alduraibi",
+                "id": "421107654"
+            },
+            {
+                "name": "Ajlan Mohammed Alsalloum",
+                "id": "422112104"
+            },
+            {
+                "name": "Hamad Ibrahim Almohaimeed",
+                "id": "421107682"
+            },
+            {
+                "name": "Abdullah Tariq Altawijri",
+                "id": "411108006"
+            }
+        ],
+        "Supervisor Name": "prof. Khalil shqeerat",
+        "Full Project Description": "Planistry is an innovative application designed to empower students by enhancing their academic management capabilities, streamlining study processes, and fostering improved learning outcomes through an integrated and personalized digital platform.\n\nThe core functionality of Planistry revolves around intelligent automation and customization, ensuring every student's unique academic needs and preferences are addressed. Users can seamlessly upload course syllabi, assignment deadlines, and personal learning preferences. The system intelligently generates personalized study plans, strategically scheduling tasks according to urgency, priority, and the individual student's available time.\n\nIn addition to personalized study scheduling, Planistry allows students to upload their course materials directly into the platform. Leveraging artificial intelligence, the application converts these materials into interactive quizzes and engaging flashcards, greatly enhancing the learning and revision processes. This approach not only optimizes study efficiency but also significantly boosts retention and comprehension of academic content.\n\nThe platform also features a comprehensive notification system that proactively reminds students of upcoming tasks, deadlines, and study sessions, ensuring that students stay consistently organized and prepared. By centralizing academic tasks, study materials, and revision tools into one intuitive interface, Planistry effectively reduces the complexity and stress often associated with academic workload management.\n\nThrough its smart analytics capabilities, Planistry tracks and presents students' academic progress, providing valuable insights into their study habits and learning efficiency. This enables students to identify their strengths and weaknesses, adjust their study strategies accordingly, and continuously enhance their academic performance.\n\nOverall, Planistry is committed to providing a supportive, engaging, and personalized academic experience, ultimately empowering students to achieve their educational goals with greater confidence and ease.",
+        "Project Field": [
+            "AI",
+            " Data Analysis"
+        ],
+        "Project Poster": "/assets/Graduation Project Poster - Planistry_فارس الدريبى-page-00001.jpg",
+        "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/Planistry%20UI%20pages-compressed_%D9%81%D8%A7%D8%B1%D8%B3%20%D8%A7%D9%84%D8%AF%D8%B1%D9%8A%D8%A8%D9%89.pdf",
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
     }
-  }
 ]
