@@ -164,7 +164,6 @@ function filterProjects(query) {
   const normalized = query.trim().toLowerCase();
 
   const filtered = projectList.filter(p => {
-    const matchId = String(p.ID).includes(normalized);
     const matchTitle = (p["Project Title"] || "").toLowerCase().includes(normalized);
     const matchName = (p["Name"] || "").toLowerCase().includes(normalized);
     const matchStudents = (p["Students Names with IDs"] || []).some(s =>
@@ -172,7 +171,7 @@ function filterProjects(query) {
       String(s.id).includes(normalized)
     );
 
-    return matchId || matchTitle || matchName || matchStudents;
+    return matchTitle || matchName || matchStudents;
   });
 
   parent.innerHTML = "";
