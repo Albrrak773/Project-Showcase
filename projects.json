@@ -2659,5 +2659,36 @@
             "phone": "",
             "LinkedIn": ""
         }
+    },
+    {
+        "ID": 90,
+        "Email": "421202183@qu.edu.sa",
+        "Name": "رهف العصيمي",
+        "Campus": "المقر الرئيسي",
+        "Section": "طالبات",
+        "Department": "علوم الحاسب",
+        "Project Title": "An Intelligent System to Reduce Traffic Accidents and Congestion through Real-Time Alerts and Alternative Routing",
+        "Students Names with IDs": [
+            { "name": "رهف ضاوي العصيمي", "id": "421202183" },
+            { "name": "نوره ناجي الرشيدي", "id": "421201829" },
+            { "name": "سمية عبدالله الحربي", "id": "421201709" }
+        ],
+        "Supervisor Name": "دلال رحومة",
+        "Full Project Description": "Road safety and traffic congestion are among the most pressing public-safety issues today…",
+        "Project Field": [
+            "Smart Systems",
+            "Mobile Applications",
+            "AI",
+            "Smart Cities",
+            "Intelligent Transportation Systems (ITS)"
+        ],
+        "Project Poster": "https://quedusa-my.sharepoint.com/…/TrafficPoster.pdf",
+        "Additional Project Images": "https://quedusa-my.sharepoint.com/…/TrafficImages.zip",
+        "Project Link": null,
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
     }
 ]
