@@ -120,20 +120,6 @@ function loadNextBatch(projects) {
   document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
 }
 
-
-
-
-function urls_to_file_name(urls) {
-    Decoded_urls = [];
-    for (let i = 0; i < urls.length; i++) {
-        const element = urls[i];
-        Decoded_url = decodeURIComponent(element)
-        console.log("Debugging: ", "the decoded URL: ", Decoded_url.slice(Decoded_url.lastIndexOf('/') + 1));
-        Decoded_urls.push(Decoded_url)
-    }
-    return Decoded_urls;
-}
-
 async function load_projects(filePath) {
     try {
       const response = await fetch(filePath);
