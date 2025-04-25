@@ -30,8 +30,23 @@ async function load_projects(filePath) {
 }
 
 
+const image_observer = new IntersectionObserver((entries, observer) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const img = entry.target;
+      img.src = img.dataset.src;
+      observer.unobserve(img);
+    }
+  });
+}, {
+  root: null,
+  rootMargin: '0px 0px 200px 0px',
+  threshold: 0.1
+});
+
+
 function loadNextBatch(projects, target_parent) {
-  projects.forEach( (p) => { 
+  projects.forEach( (p, index) => { 
  
     const card = tpl.content.cloneNode(true);
 
@@ -49,17 +64,26 @@ function loadNextBatch(projects, target_parent) {
     img.alt = p["Project Title"];
     img.style.opacity = '0';
     img.onload = () => img.style.opacity = '1';
-    img.src = p["Project Poster"];
-
-    card.querySelector('.border').classList.add('flex-none', 'w-64', 'snap-start', 'rounded-lg', 'shadow-md', 'overflow-hidden', 'h-[33rem]', 'bg-[#987D7C]');
     
-    card.querySelector('.border').addEventListener('click', () => {
+    if (index < 6) {
+      img.src = p['Project Poster'];
+    }
+    else {
+      img.dataset.src = p["Project Poster"];
+      img.loading = 'lazy';
+      image_observer.observe(img);
+    }
+
+    const card_element = card.querySelector('.border');
+    card_element.classList.add('flex-none', 'w-72', 'snap-start', 'rounded-lg', 'shadow-md', 'overflow-hidden', 'h-[33rem]', 'bg-[#987D7C]');
+    
+    card_element.addEventListener('click', () => {
       document.body.classList.add('fade-out');
       setTimeout(() => {
         window.location.href = `project.html?id=${p.ID}`;
       }, 400);
     });
-
+    
     target_parent.appendChild(card);
   })
   

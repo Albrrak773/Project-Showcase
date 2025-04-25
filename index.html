@@ -21,9 +21,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
 </head>
 
-<body class="bg-[#f7fee4] p-0 m-0 mt-10">
+<body class="bg-white p-0 m-0 mt-10">
 <!-- Loading Spinner -->
-<div id="loading-screen" class="fixed inset-0 bg-[#f7fee4] flex items-center justify-center z-50">
+<div id="loading-screen" class="fixed inset-0 bg-white flex items-center justify-center z-50">
   <div class="w-12 h-12 border-4 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
 </div>
 
@@ -63,7 +63,7 @@
   <!-- This will show if no results are found -->
   <p id="no-results" class="text-center text-gray-500 hidden">No matching projects found.</p>
   
-  <div class="flex flex-col gap-16 w-full">
+  <div class="flex flex-col gap-16 w-full ml-2">
     <div id="CS-card-container" class="flex overflow-x-auto gap-10 px-4 py-4 scroll-smooth snap-x snap-mandatory"></div>
     <div id="IT-card-container" class="flex overflow-x-auto gap-10 px-4 py-4 scroll-smooth snap-x snap-mandatory"></div>
     <div id="COE-card-container" class="flex overflow-x-auto gap-10 px-4 py-4 scroll-smooth snap-x snap-mandatory"></div>
@@ -71,7 +71,7 @@
 
   <!-- Card template -->
   <template id="card-tpl">
-    <div class="border rounded-lg shadow-md bg-[#987D7C] overflow-hidden w-full max-w-[17rem] h-[33rem] flex flex-col">
+    <div class="border rounded-lg shadow-md bg-[#f5f5f7] overflow-hidden w-full max-w-[17rem] h-[33rem] flex flex-col">
       <div class="p-4">
         <h2 id="card-title" class="text-base font-bold text-gray-800 truncate overflow-hidden text-ellipsis"></h2>
 
