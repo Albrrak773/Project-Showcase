@@ -1,14 +1,24 @@
 const params = new URLSearchParams(window.location.search);
 const projectId = params.get("id");
 
-fetch('test_projects.json')
+window.addEventListener('DOMContentLoaded', () => {
+  document.body.classList.add('loaded');
+});
+
+document.getElementById("loading-screen").classList.remove("hidden");
+
+fetch('projects.json')
   .then(res => res.json())
   .then(projects => {
-    const project = projects.find(p => p.ID === projectId);
+    // const project = projects.find(p => p.ID === projectId);
+    const project = projects.find(p => p.ID === Number(projectId));
+
     if (!project) return;
 
-    const rawDate = (project["Start time"] || "").replace(/\u2011/g, "-");
-    const year = new Date(rawDate).getFullYear();
+    // const rawDate = (project["Start time"] || "").replace(/\u2011/g, "-");
+    // make the date for now 2025
+
+    const year = "2025";
 
 
     const container = document.getElementById("project-detail");
@@ -16,12 +26,13 @@ fetch('test_projects.json')
         
     container.innerHTML = `
     <!-- Back to Home -->
-    <a href="index.html" class="inline-flex w-full items-center gap-3 text-lg text-blue-600 hover:text-blue-800 mb-6">
+    <a id="back-home-btn" class="inline-flex w-full items-center gap-3 text-lg text-blue-600 hover:text-blue-800 mb-6 cursor-pointer">
     <span class="w-10 h-10 flex items-center justify-center rounded-full border border-blue-600 text-blue-600 hover:bg-blue-100 transition">
-        ←
+      ←
     </span>
     <span class="font-semibold">Back to Home</span>
-    </a>
+  </a>
+
 
 
       <!-- Title -->
@@ -69,7 +80,7 @@ fetch('test_projects.json')
         <div class="mt-32 w-full text-left">
         <h2 class="font-semibold  text-lg">Team Members</h2>
         <ul class="list-disc list-inside text-gray-700 font-bold">
-            ${project["Student Names with IDs"].map(s => `<li>${s.name} (${s.id})</li>`).join('')}
+            ${project["Students Names with IDs"].map(s => `<li>${s.name} (${s.id})</li>`).join('')}
         </ul>
         </div>
 
@@ -83,27 +94,40 @@ fetch('test_projects.json')
      <!-- Contact -->
         <div class="mt-24 w-full text-left">
         <h2 class="font-semibold text-lg">Contact</h2>
-        ${project["Contact Methods"]
-            ? `
-            <p>Email: <a href="mailto:${project["Contact Methods"].email}" class="text-blue-600 underline">${project["Contact Methods"].email}</a></p>
-            <p>Phone: ${project["Contact Methods"].phone}</p>
-            <p>LinkedIn: <a href="${project["Contact Methods"].linkedin}" target="_blank" class="text-blue-600 underline">View Profile</a></p>
-            `
-            : `<p class="text-gray-500 italic">Contact info not available.</p>`
-        }
-        </div>
+        ${project["Contact Methods"] && (
+          project["Contact Methods"].email ||
+          project["Contact Methods"].phone ||
+          project["Contact Methods"].linkedin
+        ) ? `
+          <p>Email: <a href="mailto:${project["Contact Methods"].email}" class="text-blue-600 underline">${project["Contact Methods"].email}</a></p>
+          <p>Phone: ${project["Contact Methods"].phone}</p>
+          <p>LinkedIn: <a href="${project["Contact Methods"].linkedin}" target="_blank" class="text-blue-600 underline">View Profile</a></p>
+        ` : `
+          <p class="text-gray-500 italic">Contact info not available.</p>
+        `}
+        
 
 
       <!-- Additional Images -->
       <div class="mt-24">
         <h2 class="font-semibold text-lg">Additional Images</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-2">
-          ${project["Additional Project Images"].map(img => `
-            <img src="${img}" class="rounded-lg shadow object-cover w-full" alt="Project image">
-          `).join('')}
+        ${Array.isArray(project["Additional Project Images"]) && project["Additional Project Images"].length > 0
+          ? `
+          <div class="mt-24">
+            <h2 class="font-semibold text-lg">Additional Images</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-2">
+              ${project["Additional Project Images"].map(img => `
+                <img src="${img}" class="rounded-lg shadow object-cover w-full" alt="Project image">
+              `).join('')}
+            </div>
+          </div>`
+          : ''
+        }        
         </div>
       </div>
     `;
+    document.getElementById("loading-screen").classList.add("hidden");
 
     // Filter out the current project and pick 4 random others
     const otherProjects = projects
@@ -133,5 +157,23 @@ fetch('test_projects.json')
     </div>
     </div>
     `;
+
+    setTimeout(() => {
+      const backBtn = document.getElementById("back-home-btn");
+      if (backBtn) {
+        backBtn.addEventListener("click", () => {
+          const loading = document.getElementById("loading-screen");
+    
+          // Show spinner + fade-out together
+          loading.classList.remove("hidden");
+          document.body.classList.add("fade-out");
+    
+          setTimeout(() => {
+            window.location.href = "index.html";
+          }, 400); // Match your fade duration
+        });
+      }
+    }, 50);
+        
 
   });

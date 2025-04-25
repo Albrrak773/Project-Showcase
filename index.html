@@ -22,6 +22,10 @@
 </head>
 
 <body class="bg-[#f7fee4] p-0 m-0 mt-10">
+<!-- Loading Spinner -->
+<div id="loading-screen" class="fixed inset-0 bg-[#f7fee4] flex items-center justify-center z-50">
+  <div class="w-12 h-12 border-4 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
+</div>
 
 
   <div class="w-full flex justify-center">
@@ -46,9 +50,20 @@
     <h1 class="text-4xl font-bold text-gray-900">Project Showcase</h1>
   </header>
 
-  <!-- Where the cards will appear -->
-  <!-- Responsive grid: up to 3 columns, rows centered when fewer cards -->
-  <div id="card-container" class="mx-auto grid gap-8 place-items-center grid-cols-[repeat(auto-fit,minmax(16rem,1fr))] max-w-[52rem]">
+   <!-- search -->
+   <div class="mb-6 max-w-xl mx-auto">
+    <input
+      type="text"
+      id="search-box"
+      placeholder="Search by ID, Title, or Student Name..."
+      class="w-full px-4 py-2 border rounded shadow focus:outline-none focus:ring focus:ring-blue-300"
+    />
+  </div>
+  
+  <!-- This will show if no results are found -->
+  <p id="no-results" class="text-center text-gray-500 hidden">No matching projects found.</p>
+  
+  <div id="card-container" class="mx-auto grid gap-8 place-items-center grid-cols-[repeat(auto-fit,minmax(16rem,1fr))] max-w-[152rem] px-4">
 
   <!-- Card template -->
   <template id="card-tpl">
@@ -56,8 +71,8 @@
       <div class="p-4">
         <h2 id="card-title" class="text-base font-bold text-gray-800"></h2>
 
-        <div class="w-4/5 mt-2">
-          <span id="card-dept" class="block bg-blue-200 text-blue-900 text-sm font-semibold px-3 py-0.5 rounded"></span>
+        <div class="mt-2">
+          <span id="card-dept" class="inline-block bg-blue-200 text-blue-900 text-sm font-semibold px-3 py-0.5 rounded"></span>
         </div>
 
         <div id="card-tags" class="flex flex-wrap gap-1.5 mt-2"></div>
