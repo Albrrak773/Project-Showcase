@@ -104,7 +104,6 @@ window.addEventListener('scroll', () => {
   }
 });
 
-
 function filterProjects(query) {
   const normalized = query.trim().toLowerCase();
 
