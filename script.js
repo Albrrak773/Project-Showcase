@@ -1,4 +1,3 @@
-const cards_container = document.getElementById("cards-container");
 const tpl = document.getElementById('card-tpl');
 const parent = document.getElementById('card-container');
 const loadingScreen = document.getElementById("loading-screen");
@@ -130,7 +129,7 @@ async function load_projects(filePath) {
       return data;
     } catch (error) {
       console.error('Error fetching JSON:', error);
-      return null;
+      return;
     }
   }
 
