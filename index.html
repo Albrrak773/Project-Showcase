@@ -63,13 +63,17 @@
   <!-- This will show if no results are found -->
   <p id="no-results" class="text-center text-gray-500 hidden">No matching projects found.</p>
   
-  <div id="card-container" class="mx-auto grid gap-8 place-items-center grid-cols-[repeat(auto-fit,minmax(16rem,1fr))] max-w-[152rem] px-4">
+  <div class="flex flex-col gap-16 w-full">
+    <div id="CS-card-container" class="flex overflow-x-auto gap-10 px-4 py-4 scroll-smooth snap-x snap-mandatory"></div>
+    <div id="IT-card-container" class="flex overflow-x-auto gap-10 px-4 py-4 scroll-smooth snap-x snap-mandatory"></div>
+    <div id="COE-card-container" class="flex overflow-x-auto gap-10 px-4 py-4 scroll-smooth snap-x snap-mandatory"></div>
+  </div>
 
   <!-- Card template -->
   <template id="card-tpl">
-    <div class="border rounded-lg shadow-md bg-white overflow-hidden w-full max-w-[16rem]">
+    <div class="border rounded-lg shadow-md bg-[#987D7C] overflow-hidden w-full max-w-[17rem] h-[33rem] flex flex-col">
       <div class="p-4">
-        <h2 id="card-title" class="text-base font-bold text-gray-800"></h2>
+        <h2 id="card-title" class="text-base font-bold text-gray-800 truncate overflow-hidden text-ellipsis"></h2>
 
         <div class="mt-2">
           <span id="card-dept" class="inline-block bg-blue-200 text-blue-900 text-sm font-semibold px-3 py-0.5 rounded"></span>
@@ -78,8 +82,8 @@
         <div id="card-tags" class="flex flex-wrap gap-1.5 mt-2"></div>
       </div>
 
-      <div class="relative">
-        <img id="card-image" class="w-full object-cover" />
+      <div class="relative flex-1 overflow-hidden bg-gray-100">
+        <img id="card-image" class="w-full h-full object-cover"/>
       </div>
     </div>
   </template>
