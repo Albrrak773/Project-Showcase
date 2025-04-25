@@ -22,62 +22,6 @@ load_projects('projects.json').then(projects => {
   document.getElementById("loading-screen").classList.add("hidden");
 });
 
-
-
-// function add_projects_html(projects) {
-//     projects.forEach(p => {
-//         const card = tpl.content.cloneNode(true);
-
-//         /* fill title + section -------------------------------------------------- */
-//         card.querySelector('#card-title').textContent = p["Project Title"];
-//         card.querySelector('#card-dept').textContent = p["Department"];
-
-//         /* robust tag handling --------------------------------------------------- */
-//         const raw = p["Project Field"] ?? "";                       // may be array or string
-//         const tags = Array.isArray(raw)
-//             ? raw
-//             : raw.split(',').map(t => t.trim()).filter(Boolean);
-
-//         const tagBox = card.querySelector('#card-tags');
-//         tags.forEach(tag => tagBox.insertAdjacentHTML(
-//             'beforeend',
-//             `<span class="bg-black/90 text-white text-xs font-semibold px-2 py-0.5 rounded">${tag}</span>`
-//         ));
-
-//         /* poster image ---------------------------------------------------------- */
-//         const img = card.querySelector('#card-image');
-//         img.src = p["Project Poster"];
-//         img.alt = p["Project Title"];
-
-//         card.querySelector('.border').addEventListener('click', () => {
-//           const spinner = document.getElementById("loading-screen");
-//           if (spinner) spinner.classList.remove("hidden"); // Show loading spinner
-        
-//           document.body.classList.add('fade-out'); // Apply fade-out animation
-        
-//           setTimeout(() => {
-//             window.location.href = `project.html?id=${p.ID}`;
-//           }, 400); // Match this with your fade-out duration
-//         });
-        
-       
-      
-        
-
-//         parent.appendChild(card);                                     // add to page
-//     });
-// }
-
-// function add_projects_html(projects) {
-//   let currentIndex = 0;
-//   const batchSize = 10;
-//   let isLoading = false;
-  
-  
-  
-//   loadNextBatch();
-// }
-
 function loadNextBatch(projects) {
   if (isLoading) return;
   isLoading = true;
@@ -88,6 +32,7 @@ function loadNextBatch(projects) {
     const card = tpl.content.cloneNode(true);
 
     card.querySelector('#card-title').textContent = p["Project Title"];
+    card.querySelector('#card-number').textContent = `[${p["ID"]}]`; // comment this out to remove the number from showing up
     card.querySelector('#card-dept').textContent = p["Department"];
 
     const tags = Array.isArray(p["Project Field"]) ? p["Project Field"] : [];
