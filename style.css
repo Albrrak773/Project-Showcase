@@ -32,3 +32,15 @@ html {
     opacity: 1;
     transform: translateY(0);
   }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+  }
+  
+  .scrollbar-hide {
+    scrollbar-width: none;
+  }
