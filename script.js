@@ -51,7 +51,6 @@ function loadNextBatch(projects, target_parent) {
     const card = tpl.content.cloneNode(true);
 
     card.querySelector('#card-title').textContent = p["Project Title"];
-    card.querySelector('#card-number').textContent = `[${p["ID"]}]`; // comment this out to remove the number from showing up
     card.querySelector('#card-dept').textContent = p["Department"];
 
     const tags = Array.isArray(p["Project Field"]) ? p["Project Field"] : [];
