@@ -21,9 +21,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
 </head>
 
-<body class="bg-white p-0 m-0 mt-10">
+<body class="bg-[#f7fee4] p-0 m-0 mt-10">
 <!-- Loading Spinner -->
-<div id="loading-screen" class="fixed inset-0 bg-white flex items-center justify-center z-50">
+<div id="loading-screen" class="fixed inset-0 bg-[#f7fee4] flex items-center justify-center z-50">
   <div class="w-12 h-12 border-4 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
 </div>
 
@@ -63,99 +63,16 @@
   <!-- This will show if no results are found -->
   <p id="no-results" class="text-center text-gray-500 hidden">No matching projects found.</p>
   
-  <div class="flex flex-col gap-16 w-full ml-10 mr-10">
-
-    <section class="my-8">
-      
-      <div class="flex items-center justify-between mb-3 ml-10 mr-10">
-        <h2 class="text-2xl font-bold text-gray-800 mb-3">Computer Science</h2>
-
-        <div class="flex space-x-3 mr-20">
-
-          <button id="cs-prev" class="prev-btn inline-flex items-center justify-center w-12 h-12 p-0 bg-gray-100 hover:bg-gray-200 rounded-full shadow leading-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-600 block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-            </svg>
-          </button>
-
-          <button id="cs-next" class="next-btn inline-flex items-center justify-center w-12 h-12 p-0 bg-gray-100 hover:bg-gray-200 rounded-full shadow leading-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-600 block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-            </svg>
-          </button>
-
-        </div>
-      </div>
-    
-      <div class="relative overflow-hidden ml-10 mr-10 pr-20">
-        <div id="CS-card-container" class="carousel flex overflow-x-auto gap-8 px-4 py-4 scroll-smooth snap-x snap-mandatory scroll-touch scrollbar-hide">
-        </div>
-      </div>
-    </section>
-    
-
-
-    <section class="my-8">
-      
-      <div class="flex items-center justify-between mb-3 ml-10 mr-10">
-        <h2 class="text-2xl font-bold text-gray-800 mb-3">Information Technology</h2>
-
-        <div class="flex space-x-3 mr-20">
-
-          <button id="it-prev" class="prev-btn inline-flex items-center justify-center w-12 h-12 p-0 bg-gray-100 hover:bg-gray-200 rounded-full shadow leading-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-600 block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-            </svg>
-          </button>
-
-          <button id="it-next" class="next-btn inline-flex items-center justify-center w-12 h-12 p-0 bg-gray-100 hover:bg-gray-200 rounded-full shadow leading-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-600 block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-            </svg>
-          </button>
-
-        </div>
-      </div>
-    
-      <div class="relative overflow-hidden ml-10 mr-10 pr-20">
-        <div id="IT-card-container" class="carousel flex overflow-x-auto gap-8 px-4 py-4 scroll-smooth snap-x snap-mandatory scroll-touch scrollbar-hide">
-        </div>
-      </div>
-    </section>
-    
-    <section class="my-8">
-      
-      <div class="flex items-center justify-between mb-3 ml-10 mr-10">
-        <h2 class="text-2xl font-bold text-gray-800 mb-3">Computer Engineering</h2>
-
-        <div class="flex space-x-3 mr-20">
-
-          <button id="coe-prev" class="prev-btn inline-flex items-center justify-center w-12 h-12 p-0 bg-gray-100 hover:bg-gray-200 rounded-full shadow leading-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-600 block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-            </svg>
-          </button>
-
-          <button id="coe-next" class="next-btn inline-flex items-center justify-center w-12 h-12 p-0 bg-gray-100 hover:bg-gray-200 rounded-full shadow leading-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-600 block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-            </svg>
-          </button>
-
-        </div>
-      </div>
-    
-      <div class="relative overflow-hidden ml-10 mr-10 pr-20">
-        <div id="COE-card-container" class="carousel flex overflow-x-auto gap-8 px-4 py-4 scroll-smooth snap-x snap-mandatory scroll-touch scrollbar-hide">
-        </div>
-      </div>
-    </section>
+  <div id="card-container" class="mx-auto grid gap-8 place-items-center grid-cols-[repeat(auto-fit,minmax(16rem,1fr))] max-w-[152rem] px-4">
 
   <!-- Card template -->
   <template id="card-tpl">
-    <div class="border rounded-lg shadow-md bg-[#f5f5f7] overflow-hidden w-full max-w-[17rem] h-[33rem] flex flex-col">
+    <div class="border rounded-lg shadow-md bg-white overflow-hidden w-full max-w-[16rem] cursor-pointer">
       <div class="p-4">
-        <h2 id="card-title" class="text-base font-bold text-gray-800 truncate overflow-hidden text-ellipsis"></h2>
+        <h2 class="text-base font-bold text-gray-800">
+          <span id="card-title" class="text-gray-800"></span>
+          <span id="card-number" class="text-xs text-gray-500 ml-1 align-middle"></span>
+        </h2>
 
         <div class="mt-2">
           <span id="card-dept" class="inline-block bg-blue-200 text-blue-900 text-sm font-semibold px-3 py-0.5 rounded"></span>
@@ -164,8 +81,8 @@
         <div id="card-tags" class="flex flex-wrap gap-1.5 mt-2"></div>
       </div>
 
-      <div class="relative flex-1 overflow-hidden bg-gray-100">
-        <img id="card-image" class="w-full h-full object-cover"/>
+      <div class="relative">
+        <img id="card-image" class="w-full object-cover" />
       </div>
     </div>
   </template>

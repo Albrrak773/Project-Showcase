@@ -1,53 +1,34 @@
+const cards_container = document.getElementById("cards-container");
 const tpl = document.getElementById('card-tpl');
 const parent = document.getElementById('card-container');
 const loadingScreen = document.getElementById("loading-screen");
-const cs_parent = document.getElementById("CS-card-container");  
-const it_parent = document.getElementById("IT-card-container");
-const coe_parent = document.getElementById('COE-card-container');
+let currentIndex = 0;
+const batchSize = 10;
+let isLoading = false;
 
-
-let projects_list = [];
-let cs_projects_list = [];
-let it_projects_list = [];
-let coe_projects_list= [];
 
 window.addEventListener('DOMContentLoaded', () => {
   document.body.classList.add('loaded');
 });
 
-async function load_projects(filePath) {
-  try {
-    const response = await fetch(filePath);
-    if (!response.ok) {
-      throw new Error('Failed to fetch JSON');
-    }
-    const data = await response.json();
-    return data;
-  } catch (error) {
-    console.error('Error fetching JSON:', error);
-    return null;
+
+let projectList = [];
+
+load_projects('projects.json').then(projects => {
+  if (projects) {
+    projectList = projects;
+    loadNextBatch(projectList);
   }
-}
-
-
-const image_observer = new IntersectionObserver((entries, observer) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      const img = entry.target;
-      img.src = img.dataset.src;
-      observer.unobserve(img);
-    }
-  });
-}, {
-  root: null,
-  rootMargin: '0px 0px 200px 0px',
-  threshold: 0.1
+  document.getElementById("loading-screen").classList.add("hidden");
 });
 
+function loadNextBatch(projects) {
+  if (isLoading) return;
+  isLoading = true;
 
-function loadNextBatch(projects, target_parent) {
-  projects.forEach( (p, index) => { 
- 
+  const end = Math.min(currentIndex + batchSize, projects.length);
+  for (let i = currentIndex; i < end; i++) {
+    const p = projects[i];
     const card = tpl.content.cloneNode(true);
 
     card.querySelector('#card-title').textContent = p["Project Title"];
@@ -64,36 +45,69 @@ function loadNextBatch(projects, target_parent) {
     img.alt = p["Project Title"];
     img.style.opacity = '0';
     img.onload = () => img.style.opacity = '1';
-    
-    if (index < 6) {
-      img.src = p['Project Poster'];
-    }
-    else {
-      img.dataset.src = p["Project Poster"];
-      img.loading = 'lazy';
-      image_observer.observe(img);
-    }
+    img.src = p["Project Poster"];
 
-    const card_element = card.querySelector('.border');
-    card_element.classList.add('flex-none', 'w-1/5', 'snap-start', 'rounded-lg', 'shadow-md', 'overflow-hidden', 'h-[33rem]', 'bg-[#987D7C]', 'cursor-pointer', 'transform', 'transition', 'duration-200', 'ease-out', 'hover:scale-105');
-    
-    card_element.addEventListener('click', () => {
+    card.querySelector('.border').classList.add('fade-in');
+    card.querySelector('.border').addEventListener('click', () => {
       document.body.classList.add('fade-out');
       setTimeout(() => {
         window.location.href = `project.html?id=${p.ID}`;
       }, 400);
     });
-    
-    target_parent.appendChild(card);
-  })
-  
+
+    parent.appendChild(card);
+  }
+
+  currentIndex += batchSize;
+  isLoading = false;
+
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
 }
 
+async function load_projects(filePath) {
+    try {
+      const response = await fetch(filePath);
+      if (!response.ok) {
+        throw new Error('Failed to fetch JSON');
+      }
+      const data = await response.json();
+      return data;
+    } catch (error) {
+      console.error('Error fetching JSON:', error);
+      return null;
+    }
+  }
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show');
+      observer.unobserve(entry.target); // optional: stop observing after shown
+    }
+  });
+}, {
+  threshold: 0.1
+});
+
+setTimeout(() => {
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+}, 1000); // Delay until all batches are in
+
+
+window.addEventListener('scroll', () => {
+  const scrollBottom = window.innerHeight + window.scrollY;
+  const pageBottom = document.body.offsetHeight - 300;
+
+  if (scrollBottom >= pageBottom) {
+    loadNextBatch(projectList); // `projectList` must be globally accessible
+  }
+});
 
 function filterProjects(query) {
   const normalized = query.trim().toLowerCase();
 
-  const filtered = projects_list.filter(p => {
+  const filtered = projectList.filter(p => {
+    const matchId = String(p.ID).includes(normalized);
     const matchTitle = (p["Project Title"] || "").toLowerCase().includes(normalized);
     const matchName = (p["Name"] || "").toLowerCase().includes(normalized);
     const matchStudents = (p["Students Names with IDs"] || []).some(s =>
@@ -101,12 +115,11 @@ function filterProjects(query) {
       String(s.id).includes(normalized)
     );
 
-    return matchTitle || matchName || matchStudents;
+    return matchId || matchTitle || matchName || matchStudents;
   });
 
-  cs_parent.innerHTML = "";
-  it_parent.innerHTML = "";
-  coe_parent.innerHTML = "";
+  parent.innerHTML = "";
+  currentIndex = 0;
 
   if (filtered.length === 0) {
     document.getElementById("no-results").classList.remove("hidden");
@@ -124,41 +137,8 @@ document.getElementById("search-box").addEventListener("input", (e) => {
     document.getElementById("no-results").classList.add("hidden");
     parent.innerHTML = "";
     currentIndex = 0;
-    loadNextBatch(projects_list);
+    loadNextBatch(projectList);
   } else {
     filterProjects(query);
   }
 });
-
-
-load_projects('projects.json').then(projects => {
-  if (projects) {
-    projects_list = projects;
-    cs_projects_list = projects_list.filter(p => p['Department']?.trim().toLowerCase() === "computer science");
-    it_projects_list = projects_list.filter(p => p['Department']?.trim().toLowerCase() === "information technology");
-    coe_projects_list = projects_list.filter(p => p['Department']?.trim().toLowerCase() === "computer engineering"); 
-
-    loadNextBatch(cs_projects_list, cs_parent);
-    loadNextBatch(coe_projects_list, coe_parent);
-    loadNextBatch(it_projects_list, it_parent);
-    
-  }
-  document.getElementById("loading-screen").classList.add("hidden");
-});
-
-
-document.querySelectorAll('.prev-btn, .next-btn').forEach((btn) => {
-  btn.addEventListener('click', () => {
-    const carousel = btn.closest('section').querySelector('.carousel');
-
-    const card = carousel.querySelector('.border');
-    const gap = parseInt(getComputedStyle(carousel).gap) || 0;
-    const distance = card.offsetWidth + gap;
-
-    const direction = btn.classList.contains('next-btn') ? 1 : -1;
-
-    carousel.scrollBy({
-      left: distance * direction, behavior: 'smooth'
-    });
-  })
-})
