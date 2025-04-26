@@ -15,7 +15,7 @@ html {
   
   body {
     opacity: 0;
-    transition: opacity 0.4s ease;
+    transition: opacity 0.8s ease 0.9s;
   }
   
   body.loaded {
@@ -44,3 +44,4 @@ html {
   .scrollbar-hide {
     scrollbar-width: none;
   }
+
