@@ -75,7 +75,7 @@ function loadNextBatch(projects, target_parent) {
     }
 
     const card_element = card.querySelector('.border');
-    card_element.classList.add('flex-none', 'w-1/5', 'snap-start', 'rounded-lg', 'shadow-md', 'overflow-hidden', 'h-[33rem]', 'bg-[#987D7C]');
+    card_element.classList.add('flex-none', 'w-1/5', 'snap-start', 'rounded-lg', 'shadow-md', 'overflow-hidden', 'h-[33rem]', 'bg-[#987D7C]', 'cursor-pointer', 'transform', 'transition', 'duration-200', 'ease-out', 'hover:scale-105');
     
     card_element.addEventListener('click', () => {
       document.body.classList.add('fade-out');
