@@ -145,3 +145,20 @@ load_projects('projects.json').then(projects => {
   }
   document.getElementById("loading-screen").classList.add("hidden");
 });
+
+
+document.querySelectorAll('.prev-btn, .next-btn').forEach((btn) => {
+  btn.addEventListener('click', () => {
+    const carousel = btn.closest('section').querySelector('.carousel');
+
+    const card = carousel.querySelector('.border');
+    const gap = parseInt(getComputedStyle(carousel).gap) || 0;
+    const distance = card.offsetWidth + gap;
+
+    const direction = btn.classList.contains('next-btn') ? 1 : -1;
+
+    carousel.scrollBy({
+      left: distance * direction, behavior: 'smooth'
+    });
+  })
+})
