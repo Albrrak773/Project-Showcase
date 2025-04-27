@@ -5,17 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Graduation Projects Showcase</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- <style src="styel.css" >
-      html {
-        scroll-behavior: smooth;
-      }
-
-      
-    </style> -->
-    <!-- import css styel -->
     <link rel="stylesheet" href="style.css">
-
-    <!-- import logo's font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
@@ -28,19 +18,19 @@
 </div>
 
 
-  <div class="w-full flex justify-center">
-    <div class="text-center leading-snug mt-4">
-      <p class="text-2xl font-bold text-[#2d2a66] tracking-wide mb-1.5" style="font-family: 'Tajawal', sans-serif;">
+  <div class="w-full flex flex-row flex-wrap items-start justify-center gap-4 px-4">
+    <div class="text-center leading-snug">
+      <p class="text-lg sm:text-2xl font-bold text-[#2d2a66] tracking-wide mb-1.5" style="font-family: 'Tajawal', sans-serif;">
         ملتقى كلية الحاسب العلمي الثاني
       </p>
-      <p class="text-2xl font-bold text-[#2d2a66] tracking-wide">
+      <p class="text-lg sm:text-2xl font-bold text-[#2d2a66] tracking-wide">
         Second Scientific Event of COC
       </p>
     </div>
     <img 
     src="/assets/logo.png" 
     alt="COC Logo" 
-    class="h-[6rem] w-auto ml-3.5 mt-[-0.9rem]"
+    class="flex-shrink-0 -mt-7 h-20 sm:h-[6rem] w-auto"
     >
 
   </div>
@@ -72,13 +62,13 @@
 
         <div class="flex space-x-3">
 
-          <button id="cs-prev" class="prev-btn inline-flex items-center justify-center w-12 h-12 p-0 bg-gray-100 hover:bg-gray-200 rounded-full shadow leading-none">
+          <button id="cs-prev" class="prev-btn hidden sm:inline-flex items-center justify-center w-12 h-12 p-0 bg-gray-100 hover:bg-gray-200 rounded-full shadow leading-none">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-600 block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
             </svg>
           </button>
 
-          <button id="cs-next" class="next-btn inline-flex items-center justify-center w-12 h-12 p-0 bg-gray-100 hover:bg-gray-200 rounded-full shadow leading-none">
+          <button id="cs-next" class="next-btn hidden sm:inline-flex items-center justify-center w-12 h-12 p-0 bg-gray-100 hover:bg-gray-200 rounded-full shadow leading-none">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-600 block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
             </svg>
@@ -99,16 +89,16 @@
       
       <div class="flex items-center justify-between mb-3">
         <h2 class="text-2xl font-bold text-gray-800">Information Technology</h2>
-
+        <a href=""></a>
         <div class="flex space-x-3">
 
-          <button id="it-prev" class="prev-btn inline-flex items-center justify-center w-12 h-12 p-0 bg-gray-100 hover:bg-gray-200 rounded-full shadow leading-none">
+          <button id="it-prev" class="prev-btn hidden sm:inline-flex items-center justify-center w-12 h-12 p-0 bg-gray-100 hover:bg-gray-200 rounded-full shadow leading-none">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-600 block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
             </svg>
           </button>
 
-          <button id="it-next" class="next-btn inline-flex items-center justify-center w-12 h-12 p-0 bg-gray-100 hover:bg-gray-200 rounded-full shadow leading-none">
+          <button id="it-next" class="next-btn hidden sm:inline-flex items-center justify-center w-12 h-12 p-0 bg-gray-100 hover:bg-gray-200 rounded-full shadow leading-none">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-600 block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
             </svg>
@@ -131,13 +121,13 @@
 
         <div class="flex space-x-3">
 
-          <button id="coe-prev" class="prev-btn inline-flex items-center justify-center w-12 h-12 p-0 bg-gray-100 hover:bg-gray-200 rounded-full shadow leading-none">
+          <button id="coe-prev" class="prev-btn hidden sm:inline-flex items-center justify-center w-12 h-12 p-0 bg-gray-100 hover:bg-gray-200 rounded-full shadow leading-none">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-600 block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
             </svg>
           </button>
 
-          <button id="coe-next" class="next-btn inline-flex items-center justify-center w-12 h-12 p-0 bg-gray-100 hover:bg-gray-200 rounded-full shadow leading-none">
+          <button id="coe-next" class="next-btn hidden sm:inline-flex items-center justify-center w-12 h-12 p-0 bg-gray-100 hover:bg-gray-200 rounded-full shadow leading-none">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-600 block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
             </svg>
