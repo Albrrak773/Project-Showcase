@@ -2,5 +2,6 @@
     "files.associations": {
         "*.tcss": "Textual CSS",
         "iostream": "cpp"
-    }
+    },
+    "liveServer.settings.port": 5501
 }
