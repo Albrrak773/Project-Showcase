@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graduation Projects Showcase</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-white p-0 m-0 mt-10">
+    <!--the logo-->
+    <div class="w-full flex flex-row flex-wrap items-start justify-center gap-4 px-4"">
+        <div class="text-center leading-snug">
+          <p class="text-lg sm:text-2xl font-bold text-[#2d2a66] tracking-wide mb-1.5" style="font-family: 'Tajawal', sans-serif;">
+            ملتقى كلية الحاسب العلمي الثاني
+          </p>
+          <p class="text-lg sm:text-2xl font-bold text-[#2d2a66] tracking-wide">
+            Second Scientific Event of COC
+          </p>
+        </div>
+        <img src="/assets/logo.png" alt="COC Logo" class="flex-shrink-0 -mt-7 h-20 sm:h-[6rem] w-auto">
+      </div>
+
+      <div class="relative max-w-xl mx-auto mt-20">
+
+        <!-- Search Icon -->
+        <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+          <svg class="h-6 w-6 text-gray-400" fill="none" stroke="currentColor" stroke-width="2"
+               viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 103 10.5a7.5 7.5 0 0013.15 6.15z">
+            </path>
+          </svg>
+        </div>
+      
+
+        <div class="flex flex-col gap-y-3 justify-center md:flex-row md:gap-x-4">
+            <!-- Search Input -->
+        <input
+        type="text"
+        id="search-box"
+        placeholder="Search by ID, Title, or Student Name..."
+        class="w-full pl-12 pr-5 py-3 rounded-full  border border-gray-300 
+               focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent 
+               text-gray-700 placeholder-gray-400"
+      />
+            </div>
+            <ul class="rounded-full border borded-[#E1E1E1] w-full md:w-fit p-1 flex gap-x-2 bg-white">
+            <li class="py-2.5 w-full text-base font-medium text-center rounded-full md:w-fit md:px-4 text-[#8E8E8E]">Male</li>
+            <li class="py-2.5 w-full text-base font-medium text-center rounded-full md:w-fit md:px-4 text-[#8E8E8E]">Female</li>
+            </ul>
+        </div>
+        
+      
