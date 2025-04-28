@@ -836,7 +836,10 @@
         "Supervisor Name": "Prof. Mohammad Parvez and Dr. Jamal Al-Otaibi",
         "Full Project Description": "This AI-powered security system presents a robust solution for monitoring and defending sensitive zones against unauthorized drones and suspicious individuals. By integrating real-time detection, intelligent tracking, and automated response capabilities, the system enhances situational awareness and ensures rapid threat mitigation.",
         "Project Field": [
-            "AI"
+            "AI",
+            "Embedded Systems",
+            "IoT",
+            "Smart Cities"
         ],
         "Project Poster": "/assets/22.webp",
         "Additional Project Images": null,
