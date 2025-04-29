@@ -64,7 +64,7 @@ function display_cards(projects) {
             const card = tpl.content.cloneNode(true);
 
             card.querySelector('#card-title').textContent = p['Project Title'];
-            card.querySelector('#card-dept').textContent = ['Department'];
+            card.querySelector('#card-dept').textContent = p['Department'];
             
             const tags = p['Project Field'];
             const tag_box = card.querySelector('#card-tags');
@@ -74,8 +74,22 @@ function display_cards(projects) {
             });
 
             const card_element = card.querySelector('.border');
-            card_element.classList.add('flex-none', 'w-1/5', 'snap-start', 'rounded-lg', 'shadow-md', 'overflow-hidden', 'h-[33rem]', 'bg-[#987D7C]', 'cursor-pointer', 'transform', 'transition', 'duration-200', 'ease-out', 'hover:scale-105', 'w-4/5', 'sm:w-1/5');
-    
+            card_element.classList.add(
+                'flex-none',
+                'rounded-lg',
+                'shadow-md',
+                'overflow-hidden',
+                'h-[29rem]',
+                'bg-[#987D7C]',
+                'cursor-pointer',
+                'transform',
+                'transition',
+                'duration-200',
+                'ease-out',
+                'hover:scale-105',
+                'w-full'
+              );    
+
             card_element.addEventListener('click', () => {
             document.body.classList.add('fade-out');
             setTimeout(() => {
@@ -131,7 +145,7 @@ function filter_projects() {
           return section && department && search;
     })
     
-    const no_result = document.getElementById('no-results')
+    const no_result = document.getElementById('no-results-container')
     parent.innerHTML = '';
 
     if (filtered_projects.length > 0) {

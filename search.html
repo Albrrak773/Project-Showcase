@@ -66,16 +66,16 @@
             </div>    
       </div>
 
-      <div class="w-full h-[30vh] flex justify-center items-center">
+      <div id="no-results-container" class="w-full h-[30vh] flex justify-center items-center">
         <p id="no-results" class="text-center text-gray-500">No matching projects found.</p>
       </div>
 
 
-    <div id="card-container" class="mx-auto grid gap-8 place-items-center grid-cols-[repeat(auto-fit,minmax(16rem,1fr))] max-w-[152rem] px-4"></div>
+    <div id="card-container" class="grid gap-6 px-2 sm:px-4 grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5"></div>
 
     <!-- Card template -->
     <template id="card-tpl">
-        <div class="border rounded-lg shadow-md bg-[#f5f5f7] overflow-hidden w-full max-w-[17rem] h-[33rem] flex flex-col">
+        <div class="border rounded-lg shadow-md bg-[#f5f5f7] overflow-hidden w-full max-w-[17rem] h-[24rem] flex flex-col">
         <div class="p-4">
             <h2 id="card-title" class="text-base font-bold text-gray-800 truncate overflow-hidden text-ellipsis"></h2>
 
