@@ -9,8 +9,6 @@ let filter = {
     coe: false
   };
 
-let projects_list = [];
-
 document.addEventListener('DOMContentLoaded', () => {
     document.body.classList.add('loaded')
 });
@@ -26,6 +24,8 @@ btns.forEach(btn => {
         
     const key = btn.dataset.filter.trim().toLowerCase();
     filter[key] = !filter[key];
+
+    filter_projects();
 
     });
 });
@@ -59,14 +59,8 @@ const img_observer = new IntersectionObserver((entries, observer) => {
 });
 
 
-let query;
-document.getElementById('search-box').addEventListener('input', input => {
-    query = input.target.value.trim().toLowerCase();
-});
-
-
-function display_cards(projects_list) {
-        projects_list.forEach(p => {
+function display_cards(projects) {
+        projects.forEach(p => {
             const card = tpl.content.cloneNode(true);
 
             card.querySelector('#card-title').textContent = p['Project Title'];
@@ -94,23 +88,57 @@ function display_cards(projects_list) {
 }
 
 
+
+let query;
+document.getElementById('search-box').addEventListener('input', input => {
+    query = input.target.value.trim().toLowerCase();
+    filter_projects();
+});
+
+
+let projects_list = [];
+let filtered_projects = [];
+
+
 fetch_data('projects.json').then(projects => {
     if (projects) {
-      projects_list = projects;
+        projects_list = projects;
+        filter_projects();
     }
 });  
 
 
-const filtered_projects = [];
-
 function filter_projects() {
-    projects_list.forEach(p => {
+    filtered_projects = projects_list.filter(p => {
         is_btn_active = Object.values(filter).some(v => v === true);
 
         if (!is_btn_active && !query) return true;
 
-        const section = ((!filter.male && !filter.female) ||  (filter.female && p['Section'] === 'طالبات') || (filter.male && p['Section'] === 'طلاب'))
-        const Department = ((!filter.cs && !filter.it && filter.coe) || (filter.cs && p['Department'] === 'Computer Science') || (filter.it && p['Department'] === 'Information Technology') || (filter.coe && p['Department'] === 'Computer Engineering'));
-        //const search = !query || p['Students Names with IDs'][]
+        const section = ((!filter.male && !filter.female) ||
+          (filter.female && p['Section'] === 'طالبات') ||
+           (filter.male && p['Section'] === 'طلاب'));
+
+        const department = ((!filter.cs && !filter.it && !filter.coe) ||
+         (filter.cs && p['Department'] === 'Computer Science') ||
+          (filter.it && p['Department'] === 'Information Technology') ||
+           (filter.coe && p['Department'] === 'Computer Engineering'));
+
+        const search = !query ||
+         p['Students Names with IDs'].some(s => s['id']?.includes(query) ||
+         s['name']?.toLowerCase().includes(query) ) ||
+          p['Project Title']?.toLowerCase().includes(query);
+
+          return section && department && search;
     })
+    
+    const no_result = document.getElementById('no-results')
+    parent.innerHTML = '';
+
+    if (filtered_projects.length > 0) {
+            display_cards(filtered_projects);
+            no_result.classList.add('hidden');
+        }
+        else {
+            no_result.classList.remove('hidden');
+        }
 }
