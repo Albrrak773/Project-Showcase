@@ -13,14 +13,14 @@ let projects_list = [];
 
 document.addEventListener('DOMContentLoaded', () => {
     document.body.classList.add('loaded')
-})
+});
 
 const btns = document.querySelectorAll('.filter-button');
 
 btns.forEach(btn => {
     btn.addEventListener('click', () => {
     btn.classList.toggle('bg-white');
-    btn.classList.toggle('text-[#8E8E8E]');--
+    btn.classList.toggle('text-[#8E8E8E]');
     btn.classList.toggle('bg-[#571CBD]');
     btn.classList.toggle('text-white');
         
@@ -56,11 +56,13 @@ const img_observer = new IntersectionObserver((entries, observer) => {
             observer.unobserve(img)
         }
     })
-})
+});
 
+
+let query;
 document.getElementById('search-box').addEventListener('input', input => {
-    const query = input.target.value;
-})
+    query = input.target.value.trim().toLowerCase();
+});
 
 
 function display_cards(projects_list) {
@@ -99,8 +101,16 @@ fetch_data('projects.json').then(projects => {
 });  
 
 
-function display_filtered(query) {   
-    if (query !== '') {
-        display_cards(projects_list);
-    }
+const filtered_projects = [];
+
+function filter_projects() {
+    projects_list.forEach(p => {
+        is_btn_active = Object.values(filter).some(v => v === true);
+
+        if (!is_btn_active && !query) return true;
+
+        const section = ((!filter.male && !filter.female) ||  (filter.female && p['Section'] === 'طالبات') || (filter.male && p['Section'] === 'طلاب'))
+        const Department = ((!filter.cs && !filter.it && filter.coe) || (filter.cs && p['Department'] === 'Computer Science') || (filter.it && p['Department'] === 'Information Technology') || (filter.coe && p['Department'] === 'Computer Engineering'));
+        //const search = !query || p['Students Names with IDs'][]
+    })
 }
