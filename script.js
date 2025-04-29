@@ -183,7 +183,7 @@ function loadNextBatch(projects) {
     });
     
     target_parent.appendChild(card);
-  })
+  }
   
 }
 
