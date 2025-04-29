@@ -45,3 +45,7 @@ html {
     scrollbar-width: none;
   }
 
+  #load-more {
+    transition: opacity 0.3s ease;
+  }
+  

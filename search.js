@@ -1,5 +1,7 @@
 const tpl = document.getElementById('card-tpl');
 const parent = document.getElementById('card-container');
+const batch_size = 12;
+let current_index = 0;
 
 let filter = {
     male: false,
@@ -59,46 +61,67 @@ const img_observer = new IntersectionObserver((entries, observer) => {
 });
 
 
-function display_cards(projects) {
-        projects.forEach(p => {
-            const card = tpl.content.cloneNode(true);
+function display_cards() {
+    const slice = filtered_projects.slice(current_index, current_index + batch_size);
 
-            card.querySelector('#card-title').textContent = p['Project Title'];
-            card.querySelector('#card-dept').textContent = p['Department'];
+    slice.forEach(p => {
+        const card = tpl.content.cloneNode(true);
+
+        card.querySelector('#card-title').textContent = p['Project Title'];
+        card.querySelector('#card-dept').textContent = p['Department'];
+        
+        const tags = p['Project Field'];
+        const tag_box = card.querySelector('#card-tags');
+
+        tags.forEach(tag => {
+            tag_box.insertAdjacentHTML('beforeend', `<span class="bg-black/90 text-white text-xs font-semibold px-2 py-0.5 rounded">${tag}</span>`)
+        });
+
+        const card_element = card.querySelector('.border');
+        card_element.classList.add(
+            'flex-none',
+            'rounded-lg',
+            'shadow-md',
+            'overflow-hidden',
+            'h-[33rem]',
+            'bg-[#987D7C]',
+            'cursor-pointer',
+            'transform',
+            'transition',
+            'duration-200',
+            'ease-out',
+            'hover:scale-105',
+            'w-4/5',
+            'sm:w-1/5'
+            );
             
-            const tags = p['Project Field'];
-            const tag_box = card.querySelector('#card-tags');
-
-            tags.forEach(tag => {
-                tag_box.insertAdjacentHTML('beforeend', `<span class="bg-black/90 text-white text-xs font-semibold px-2 py-0.5 rounded">${tag}</span>`)
-            });
-
-            const card_element = card.querySelector('.border');
-            card_element.classList.add(
-                'flex-none',
-                'rounded-lg',
-                'shadow-md',
-                'overflow-hidden',
-                'h-[29rem]',
-                'bg-[#987D7C]',
-                'cursor-pointer',
-                'transform',
-                'transition',
-                'duration-200',
-                'ease-out',
-                'hover:scale-105',
-                'w-full'
-              );    
-
-            card_element.addEventListener('click', () => {
+            card_element.addEventListener('click', (e) => {
+            e.preventDefault(); // stop default click
             document.body.classList.add('fade-out');
+        
             setTimeout(() => {
                 window.location.href = `project.html?id=${p.ID}`;
-            }, 400);
-            });
+            }, 400); 
+        });
 
-            parent.appendChild(card);
-        })
+        parent.appendChild(card);
+
+        const newCard = parent.lastElementChild;
+        newCard.classList.add('fade-in');
+        void newCard.offsetWidth;
+        setTimeout(() => {
+        newCard.classList.add('show');
+        }, 50)
+    })
+
+    current_index += batch_size;
+
+    const btn = document.getElementById('load-more');
+    if (current_index >= filtered_projects.length) {
+        btn.classList.add('hidden');
+    } else {
+        btn.classList.remove('hidden');
+    }
 }
 
 
@@ -145,14 +168,28 @@ function filter_projects() {
           return section && department && search;
     })
     
-    const no_result = document.getElementById('no-results-container')
+    const no_result = document.getElementById('no-results-container');
+    const loadMore_btn = document.getElementById('load-more');
     parent.innerHTML = '';
+    current_index = 0;
 
     if (filtered_projects.length > 0) {
-            display_cards(filtered_projects);
+            display_cards();
             no_result.classList.add('hidden');
+
+            if (filtered_projects.length > batch_size) {
+                loadMore_btn.classList.remove('hidden');
+            } else {
+                loadMore_btn.classList.add('hidden');
+            }
+
         }
         else {
             no_result.classList.remove('hidden');
+            loadMore_btn.classList.add('hidden');
         }
 }
+
+document.getElementById('load-more').addEventListener('click', () => {
+    display_cards();
+});

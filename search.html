@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Graduation Projects Showcase</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
@@ -71,7 +71,13 @@
       </div>
 
 
-    <div id="card-container" class="grid gap-6 px-2 sm:px-4 grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5"></div>
+    <div id="card-container" class="flex flex-wrap gap-6 justify-center px-4"></div>
+
+    <div class="w-full text-center my-6">
+        <button id="load-more" class="px-6 py-2 border border-[#571CBD] text-[#571CBD] font-medium rounded-full hover:bg-[#571CBD] hover:text-white transition hidden">
+          Load More
+        </button>
+      </div>
 
     <!-- Card template -->
     <template id="card-tpl">
