@@ -80,7 +80,7 @@ function loadNextBatch(projects, target_parent) {
     card_element.addEventListener('click', () => {
       document.body.classList.add('fade-out');
       setTimeout(() => {
-        window.location.href = `project.html?id=${p.ID}`;
+        window.location.href = `project.html?id=${p.ID}&from=home`;
       }, 400);
     });
     
@@ -88,47 +88,6 @@ function loadNextBatch(projects, target_parent) {
   })
   
 }
-
-
-function filterProjects(query) {
-  const normalized = query.trim().toLowerCase();
-
-  const filtered = projects_list.filter(p => {
-    const matchTitle = (p["Project Title"] || "").toLowerCase().includes(normalized);
-    const matchName = (p["Name"] || "").toLowerCase().includes(normalized);
-    const matchStudents = (p["Students Names with IDs"] || []).some(s =>
-      (s.name || "").toLowerCase().includes(normalized) ||
-      String(s.id).includes(normalized)
-    );
-
-    return matchTitle || matchName || matchStudents;
-  });
-
-  cs_parent.innerHTML = "";
-  it_parent.innerHTML = "";
-  coe_parent.innerHTML = "";
-
-  if (filtered.length === 0) {
-    document.getElementById("no-results").classList.remove("hidden");
-  } else {
-    document.getElementById("no-results").classList.add("hidden");
-    loadNextBatch(filtered);
-  }
-}
-
-
-document.getElementById("search-box").addEventListener("input", (e) => {
-  const query = e.target.value;
-
-  if (!query.trim()) {
-    document.getElementById("no-results").classList.add("hidden");
-    parent.innerHTML = "";
-    currentIndex = 0;
-    loadNextBatch(projects_list);
-  } else {
-    filterProjects(query);
-  }
-});
 
 
 load_projects('projects.json').then(projects => {

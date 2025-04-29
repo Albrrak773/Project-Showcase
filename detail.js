@@ -30,7 +30,7 @@ fetch('projects.json')
     <span class="w-10 h-10 flex items-center justify-center rounded-full border border-blue-600 text-blue-600 hover:bg-blue-100 transition">
       ←
     </span>
-    <span class="font-semibold">Back to Home</span>
+    <span id="back-btn-label" class="font-semibold">Back</span>
   </a>
 
 
@@ -160,17 +160,23 @@ fetch('projects.json')
 
     setTimeout(() => {
       const backBtn = document.getElementById("back-home-btn");
+      const backLabel = document.getElementById("back-btn-label");
+      const from = params.get("from") || "home";
+    
+      if (backLabel) {
+        backLabel.textContent = from === "search" ? "Search Page" : "Main Page";
+      }
+    
       if (backBtn) {
         backBtn.addEventListener("click", () => {
           const loading = document.getElementById("loading-screen");
     
-          // Show spinner + fade-out together
           loading.classList.remove("hidden");
           document.body.classList.add("fade-out");
     
           setTimeout(() => {
-            window.location.href = "index.html";
-          }, 400); // Match your fade duration
+            window.location.href = from === "search" ? "search.html" : "index.html";
+          }, 400);
         });
       }
     }, 50);

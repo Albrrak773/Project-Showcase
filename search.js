@@ -100,7 +100,7 @@ function display_cards() {
             document.body.classList.add('fade-out');
         
             setTimeout(() => {
-                window.location.href = `project.html?id=${p.ID}`;
+                window.location.href = `project.html?id=${p.ID}&from=search`;
             }, 400); 
         });
 
