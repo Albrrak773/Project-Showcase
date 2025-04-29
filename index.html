@@ -11,84 +11,189 @@
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
 </head>
 
-<body class="bg-[#f7fee4] p-0 m-0 mt-10">
-  <!-- Loading Spinner -->
-  <div id="loading-screen" class="fixed inset-0 bg-[#f7fee4] flex items-center justify-center z-50">
-    <div class="w-12 h-12 border-4 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
-  </div>
-  
-  
-    <div class="w-full flex justify-center">
-      <div class="text-center leading-snug mt-4">
-        <p class="text-2xl font-bold text-[#2d2a66] tracking-wide mb-1.5" style="font-family: 'Tajawal', sans-serif;">
-          ملتقى كلية الحاسب العلمي الثاني
-        </p>
-        <p class="text-2xl font-bold text-[#2d2a66] tracking-wide">
-          Second Scientific Event of COC
-        </p>
-      </div>
-      <img 
-      src="/assets/logo.png" 
-      alt="COC Logo" 
-      class="h-[6rem] w-auto ml-3.5 mt-[-0.9rem]"
-      >
-  
+<body class="bg-white p-0 m-0 mt-10">
+<!-- Loading Spinner -->
+<div id="loading-screen" class="fixed inset-0 bg-white flex items-center justify-center z-50">
+  <div class="w-12 h-12 border-4 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
+</div>
+
+
+  <div class="w-full flex justify-center">
+    <div class="text-center leading-snug mt-4">
+      <p class="text-2xl font-bold text-[#2d2a66] tracking-wide mb-1.5" style="font-family: 'Tajawal', sans-serif;">
+        ملتقى كلية الحاسب العلمي الثاني
+      </p>
+      <p class="text-2xl font-bold text-[#2d2a66] tracking-wide">
+        Second Scientific Event of COC
+      </p>
     </div>
-  
-    <!-- Page header -->
-    <header class="mt-12 mb-16 text-center">
-      <h1 class="text-4xl font-bold text-gray-900">Project Showcase</h1>
-    </header>
-  
-     <!-- Search -->
-<div class="mb-8 px-4">
-  <div class="max-w-xl mx-auto">
-    <input
-      type="text"
-      id="search-box"
-      placeholder="Search by ID, Title, or Student Name..."
-      class="w-full px-5 py-3 rounded-full shadow-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent transition"
-    />
+    <img 
+    src="/assets/logo.png" 
+    alt="COC Logo" 
+    class="h-[6rem] w-auto ml-3.5 mt-[-0.9rem]"
+    >
+
   </div>
-</div>
 
+  <!-- Page header -->
+  <header class="mt-12 mb-16 text-center">
+    <h1 class="text-4xl font-bold text-gray-900">Projects Showcase</h1>
+  </header>
 
-<!-- Department Filters -->
-<div id="dept-filters" class="flex overflow-x-auto space-x-4 mb-8 pb-6 px-4 sm:justify-center sm:overflow-visible scrollbar-hide">
-  <button data-dept="All" class="dept-btn bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-full whitespace-nowrap flex-shrink-0">All</button>
-  <button data-dept="Computer Science" class="dept-btn bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-full whitespace-nowrap flex-shrink-0">Computer Science</button>
-  <button data-dept="Information Technology" class="dept-btn bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-full whitespace-nowrap flex-shrink-0">Information Technology</button>
-  <button data-dept="Computer Engineering" class="dept-btn bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-full whitespace-nowrap flex-shrink-0">Computer Engineering</button>
-</div>
-
-
-    
-    <!-- This will show if no results are found -->
-    <p id="no-results" class="text-center text-gray-500 hidden">No matching projects found.</p>
-    
-    <!-- to show one card in phone -->
-    <!-- <div id="card-container" class="mx-auto grid gap-8 place-items-center grid-cols-[repeat(auto-fit,minmax(16rem,1fr))] max-w-[152rem] px-4"> -->
-
-    <!-- to show two card in phone -->
-    <div id="card-container" class="mx-auto grid gap-6 place-items-center grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 max-w-[152rem] px-4">
-
-    <!-- Card template -->
-    <template id="card-tpl">
-      <div class="border rounded-lg shadow-md bg-white overflow-hidden w-full max-w-[16rem]">
-        <div class="p-4">
-          <h2 id="card-title" class="text-base font-bold text-gray-800"></h2>
   
-          <div class="mt-2">
-            <span id="card-dept" class="inline-block bg-blue-200 text-blue-900 text-sm font-semibold px-3 py-0.5 rounded"></span>
+  <!-- This will show if no results are found -->
+  <p id="no-results" class="text-center text-gray-500 hidden">No matching projects found.</p>
+  
+  <div class="flex flex-col gap-16 w-full">
+
+    <section class="my-8 px-4 sm:px-10">
+      
+      <div class="flex items-center justify-between mb-3">
+
+        <div class="flex w-full justify-between max-w-[1680px] mx-auto items-center">
+          <div class="flex items-center gap-[32px]">
+            <h2 class="text-2xl sm:text-3xl font-bold text-black whitespace-nowrap">
+              Computer Science
+            </h2>
+            <a href="search.html"
+               class="flex items-center gap-x-[11px] text-[#64ABFF] text-base font-medium whitespace-nowrap shrink-0">
+              <span>Show More</span>
+              <svg  width="24" height="24" viewBox="0 0 24 24">
+                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
           </div>
-  
-          <div id="card-tags" class="flex flex-wrap gap-1.5 mt-2"></div>
         </div>
-  
-        <div class="relative">
-          <img id="card-image" class="w-full object-cover" />
+        
+        <div class="flex space-x-3">
+
+          <button id="cs-prev" class="prev-btn hidden sm:flex items-center justify-center w-12 h-12 p-0 bg-gray-100 hover:bg-gray-200 rounded-full shadow leading-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-600 block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+
+          <button id="cs-next" class="next-btn hidden sm:flex items-center justify-center w-12 h-12 p-0 bg-gray-100 hover:bg-gray-200 rounded-full shadow leading-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-600 block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+
         </div>
       </div>
-    </template>
-    <script src="/script.js"></script></body>
+    
+      <div class="relative overflow-x-auto carousel scroll-smooth snap-x snap-mandatory scrollbar-hide">
+        <div id="CS-card-container" class="flex flex-nowrap gap-8 px-4 py-4 snap-start">
+        </div>
+      </div>
+    </section>
+    
+
+
+    <section class="my-8 px-4 sm:px-10">
+      
+      <div class="flex items-center justify-between mb-3">
+
+        <div class="flex w-full justify-between max-w-[1680px] mx-auto items-center">
+          <div class="flex items-center gap-[32px]">
+            <h2 class="text-2xl sm:text-3xl font-bold text-black whitespace-nowrap">
+              Information Tecnology
+            </h2>
+            <a href="search.html"
+               class="flex items-center gap-x-[11px] text-[#64ABFF] text-base font-medium whitespace-nowrap shrink-0">
+              <span>Show More</span>
+              <svg  width="24" height="24" viewBox="0 0 24 24">
+                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="flex space-x-3">
+
+          <button id="it-prev" class="prev-btn hidden sm:flex items-center justify-center w-12 h-12 p-0 bg-gray-100 hover:bg-gray-200 rounded-full shadow leading-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-600 block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+
+          <button id="it-next" class="next-btn hidden sm:flex items-center justify-center w-12 h-12 p-0 bg-gray-100 hover:bg-gray-200 rounded-full shadow leading-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-600 block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+
+        </div>
+      </div>
+    
+      <div class="relative overflow-x-auto carousel scroll-smooth snap-x snap-mandatory scrollbar-hide">
+        <div id="IT-card-container" class="flex flex-nowrap gap-8 px-4 py-4 snap-start">
+        </div>
+      </div>
+    </section>
+    
+    
+    <section class="my-8 px-4 sm:px-10">
+      
+      <div class="flex items-center justify-between mb-3">
+
+        <div class="flex w-full justify-between max-w-[1680px] mx-auto items-center">
+          <div class="flex items-center gap-[24px]">
+            <h2 class="text-[1.5rem] sm:text-3xl font-bold text-black whitespace-nowrap">
+              Computer Engineering
+            </h2>
+            <a href="search.html"
+               class="flex items-center gap-x-[8px] text-[#64ABFF] text-base font-medium whitespace-nowrap shrink-0">
+              <span>Show More</span>
+              <svg  width="24" height="24" viewBox="0 0 24 24">
+                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="flex space-x-3">
+
+          <button id="coe-prev" class="prev-btn hidden sm:flex items-center justify-center w-12 h-12 p-0 bg-gray-100 hover:bg-gray-200 rounded-full shadow leading-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-600 block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+
+          <button id="coe-next" class="next-btn hidden sm:flex items-center justify-center w-12 h-12 p-0 bg-gray-100 hover:bg-gray-200 rounded-full shadow leading-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-600 block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+
+        </div>
+      </div>
+    
+      <div class="relative overflow-x-auto carousel scroll-smooth snap-x snap-mandatory scrollbar-hide">
+        <div id="COE-card-container" class="flex flex-nowrap gap-8 px-4 py-4 snap-start">
+        </div>
+      </div>
+    </section>
+    
+
+  <!-- Card template -->
+  <template id="card-tpl">
+    <div class="border rounded-lg shadow-md bg-[#f5f5f7] overflow-hidden w-full max-w-[17rem] h-[33rem] flex flex-col">
+      <div class="p-4">
+        <h2 id="card-title" class="text-base font-bold text-gray-800 truncate overflow-hidden text-ellipsis"></h2>
+  
+        <div class="mt-2">
+          <span id="card-dept" class="inline-block bg-blue-200 text-blue-900 text-sm font-semibold px-3 py-0.5 rounded"></span>
+        </div>
+  
+        <div id="card-tags" class="flex flex-wrap gap-1.5 mt-2"></div>
+      </div>
+  
+      <div class="relative flex-1 overflow-hidden bg-gray-100">
+        <img id="card-image" class="w-full h-full object-cover"/>
+      </div>
+    </div>
+  </template>
+  <script src="/script.js"></script>
+</body>
 </html>

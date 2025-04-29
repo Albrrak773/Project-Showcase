@@ -178,172 +178,44 @@ function loadNextBatch(projects) {
     card.querySelector('.border').addEventListener('click', () => {
       document.body.classList.add('fade-out');
       setTimeout(() => {
-        window.location.href = `project.html?id=${p.ID}`;
+        window.location.href = `project.html?id=${p.ID}&from=home`;
       }, 400);
     });
-
-    parent.appendChild(card);
-  }
-
-  currentIndex += batchSize;
-  isLoading = false;
-
-  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+    
+    target_parent.appendChild(card);
+  })
+  
 }
 
 
+load_projects('projects.json').then(projects => {
+  if (projects) {
+    projects_list = projects;
+    cs_projects_list = projects_list.filter(p => p['Department']?.trim().toLowerCase() === "computer science");
+    it_projects_list = projects_list.filter(p => p['Department']?.trim().toLowerCase() === "information technology");
+    coe_projects_list = projects_list.filter(p => p['Department']?.trim().toLowerCase() === "computer engineering"); 
 
-
-function urls_to_file_name(urls) {
-    Decoded_urls = [];
-    for (let i = 0; i < urls.length; i++) {
-        const element = urls[i];
-        Decoded_url = decodeURIComponent(element)
-        console.log("Debugging: ", "the decoded URL: ", Decoded_url.slice(Decoded_url.lastIndexOf('/') + 1));
-        Decoded_urls.push(Decoded_url)
-    }
-    return Decoded_urls;
-}
-
-async function load_projects(filePath) {
-    try {
-      const response = await fetch(filePath);
-      if (!response.ok) {
-        throw new Error('Failed to fetch JSON');
-      }
-      const data = await response.json();
-      return data;
-    } catch (error) {
-      console.error('Error fetching JSON:', error);
-      return null;
-    }
+    loadNextBatch(cs_projects_list, cs_parent);
+    loadNextBatch(coe_projects_list, coe_parent);
+    loadNextBatch(it_projects_list, it_parent);
+    
   }
-
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('show');
-      observer.unobserve(entry.target); // optional: stop observing after shown
-    }
-  });
-}, {
-  threshold: 0.1
-});
-
-setTimeout(() => {
-  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-}, 1000); // Delay until all batches are in
-
-
-window.addEventListener('scroll', () => {
-  const scrollBottom = window.innerHeight + window.scrollY;
-  const pageBottom = document.body.offsetHeight - 300;
-
-  if (scrollBottom >= pageBottom) {
-    loadNextBatch(projectList); // `projectList` must be globally accessible
-  }
+  document.getElementById("loading-screen").classList.add("hidden");
 });
 
 
-// function filterProjects(query) {
-//   const normalized = query.trim().toLowerCase();
-
-//   const filtered = projectList.filter(p => {
-//     const matchId = String(p.ID).includes(normalized);
-//     const matchTitle = (p["Project Title"] || "").toLowerCase().includes(normalized);
-//     const matchName = (p["Name"] || "").toLowerCase().includes(normalized);
-//     const matchStudents = (p["Students Names with IDs"] || []).some(s =>
-//       (s.name || "").toLowerCase().includes(normalized) ||
-//       String(s.id).includes(normalized)
-//     );
-
-//     return matchId || matchTitle || matchName || matchStudents;
-//   });
-
-//   parent.innerHTML = "";
-//   currentIndex = 0;
-
-//   if (filtered.length === 0) {
-//     document.getElementById("no-results").classList.remove("hidden");
-//   } else {
-//     document.getElementById("no-results").classList.add("hidden");
-//     loadNextBatch(filtered);
-//   }
-// }
-function filterProjects(query) {
-  const normalized = query.trim().toLowerCase();
-
-  const filtered = projectList.filter(p => {
-    const matchTitle = (p["Project Title"] || "").toLowerCase().includes(normalized);
-    const matchName = (p["Name"] || "").toLowerCase().includes(normalized);
-    const matchStudents = (p["Students Names with IDs"] || []).some(s =>
-      (s.name || "").toLowerCase().includes(normalized) || String(s.id || "").includes(normalized)
-    );
-
-    return matchTitle || matchName || matchStudents;
-  });
-
-  parent.innerHTML = "";
-  currentIndex = 0;
-  batchSize = filtered.length;
-
-  if (filtered.length === 0) {
-    document.getElementById("no-results").classList.remove("hidden");
-  } else {
-    document.getElementById("no-results").classList.add("hidden");
-    loadNextBatch(filtered);
-  }
-}
-
-
-function filterByDepartment(dept) {
-  parent.innerHTML = "";
-  currentIndex = 0;
-
-  let filteredProjects = [];
-
-  if (dept === "All") {
-    filteredProjects = projectList;
-  } else {
-    filteredProjects = projectList.filter(p => 
-      (p.Department || "").trim().toLowerCase() === dept.trim().toLowerCase()
-    );
-  }
-
-  batchSize = filteredProjects.length;
-  loadNextBatch(filteredProjects);
-}
-
-
-// After projects are loaded:
-document.querySelectorAll('.dept-btn').forEach(btn => {
+document.querySelectorAll('.prev-btn, .next-btn').forEach((btn) => {
   btn.addEventListener('click', () => {
-    // Remove active class from all buttons
-    document.querySelectorAll('.dept-btn').forEach(b => {
-      b.classList.remove('bg-blue-500', 'text-white');
-      b.classList.add('bg-gray-300', 'text-gray-800');
+    const carousel = btn.closest('section').querySelector('.carousel');
+
+    const card = carousel.querySelector('.border');
+    const gap = parseInt(getComputedStyle(carousel).gap) || 0;
+    const distance = card.offsetWidth + gap;
+
+    const direction = btn.classList.contains('next-btn') ? 1 : -1;
+
+    carousel.scrollBy({
+      left: distance * direction, behavior: 'smooth'
     });
-
-    // Make clicked button active
-    btn.classList.remove('bg-gray-300', 'text-gray-800');
-    btn.classList.add('bg-blue-500', 'text-white');
-
-    const dept = btn.getAttribute('data-dept');
-    filterByDepartment(dept);
-  });
-});
-
-
-document.getElementById("search-box").addEventListener("input", (e) => {
-  const query = e.target.value;
-
-  if (!query.trim()) {
-    document.getElementById("no-results").classList.add("hidden");
-    parent.innerHTML = "";
-    currentIndex = 0;
-    batchSize = projectList.length;
-    loadNextBatch(projectList);
-  } else {
-    filterProjects(query);
-  }
-});
+  })
+})
