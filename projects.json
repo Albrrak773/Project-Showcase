@@ -473,7 +473,7 @@
         "Campus": "المقر الرئيسي",
         "Section": "طلاب",
         "Department": "Computer Science",
-        "Project Title": "Generative Arabic Calligraphy Using AI (Medad)",
+        "Project Title": "Generative Arabic Calligraphy Using Transformers (Medad)",
         "Students Names with IDs": [
             {
                 "name": "Faris Alhammad",
