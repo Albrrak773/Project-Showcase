@@ -71,7 +71,7 @@ function loadNextBatch(projects, target_parent) {
     else {
       img.dataset.src = p["Project Poster"];
       img.loading = 'lazy';
-      image_observer.observe(img);*
+      image_observer.observe(img);
     }
 
     const card_element = card.querySelector('.border');
