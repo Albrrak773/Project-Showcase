@@ -49,3 +49,6 @@ html {
     transition: opacity 0.3s ease;
   }
   
+  img {
+    object-fit: cover;
+  }
