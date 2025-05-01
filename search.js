@@ -12,6 +12,10 @@ let filter = {
   };
 
 document.addEventListener('DOMContentLoaded', () => {
+    document.querySelector('#vote-banner svg')?.addEventListener('click', () => {
+        document.getElementById('vote-banner')?.remove();
+        document.body.style.paddingTop = '0px'; // remove the top space if needed
+      });
     document.body.classList.add('loaded')
 });
 
