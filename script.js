@@ -30,7 +30,7 @@ async function load_projects(filePath) {
 }
 
 
-const image_observer = new IntersectionObserver((entries, observer) => {
+const observer = new IntersectionObserver((entries, observer) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       const img = entry.target;
@@ -40,7 +40,7 @@ const image_observer = new IntersectionObserver((entries, observer) => {
   });
 }, {
   root: null,
-  rootMargin: '0px 0px 200px 0px',
+  rootMargin: '0px 0px 300px 0px',
   threshold: 0.1
 });
 
@@ -61,18 +61,17 @@ function loadNextBatch(projects, target_parent) {
     ));
 
     const img = card.querySelector('#card-image');
-    img.alt = p["Project Title"];
-    img.style.opacity = '0';
-    img.onload = () => img.style.opacity = '1';
     
     if (index < 6) {
       img.src = p['Project Poster'];
     }
     else {
       img.dataset.src = p["Project Poster"];
-      img.loading = 'lazy';
-      image_observer.observe(img);
+      observer.observe(img);
     }
+
+    img.style.opacity = '0';
+    img.onload = () => img.style.opacity = '1';
 
     const card_element = card.querySelector('.border');
     card_element.classList.add('flex-none', 'w-1/5', 'snap-start', 'rounded-lg', 'shadow-md', 'overflow-hidden', 'h-[33rem]', 'bg-[#987D7C]', 'cursor-pointer', 'transform', 'transition', 'duration-200', 'ease-out', 'hover:scale-105', 'w-4/5', 'sm:w-1/5');
