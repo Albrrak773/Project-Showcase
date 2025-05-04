@@ -45,6 +45,17 @@ const observer = new IntersectionObserver((entries, observer) => {
 });
 
 
+const sizes = {
+  mobile:  { '1x': 288,  '2x': 576 },
+  desktop: { '1x': 486,  '2x': 972 }
+};
+
+const folders = {
+  mobile:  { '1x': 'MobileImages1x',  '2x': 'MobileImages2x' },
+  desktop: { '1x': 'DesktopImages1x', '2x': 'DesktopImages2x' }
+};
+
+
 function loadNextBatch(projects, target_parent) {
   projects.forEach( (p, index) => { 
  
@@ -60,18 +71,24 @@ function loadNextBatch(projects, target_parent) {
       `<span class="bg-black/90 text-white text-xs font-semibold px-2 py-0.5 rounded">${tag}</span>`
     ));
 
-    const img = card.querySelector('#card-image');
-    
-    if (index < 6) {
-      img.src = p['Project Poster'];
-    }
-    else {
-      img.dataset.src = p["Project Poster"];
-      observer.observe(img);
-    }
+    const picture = card.querySelector('#card-picture');
+    const img = picture.querySelector('#card-image');
 
-    img.style.opacity = '0';
-    img.onload = () => img.style.opacity = '1';
+    const source = document.createElement('source');
+    source.type = 'image/webp';
+    source.sizes = '(max-width: 640px) 80vw, 20vw';
+    source.srcset = Object.entries(sizes)
+      .flatMap(([type, ds]) =>
+        Object.entries(ds).map(([dpr, w]) =>
+          `/assets/${folders[type][dpr]}/${p.ID}-${type}-${dpr}.webp ${w}w`
+        )
+      )
+      .join(', ');
+
+      img.dataset.src = `/assets/DesktopImages1x/${p.ID}-desktop-1x.webp`;
+      picture.insertBefore(source, img);
+      observer.observe(img);
+
 
     const card_element = card.querySelector('.border');
     card_element.classList.add('flex-none', 'w-1/5', 'snap-start', 'rounded-lg', 'shadow-md', 'overflow-hidden', 'h-[33rem]', 'bg-[#987D7C]', 'cursor-pointer', 'transform', 'transition', 'duration-200', 'ease-out', 'hover:scale-105', 'w-4/5', 'sm:w-1/5');
