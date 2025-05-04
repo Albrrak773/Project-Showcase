@@ -57,3 +57,7 @@ html {
   .will-change {
     will-change: opacity;
   }
+
+.main-logo {
+  cursor: pointer;
+}

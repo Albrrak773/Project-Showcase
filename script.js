@@ -19,6 +19,13 @@ window.addEventListener('DOMContentLoaded', () => {
   document.body.classList.add('loaded');
 });
 
+document.querySelectorAll('.main-logo').forEach(el => {
+  el.addEventListener('click', () => {
+    window.location.href = '/index.html';  
+  })
+});
+
+
 async function load_projects(filePath) {
   try {
     const response = await fetch(filePath);
