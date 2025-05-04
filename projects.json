@@ -1120,6 +1120,74 @@
     },
     {
         "ID": 30,
+        "Email": "",
+        "Name": "",
+        "Campus": "",
+        "Section": "طلاب",
+        "Department": "Computer Engineering",
+        "Project Title": "Enhanced Medical Diagnosis Using AI",
+        "Students Names with IDs": [],
+        "Supervisor Name": "",
+        "Full Project Description": "",
+        "Project Field": [
+            "Health",
+            "AI"
+        ],
+        "Project Poster": "/assets/30.webp",
+        "Additional Project Images": "",
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 31,
+        "Email": "",
+        "Name": "",
+        "Campus": "",
+        "Section": "طلاب",
+        "Department": "Computer Engineering",
+        "Project Title": "How can advanced voice recognition and robotic systems improve communication",
+        "Students Names with IDs": [],
+        "Supervisor Name": "",
+        "Full Project Description": "",
+        "Project Field": [
+            "Health",
+            "AI"
+        ],
+        "Project Poster": "/assets/31.webp",
+        "Additional Project Images": "",
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 32,
+        "Email": "",
+        "Name": "",
+        "Campus": "",
+        "Section": "طلاب",
+        "Department": "Computer Engineering",
+        "Project Title": "А Robot For Sorting Packages Using Al (AOUN)",
+        "Students Names with IDs": [],
+        "Supervisor Name": "",
+        "Full Project Description": "",
+        "Project Field": [
+            "AI"
+        ],
+        "Project Poster": "/assets/32.webp",
+        "Additional Project Images": "",
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 34,
         "Email": "411202219@qu.edu.sa",
         "Name": "ربا الحربي",
         "Campus": "المقر الرئيسي",
@@ -1146,7 +1214,7 @@
             "AI",
             " Game Development"
         ],
-        "Project Poster": "/assets/30.webp",
+        "Project Poster": "/assets/34.webp",
         "Additional Project Images": null,
         "Contact Methods": {
             "email": "",
@@ -1155,7 +1223,7 @@
         }
     },
     {
-        "ID": 31,
+        "ID": 35,
         "Email": "391202706@qu.edu.sa",
         "Name": "طيف زيد ال بوعليان",
         "Campus": "المقر الرئيسي",
@@ -1182,7 +1250,7 @@
             "AI",
             " Data Analysis"
         ],
-        "Project Poster": "/assets/31.webp",
+        "Project Poster": "/assets/35.webp",
         "Additional Project Images": null,
         "Contact Methods": {
             "email": "",
@@ -1191,7 +1259,7 @@
         }
     },
     {
-        "ID": 32,
+        "ID": 36,
         "Email": "381212970@qu.edu.sa",
         "Name": "ريحانه العبودي",
         "Campus": "المقر الرئيسي",
@@ -1217,7 +1285,7 @@
         "Project Field": [
             "AI"
         ],
-        "Project Poster": "/assets/32.webp",
+        "Project Poster": "/assets/36.webp",
         "Additional Project Images": null,
         "Contact Methods": {
             "email": "",
@@ -1226,7 +1294,7 @@
         }
     },
     {
-        "ID": 33,
+        "ID": 37,
         "Email": "411202073@qu.edu.sa",
         "Name": "ميلاف الخميس",
         "Campus": "المقر الرئيسي",
@@ -1252,7 +1320,7 @@
         "Project Field": [
             "Mobile App"
         ],
-        "Project Poster": "/assets/33.webp",
+        "Project Poster": "/assets/37.webp",
         "Additional Project Images": null,
         "Contact Methods": {
             "email": "",
@@ -1261,7 +1329,7 @@
         }
     },
     {
-        "ID": 34,
+        "ID": 38,
         "Email": "411201470@qu.edu.sa",
         "Name": "ريمان الحبيب",
         "Campus": "المقر الرئيسي",
@@ -1291,7 +1359,7 @@
         "Project Field": [
             "AI"
         ],
-        "Project Poster": "/assets/34.webp",
+        "Project Poster": "/assets/38.webp",
         "Additional Project Images": null,
         "Contact Methods": {
             "email": "",
@@ -1300,7 +1368,7 @@
         }
     },
     {
-        "ID": 35,
+        "ID": 39,
         "Email": "421201885@qu.edu.sa",
         "Name": "جود الربدي",
         "Campus": "المقر الرئيسي",
@@ -1331,7 +1399,7 @@
             "AI",
             " Data Analysis"
         ],
-        "Project Poster": "/assets/35.webp",
+        "Project Poster": "/assets/39.webp",
         "Additional Project Images": null,
         "Contact Methods": {
             "email": "",
@@ -1340,7 +1408,7 @@
         }
     },
     {
-        "ID": 36,
+        "ID": 40,
         "Email": "421202157@qu.edu.sa",
         "Name": "نديره الحربي",
         "Campus": "مقر عنيزة",
@@ -1370,7 +1438,7 @@
         "Project Field": [
             "Digital Transformation"
         ],
-        "Project Poster": "/assets/36.webp",
+        "Project Poster": "/assets/40.webp",
         "Additional Project Images": null,
         "Contact Methods": {
             "email": "",
@@ -1379,7 +1447,7 @@
         }
     },
     {
-        "ID": 37,
+        "ID": 41,
         "Email": "421202223@qu.edu.sa",
         "Name": "ريما الخزيم",
         "Campus": "المقر الرئيسي",
@@ -1405,7 +1473,7 @@
         "Project Field": [
             "Mobile App"
         ],
-        "Project Poster": "/assets/37.webp",
+        "Project Poster": "/assets/41.webp",
         "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/Interfaces_%D8%B1%D9%8A%D9%85%D8%A7%20%D8%A7%D9%84%D8%AE%D8%B2%D9%8A%D9%85.pdf",
         "Contact Methods": {
             "email": "",
@@ -1414,7 +1482,7 @@
         }
     },
     {
-        "ID": 38,
+        "ID": 42,
         "Email": "421202270@qu.edu.sa",
         "Name": "هلا السديس",
         "Campus": "المقر الرئيسي",
@@ -1442,9 +1510,10 @@
         "Supervisor Name": "Dr. Shabana Habib",
         "Full Project Description": "This project aims to develop an artificial intelligence model based on deep learning techniques for the early detection of coffee plant diseases through leaf image analysis. This type of project represents an important step toward supporting smart agriculture, where farmers can benefit from intelligent systems that help them quickly and accurately identify diseases, contributing to improved crop quality and reduced economic losses.",
         "Project Field": [
-            "AI"
+            "AI",
+            "DL"
         ],
-        "Project Poster": "/assets/38.webp",
+        "Project Poster": "/assets/42.webp",
         "Additional Project Images": null,
         "Contact Methods": {
             "email": "",
@@ -1453,7 +1522,7 @@
         }
     },
     {
-        "ID": 39,
+        "ID": 43,
         "Email": "421202150@qu.edu.sa",
         "Name": "دانة الكفيل",
         "Campus": "المقر الرئيسي",
@@ -1484,7 +1553,7 @@
             "AI",
             " Cybersecurity"
         ],
-        "Project Poster": "/assets/39.webp",
+        "Project Poster": "/assets/43.webp",
         "Additional Project Images": null,
         "Contact Methods": {
             "email": "",
@@ -1493,7 +1562,7 @@
         }
     },
     {
-        "ID": 40,
+        "ID": 44,
         "Email": "421202240@qu.edu.sa",
         "Name": "خزامي النصيان",
         "Campus": "المقر الرئيسي",
@@ -1520,7 +1589,7 @@
             "AI",
             " DL"
         ],
-        "Project Poster": "/assets/40.webp",
+        "Project Poster": "/assets/44.webp",
         "Additional Project Images": null,
         "Contact Methods": {
             "email": "",
@@ -1529,7 +1598,7 @@
         }
     },
     {
-        "ID": 41,
+        "ID": 45,
         "Email": "392206356@qu.edu.sa",
         "Name": "حنين الشويقي",
         "Campus": "المقر الرئيسي",
@@ -1551,7 +1620,7 @@
         "Project Field": [
             "AI"
         ],
-        "Project Poster": "/assets/41.webp",
+        "Project Poster": "/assets/45.webp",
         "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/%D8%B2%D9%87%D8%A7%D8%A1_%D8%AD%D9%86%D9%8A%D9%86%20%D8%A7%D9%84%D8%B4%D9%88%D9%8A%D9%82%D9%8A.pdf; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/%D9%87%D9%88%D9%8A%D8%AA%D9%86%D8%A7_%D8%AD%D9%86%D9%8A%D9%86%20%D8%A7%D9%84%D8%B4%D9%88%D9%8A%D9%82%D9%8A.pdf; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/Zahaa_Project_Design_and_Intro_video__%D8%AD%D9%86%D9%8A%D9%86%20%D8%A7%D9%84%D8%B4%D9%88%D9%8A%D9%82%D9%8A.pdf",
         "Contact Methods": {
             "email": "",
@@ -1560,7 +1629,7 @@
         }
     },
     {
-        "ID": 42,
+        "ID": 46,
         "Email": "421202065@qu.edu.sa",
         "Name": "تالا الرشودي",
         "Campus": "المقر الرئيسي",
@@ -1586,7 +1655,7 @@
         "Project Field": [
             "Software Development"
         ],
-        "Project Poster": "/assets/42.webp",
+        "Project Poster": "/assets/46.webp",
         "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/(%20%D8%B5%D9%88%D8%B1%20%D8%A7%D8%B6%D8%A7%D9%81%D9%8A%D9%87%20)e-commerce%20project_%D8%AA%D8%A7%D9%84%D8%A7%20%D8%A7%D9%84%D8%B1%D8%B4%D9%88%D8%AF%D9%8A.pdf",
         "Contact Methods": {
             "email": "",
@@ -1595,7 +1664,7 @@
         }
     },
     {
-        "ID": 43,
+        "ID": 47,
         "Email": "421202041@qu.edu.sa",
         "Name": "سديم الرسيني",
         "Campus": "المقر الرئيسي",
@@ -1623,7 +1692,7 @@
             " Data Analysis",
             " Education"
         ],
-        "Project Poster": "/assets/43.webp",
+        "Project Poster": "/assets/47.webp",
         "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/Screenshot%202025-04-13%20201324_%D8%B3%D8%AF%D9%8A%D9%85%20%D8%A7%D9%84%D8%B1%D8%B3%D9%8A%D9%86%D9%8A.png; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/Screenshot%202025-04-12%20214952_%D8%B3%D8%AF%D9%8A%D9%85%20%D8%A7%D9%84%D8%B1%D8%B3%D9%8A%D9%86%D9%8A.png; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/Screenshot%202025-04-12%20230646_%D8%B3%D8%AF%D9%8A%D9%85%20%D8%A7%D9%84%D8%B1%D8%B3%D9%8A%D9%86%D9%8A.png",
         "Contact Methods": {
             "email": "",
@@ -1632,13 +1701,13 @@
         }
     },
     {
-        "ID": 44,
+        "ID": 48,
         "Email": "421202130@qu.edu.sa",
         "Name": "ريما الناصر",
         "Campus": "المقر الرئيسي",
         "Section": "طالبات",
         "Department": "Information Technology",
-        "Project Title": "Advanced Deep Learning Models for Dental Diseases Detection from Panoramic Radiographs",
+        "Project Title": "Tooth Truth: Advanced Deep Learning Models for Dental Diseases Detection from Panoramic Radiographs",
         "Students Names with IDs": [
             {
                 "name": "Deema Alnasser",
@@ -1662,7 +1731,7 @@
         "Project Field": [
             "AI"
         ],
-        "Project Poster": "/assets/44.webp",
+        "Project Poster": "/assets/48.webp",
         "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/class_%D8%B1%D9%8A%D9%85%D8%A7%20%D8%A7%D9%84%D9%86%D8%A7%D8%B5%D8%B1.png; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/work_%D8%B1%D9%8A%D9%85%D8%A7%20%D8%A7%D9%84%D9%86%D8%A7%D8%B5%D8%B1.png",
         "Contact Methods": {
             "email": "",
@@ -1671,7 +1740,7 @@
         }
     },
     {
-        "ID": 45,
+        "ID": 49,
         "Email": "391202390@qu.edu.sa",
         "Name": "حكيمه الحربي",
         "Campus": "المقر الرئيسي",
@@ -1697,7 +1766,7 @@
         "Project Field": [
             "Data Analysis"
         ],
-        "Project Poster": "/assets/45.webp",
+        "Project Poster": "/assets/49.webp",
         "Additional Project Images": null,
         "Contact Methods": {
             "email": "",
@@ -1706,7 +1775,7 @@
         }
     },
     {
-        "ID": 46,
+        "ID": 50,
         "Email": "411203411@qu.edu.sa",
         "Name": "عهد العضيله المطيري",
         "Campus": "مقر عنيزة",
@@ -1738,7 +1807,7 @@
             " ML",
             " Web Development"
         ],
-        "Project Poster": "/assets/46.webp",
+        "Project Poster": "/assets/50.webp",
         "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/Student_UI.pdf_%D8%B9%D9%87%D8%AF%20%D8%A7%D9%84%D8%B9%D8%B6%D9%8A%D9%84%D9%87%20%D8%A7%D9%84%D9%85%D8%B7%D9%8A%D8%B1%D9%8A.pdf; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/BioVoice_Registartion_UI.pdf_%D8%B9%D9%87%D8%AF%20%D8%A7%D9%84%D8%B9%D8%B6%D9%8A%D9%84%D9%87%20%D8%A7%D9%84%D9%85%D8%B7%D9%8A%D8%B1%D9%8A.pdf; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/Teacher_UI.pdf_%D8%B9%D9%87%D8%AF%20%D8%A7%D9%84%D8%B9%D8%B6%D9%8A%D9%84%D9%87%20%D8%A7%D9%84%D9%85%D8%B7%D9%8A%D8%B1%D9%8A.pdf",
         "Contact Methods": {
             "email": "",
@@ -1747,7 +1816,7 @@
         }
     },
     {
-        "ID": 47,
+        "ID": 51,
         "Email": "392207752@qu.edu.sa",
         "Name": "رنيم الرشودي",
         "Campus": "المقر الرئيسي",
@@ -1778,7 +1847,7 @@
             "AI",
             " ML"
         ],
-        "Project Poster": "/assets/47.webp",
+        "Project Poster": "/assets/51.webp",
         "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/Detection%20of%20Fake%20Profiles%20in%20Online%20Social%20N_%D8%B1%D9%86%D9%8A%D9%85%20%D8%A7%D9%84%D8%B1%D8%B4%D9%88%D8%AF%D9%8A.pdf",
         "Contact Methods": {
             "email": "",
@@ -1787,7 +1856,7 @@
         }
     },
     {
-        "ID": 48,
+        "ID": 52,
         "Email": "411201908@qu.edu.sa",
         "Name": "العنود الحصان",
         "Campus": "المقر الرئيسي",
@@ -1817,7 +1886,7 @@
         "Project Field": [
             "AI"
         ],
-        "Project Poster": "/assets/48.webp",
+        "Project Poster": "/assets/52.webp",
         "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/G1-Extra_%D8%A7%D9%84%D8%B9%D9%86%D9%88%D8%AF%20%D8%A7%D9%84%D8%AD%D8%B5%D8%A7%D9%86.pdf",
         "Contact Methods": {
             "email": "",
@@ -1826,7 +1895,7 @@
         }
     },
     {
-        "ID": 49,
+        "ID": 53,
         "Email": "421201960@qu.edu.sa",
         "Name": "ليان السلوم",
         "Campus": "المقر الرئيسي",
@@ -1857,7 +1926,7 @@
             " Mobile App",
             " User Experience"
         ],
-        "Project Poster": "/assets/49.webp",
+        "Project Poster": "/assets/53.webp",
         "Additional Project Images": null,
         "Contact Methods": {
             "email": "",
@@ -1866,7 +1935,7 @@
         }
     },
     {
-        "ID": 50,
+        "ID": 54,
         "Email": "392216770@qu.edu.sa",
         "Name": "خديجه قايد محمد",
         "Campus": "مقر عنيزة",
@@ -1898,7 +1967,7 @@
             " Computer Vision",
             " ML"
         ],
-        "Project Poster": "/assets/50.webp",
+        "Project Poster": "/assets/54.webp",
         "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/IMG_5660_%D8%AE%D8%AF%D9%8A%D8%AC%D9%87%20%D9%82%D8%A7%D9%8A%D8%AF%20%D9%85%D8%AD%D9%85%D8%AF.png; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/IMG_5659_%D8%AE%D8%AF%D9%8A%D8%AC%D9%87%20%D9%82%D8%A7%D9%8A%D8%AF%20%D9%85%D8%AD%D9%85%D8%AF.png; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/IMG_5658_%D8%AE%D8%AF%D9%8A%D8%AC%D9%87%20%D9%82%D8%A7%D9%8A%D8%AF%20%D9%85%D8%AD%D9%85%D8%AF.png",
         "Contact Methods": {
             "email": "",
@@ -1907,7 +1976,7 @@
         }
     },
     {
-        "ID": 51,
+        "ID": 55,
         "Email": "411200703@qu.edu.sa",
         "Name": "هاجر العميريني",
         "Campus": "المقر الرئيسي",
@@ -1929,7 +1998,7 @@
         "Project Field": [
             "Mobile App"
         ],
-        "Project Poster": "/assets/51.webp",
+        "Project Poster": "/assets/55.webp",
         "Additional Project Images": null,
         "Contact Methods": {
             "email": "",
@@ -1938,7 +2007,7 @@
         }
     },
     {
-        "ID": 52,
+        "ID": 56,
         "Email": "411203010@qu.edu.sa",
         "Name": "سمى صالح السويل",
         "Campus": "مقر عنيزة",
@@ -1961,7 +2030,7 @@
             "AI",
             " Web Development"
         ],
-        "Project Poster": "/assets/52.webp",
+        "Project Poster": "/assets/56.webp",
         "Additional Project Images": null,
         "Contact Methods": {
             "email": "",
@@ -1970,7 +2039,7 @@
         }
     },
     {
-        "ID": 53,
+        "ID": 57,
         "Email": "421202253@qu.edu.sa",
         "Name": "لينا الدغيم",
         "Campus": "مقر الرس",
@@ -2001,7 +2070,7 @@
             "AI",
             " Healthcare"
         ],
-        "Project Poster": "/assets/53.webp",
+        "Project Poster": "/assets/57.webp",
         "Additional Project Images": null,
         "Contact Methods": {
             "email": "",
@@ -2010,7 +2079,7 @@
         }
     },
     {
-        "ID": 54,
+        "ID": 58,
         "Email": "411202237@qu.edu.sa",
         "Name": "لمى الهجله المطيري",
         "Campus": "مقر الرس",
@@ -2046,7 +2115,7 @@
             " DL",
             " Data Analysis"
         ],
-        "Project Poster": "/assets/54.webp",
+        "Project Poster": "/assets/58.webp",
         "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/IMG_0391_%D9%84%D9%85%D9%89%20%D8%A7%D9%84%D9%87%D8%AC%D9%84%D9%87%20%D8%A7%D9%84%D9%85%D8%B7%D9%8A%D8%B1%D9%8A.jpeg; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/IMG_0390_%D9%84%D9%85%D9%89%20%D8%A7%D9%84%D9%87%D8%AC%D9%84%D9%87%20%D8%A7%D9%84%D9%85%D8%B7%D9%8A%D8%B1%D9%8A.jpeg",
         "Contact Methods": {
             "email": "",
@@ -2055,7 +2124,7 @@
         }
     },
     {
-        "ID": 55,
+        "ID": 59,
         "Email": "421202209@qu.edu.sa",
         "Name": "سجى الغفيلي",
         "Campus": "مقر عنيزة",
@@ -2085,7 +2154,7 @@
         "Project Field": [
             "Mobile App"
         ],
-        "Project Poster": "/assets/55.webp",
+        "Project Poster": "/assets/59.webp",
         "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/DarbPic1_%D8%B3%D8%AC%D9%89%20%D8%A7%D9%84%D8%BA%D9%81%D9%8A%D9%84%D9%8A.png; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/darbpic2_%D8%B3%D8%AC%D9%89%20%D8%A7%D9%84%D8%BA%D9%81%D9%8A%D9%84%D9%8A.png; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/darbpic3_%D8%B3%D8%AC%D9%89%20%D8%A7%D9%84%D8%BA%D9%81%D9%8A%D9%84%D9%8A.png",
         "Contact Methods": {
             "email": "",
@@ -2094,7 +2163,7 @@
         }
     },
     {
-        "ID": 56,
+        "ID": 60,
         "Email": "391202139@qu.edu.sa",
         "Name": "في الرشيد",
         "Campus": "مقر الرس",
@@ -2124,7 +2193,7 @@
         "Project Field": [
             "Cybersecurity"
         ],
-        "Project Poster": "/assets/56.webp",
+        "Project Poster": "/assets/60.webp",
         "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/3_%D9%81%D9%8A%20%D8%A7%D9%84%D8%B1%D8%B4%D9%8A%D8%AF.jpg; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/2_%D9%81%D9%8A%20%D8%A7%D9%84%D8%B1%D8%B4%D9%8A%D8%AF.jpg; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/1_%D9%81%D9%8A%20%D8%A7%D9%84%D8%B1%D8%B4%D9%8A%D8%AF.png",
         "Contact Methods": {
             "email": "",
@@ -2133,7 +2202,7 @@
         }
     },
     {
-        "ID": 57,
+        "ID": 61,
         "Email": "421202011@qu.edu.sa",
         "Name": "رغد السحيباني",
         "Campus": "المقر الرئيسي",
@@ -2167,7 +2236,7 @@
         "Project Field": [
             "AI"
         ],
-        "Project Poster": "/assets/57.webp",
+        "Project Poster": "/assets/61.webp",
         "Additional Project Images": null,
         "Contact Methods": {
             "email": "",
@@ -2176,7 +2245,7 @@
         }
     },
     {
-        "ID": 58,
+        "ID": 62,
         "Email": "411202269@qu.edu.sa",
         "Name": "الهام الصويان",
         "Campus": "مقر عنيزة",
@@ -2204,7 +2273,7 @@
             " Data Analysis",
             " Healthcare"
         ],
-        "Project Poster": "/assets/58.webp",
+        "Project Poster": "/assets/62.webp",
         "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/IMG_0165_%D8%A7%D9%84%D9%87%D8%A7%D9%85%20%D8%A7%D9%84%D8%B5%D9%88%D9%8A%D8%A7%D9%86.jpeg; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/IMG_0166_%D8%A7%D9%84%D9%87%D8%A7%D9%85%20%D8%A7%D9%84%D8%B5%D9%88%D9%8A%D8%A7%D9%86.jpeg; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/IMG_0168_%D8%A7%D9%84%D9%87%D8%A7%D9%85%20%D8%A7%D9%84%D8%B5%D9%88%D9%8A%D8%A7%D9%86.jpeg",
         "Contact Methods": {
             "email": "",
@@ -2213,7 +2282,7 @@
         }
     },
     {
-        "ID": 59,
+        "ID": 63,
         "Email": "421202087@qu.edu.sa",
         "Name": "ريف الخضيري",
         "Campus": "المقر الرئيسي",
@@ -2239,7 +2308,7 @@
         "Project Field": [
             "AI"
         ],
-        "Project Poster": "/assets/59.webp",
+        "Project Poster": "/assets/63.webp",
         "Additional Project Images": null,
         "Contact Methods": {
             "email": "",
@@ -2248,7 +2317,7 @@
         }
     },
     {
-        "ID": 60,
+        "ID": 64,
         "Email": "421201939@qu.edu.sa",
         "Name": "لينا المطيري",
         "Campus": "المقر الرئيسي",
@@ -2274,7 +2343,7 @@
         "Project Field": [
             "Education"
         ],
-        "Project Poster": "/assets/60.webp",
+        "Project Poster": "/assets/64.webp",
         "Additional Project Images": null,
         "Contact Methods": {
             "email": "",
@@ -2283,7 +2352,7 @@
         }
     },
     {
-        "ID": 61,
+        "ID": 65,
         "Email": "421202227@qu.edu.sa",
         "Name": "دانا الدعيجي",
         "Campus": "المقر الرئيسي",
@@ -2314,7 +2383,7 @@
             "AI",
             " Mobile App"
         ],
-        "Project Poster": "/assets/61.webp",
+        "Project Poster": "/assets/65.webp",
         "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/%D8%B5%D9%81%D8%AD%D9%87%20%D8%A7%D9%84%D8%AA%D9%82%D8%B1%D9%8A%D8%B1%20.pdf_%D8%AF%D8%A7%D9%86%D8%A7%20%D8%A7%D9%84%D8%AF%D8%B9%D9%8A%D8%AC%D9%8A.pdf; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/%D8%AA%D8%AD%D9%84%D9%8A%D9%84%20%D8%A7%D9%84%D8%B6%D8%B1%D8%B1%20.pdf_%D8%AF%D8%A7%D9%86%D8%A7%20%D8%A7%D9%84%D8%AF%D8%B9%D9%8A%D8%AC%D9%8A.pdf; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/f04d646c-22ff-4a85-90cd-36c20e249536_%D8%AF%D8%A7%D9%86%D8%A7%20%D8%A7%D9%84%D8%AF%D8%B9%D9%8A%D8%AC%D9%8A.jpeg",
         "Contact Methods": {
             "email": "",
@@ -2323,7 +2392,7 @@
         }
     },
     {
-        "ID": 62,
+        "ID": 66,
         "Email": "412205512@qu.edu.sa",
         "Name": "أسماء علي الجربوع",
         "Campus": "المقر الرئيسي",
@@ -2349,7 +2418,7 @@
         "Project Field": [
             "Web Development"
         ],
-        "Project Poster": "/assets/62.webp",
+        "Project Poster": "/assets/66.webp",
         "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/IMG_8163_%D8%A3%D8%B3%D9%85%D8%A7%D8%A1%20%D8%B9%D9%84%D9%8A%20%D8%A7%D9%84%D8%AC%D8%B1%D8%A8%D9%88%D8%B9.jpeg; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/IMG_8164_%D8%A3%D8%B3%D9%85%D8%A7%D8%A1%20%D8%B9%D9%84%D9%8A%20%D8%A7%D9%84%D8%AC%D8%B1%D8%A8%D9%88%D8%B9.jpeg; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/IMG_8165_%D8%A3%D8%B3%D9%85%D8%A7%D8%A1%20%D8%B9%D9%84%D9%8A%20%D8%A7%D9%84%D8%AC%D8%B1%D8%A8%D9%88%D8%B9.jpeg",
         "Contact Methods": {
             "email": "",
@@ -2358,7 +2427,7 @@
         }
     },
     {
-        "ID": 63,
+        "ID": 67,
         "Email": "421201837@qu.edu.sa",
         "Name": "شدن العمر",
         "Campus": "المقر الرئيسي",
@@ -2384,7 +2453,7 @@
         "Project Field": [
             "Game Development"
         ],
-        "Project Poster": "/assets/63.webp",
+        "Project Poster": "/assets/67.webp",
         "Additional Project Images": null,
         "Contact Methods": {
             "email": "",
@@ -2393,13 +2462,13 @@
         }
     },
     {
-        "ID": 64,
+        "ID": 68,
         "Email": "422205657@qu.edu.sa",
         "Name": "جود البليهد",
         "Campus": "المقر الرئيسي",
         "Section": "طالبات",
         "Department": "Computer Science",
-        "Project Title": "NABIH FRAUD DETECTION USING ARTIFICIAL INTELLIGENCE",
+        "Project Title": "NABIH-Fraud detection using Artificial Intelligence",
         "Students Names with IDs": [
             {
                 "name": "Joud Alblaihed",
@@ -2424,7 +2493,7 @@
             "AI",
             " Cybersecurity"
         ],
-        "Project Poster": "/assets/64.webp",
+        "Project Poster": "/assets/68.webp",
         "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/3016eb80-07f8-458d-8268-532ef3026d8f_%D8%AC%D9%88%D8%AF%20%D8%A7%D9%84%D8%A8%D9%84%D9%8A%D9%87%D8%AF.jpeg; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/142f8e7e-e20f-4904-8b96-19c2f7310501_%D8%AC%D9%88%D8%AF%20%D8%A7%D9%84%D8%A8%D9%84%D9%8A%D9%87%D8%AF.jpeg; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/110bbca2-cb38-4a35-86fd-e2d77e47b375_%D8%AC%D9%88%D8%AF%20%D8%A7%D9%84%D8%A8%D9%84%D9%8A%D9%87%D8%AF.jpeg",
         "Contact Methods": {
             "email": "",
@@ -2433,7 +2502,7 @@
         }
     },
     {
-        "ID": 65,
+        "ID": 69,
         "Email": "421202152@qu.edu.sa",
         "Name": "نوره القويفلي",
         "Campus": "المقر الرئيسي",
@@ -2460,7 +2529,7 @@
             "Data Analysis",
             " Mobile App"
         ],
-        "Project Poster": "/assets/65.webp",
+        "Project Poster": "/assets/69.webp",
         "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/bab1b643-80c7-4a92-a44f-d90e96c753ba_%D9%86%D9%88%D8%B1%D9%87%20%D8%A7%D9%84%D9%82%D9%88%D9%8A%D9%81%D9%84%D9%8A.mov",
         "Contact Methods": {
             "email": "",
@@ -2469,7 +2538,7 @@
         }
     },
     {
-        "ID": 66,
+        "ID": 70,
         "Email": "412205495@qu.edu.sa",
         "Name": "لينا الربع",
         "Campus": "المقر الرئيسي",
@@ -2491,7 +2560,7 @@
         "Project Field": [
             "AI"
         ],
-        "Project Poster": "/assets/66.webp",
+        "Project Poster": "/assets/70.webp",
         "Additional Project Images": null,
         "Contact Methods": {
             "email": "",
@@ -2500,7 +2569,7 @@
         }
     },
     {
-        "ID": 67,
+        "ID": 71,
         "Email": "421201967@qu.edu.sa",
         "Name": "شذا شجاع الغرابي الحربي",
         "Campus": "المقر الرئيسي",
@@ -2528,7 +2597,7 @@
             " Data Analysis",
             " Web Development"
         ],
-        "Project Poster": "/assets/67.webp",
+        "Project Poster": "/assets/71.webp",
         "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/promtion-ar_%D8%B4%D8%B0%D8%A7%20%D8%B4%D8%AC%D8%A7%D8%B9%20%D8%A7%D9%84%D8%BA%D8%B1%D8%A7%D8%A8%D9%8A%20%D8%A7%D9%84%D8%AD.png; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/analysis-ar_%D8%B4%D8%B0%D8%A7%20%D8%B4%D8%AC%D8%A7%D8%B9%20%D8%A7%D9%84%D8%BA%D8%B1%D8%A7%D8%A8%D9%8A%20%D8%A7%D9%84%D8%AD.png; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/admin-dashboard1_%D8%B4%D8%B0%D8%A7%20%D8%B4%D8%AC%D8%A7%D8%B9%20%D8%A7%D9%84%D8%BA%D8%B1%D8%A7%D8%A8%D9%8A%20%D8%A7%D9%84%D8%AD.png",
         "Contact Methods": {
             "email": "",
@@ -2537,7 +2606,7 @@
         }
     },
     {
-        "ID": 68,
+        "ID": 72,
         "Email": "412205583@qu.edu.sa",
         "Name": "كادي العوفي الحربي",
         "Campus": "المقر الرئيسي",
@@ -2563,7 +2632,7 @@
         "Project Field": [
             "AI"
         ],
-        "Project Poster": "/assets/68.webp",
+        "Project Poster": "/assets/72.webp",
         "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/Achievements_%D9%83%D8%A7%D8%AF%D9%8A%20%D8%A7%D9%84%D8%B9%D9%88%D9%81%D9%8A%20%D8%A7%D9%84%D8%AD%D8%B1%D8%A8%D9%8A.pdf; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/Web%20App_%D9%83%D8%A7%D8%AF%D9%8A%20%D8%A7%D9%84%D8%B9%D9%88%D9%81%D9%8A%20%D8%A7%D9%84%D8%AD%D8%B1%D8%A8%D9%8A.pdf",
         "Contact Methods": {
             "email": "",
@@ -2572,7 +2641,7 @@
         }
     },
     {
-        "ID": 69,
+        "ID": 73,
         "Email": "421202024@qu.edu.sa",
         "Name": "الهنوف الفضل",
         "Campus": "المقر الرئيسي",
@@ -2598,7 +2667,7 @@
         "Project Field": [
             "AI"
         ],
-        "Project Poster": "/assets/69.webp",
+        "Project Poster": "/assets/73.webp",
         "Additional Project Images": null,
         "Contact Methods": {
             "email": "",
@@ -2607,7 +2676,7 @@
         }
     },
     {
-        "ID": 70,
+        "ID": 74,
         "Email": "421201812@qu.edu.sa",
         "Name": "رفيف السحيباني",
         "Campus": "المقر الرئيسي",
@@ -2642,7 +2711,7 @@
             "AI",
             " Data Analysis"
         ],
-        "Project Poster": "/assets/70.webp",
+        "Project Poster": "/assets/74.webp",
         "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/Dayjour%20website%203_%D8%B1%D9%81%D9%8A%D9%81%20%D8%A7%D9%84%D8%B3%D8%AD%D9%8A%D8%A8%D8%A7%D9%86%D9%8A.png",
         "Contact Methods": {
             "email": "",
@@ -2651,7 +2720,7 @@
         }
     },
     {
-        "ID": 71,
+        "ID": 75,
         "Email": "411202086@qu.edu.sa",
         "Name": "مها هرسان السبيعي",
         "Campus": "مقر عنيزة",
@@ -2673,7 +2742,7 @@
         "Project Field": [
             "Web Development"
         ],
-        "Project Poster": "/assets/71.webp",
+        "Project Poster": "/assets/75.webp",
         "Additional Project Images": null,
         "Contact Methods": {
             "email": "",
@@ -2682,7 +2751,7 @@
         }
     },
     {
-        "ID": 72,
+        "ID": 76,
         "Email": "372207599@qu.edu.sa",
         "Name": "عهود ابن الشيخ",
         "Campus": "المقر الرئيسي",
@@ -2712,7 +2781,7 @@
         "Project Field": [
             "IoT"
         ],
-        "Project Poster": "/assets/72.webp",
+        "Project Poster": "/assets/76.webp",
         "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/IMG-20250413-WA0060_%D8%B9%D9%87%D9%88%D8%AF%20%D8%A7%D8%A8%D9%86%20%D8%A7%D9%84%D8%B4%D9%8A%D8%AE.jpg; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/IMG-20250413-WA0061_%D8%B9%D9%87%D9%88%D8%AF%20%D8%A7%D8%A8%D9%86%20%D8%A7%D9%84%D8%B4%D9%8A%D8%AE.jpg",
         "Contact Methods": {
             "email": "",
@@ -2721,7 +2790,7 @@
         }
     },
     {
-        "ID": 73,
+        "ID": 77,
         "Email": "421202183@qu.edu.sa",
         "Name": "رهف العصيمي",
         "Campus": "المقر الرئيسي",
@@ -2751,7 +2820,7 @@
             "Smart Cities",
             "Intelligent Transportation Systems (ITS)"
         ],
-        "Project Poster": "/assets/73.webp",
+        "Project Poster": "/assets/77.webp",
         "Additional Project Images": "https://quedusa-my.sharepoint.com/…/TrafficImages.zip",
         "Project Link": null,
         "Contact Methods": {
@@ -2761,7 +2830,7 @@
         }
     },
     {
-        "ID": 74,
+        "ID": 78,
         "Email": "412205538@qu.edu.sa",
         "Name": "رغد الطلق",
         "Campus": "المقر الرئيسي",
@@ -2793,7 +2862,7 @@
             "Mobile Health Applications",
             "Patient-Centric Services"
         ],
-        "Project Poster": "/assets/74.webp",
+        "Project Poster": "/assets/78.webp",
         "Additional Project Images": null,
         "Project Link": "https://drive.google.com/file/d/1At5sJSLPpkIl4…/view",
         "Contact Methods": {
@@ -2803,7 +2872,7 @@
         }
     },
     {
-        "ID": 75,
+        "ID": 79,
         "Email": "421202263@qu.edu.sa",
         "Name": "دانيا الحربي",
         "Campus": "مقر الرس",
@@ -2833,7 +2902,7 @@
         "Project Field": [
             "AI"
         ],
-        "Project Poster": "/assets/75.webp",
+        "Project Poster": "/assets/79.webp",
         "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/Picture2_%D8%AF%D8%A7%D9%86%D9%8A%D8%A7%20%D8%A7%D9%84%D8%AD%D8%B1%D8%A8%D9%8A.png; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/Picture3_%D8%AF%D8%A7%D9%86%D9%8A%D8%A7%20%D8%A7%D9%84%D8%AD%D8%B1%D8%A8%D9%8A.png; https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/Picture4_%D8%AF%D8%A7%D9%86%D9%8A%D8%A7%20%D8%A7%D9%84%D8%AD%D8%B1%D8%A8%D9%8A.png",
         "Contact Methods": {
             "email": "",
@@ -2842,7 +2911,7 @@
         }
     },
     {
-        "ID": 76,
+        "ID": 80,
         "Email": "421202295@qu.edu.sa",
         "Name": "ندى الخليفه",
         "Campus": "مقر الرس",
@@ -2872,7 +2941,7 @@
         "Project Field": [
             "transportation"
         ],
-        "Project Poster": "/assets/76.webp",
+        "Project Poster": "/assets/80.webp",
         "Additional Project Images": null,
         "Contact Methods": {
             "email": "",
@@ -2881,7 +2950,7 @@
         }
     },
     {
-        "ID": 77,
+        "ID": 81,
         "Email": "421202306@qu.edu.sa",
         "Name": "رنا الكريشان",
         "Campus": "مقر عنيزة",
@@ -2911,7 +2980,7 @@
         "Project Field": [
             "Health"
         ],
-        "Project Poster": "/assets/77.webp",
+        "Project Poster": "/assets/81.webp",
         "Additional Project Images": null,
         "Contact Methods": {
             "email": "",
@@ -2920,7 +2989,7 @@
         }
     },
     {
-        "ID": 78,
+        "ID": 82,
         "Email": "421201889@qu.edu.sa",
         "Name": "رواحب الحربي",
         "Campus": "المقر الرئيسي",
@@ -2950,7 +3019,7 @@
         "Project Field": [
             "Mobil App"
         ],
-        "Project Poster": "/assets/78.webp",
+        "Project Poster": "/assets/82.webp",
         "Additional Project Images": null,
         "Contact Methods": {
             "email": "",
@@ -2959,7 +3028,7 @@
         }
     },
     {
-        "ID": 79,
+        "ID": 83,
         "Email": "421202217@qu.edu.sa",
         "Name": "رزان العوض",
         "Campus": "مقر الرس",
@@ -2985,11 +3054,33 @@
         "Project Field": [
             "AI"
         ],
-        "Project Poster": "/assets/79.webp",
+        "Project Poster": "/assets/83.webp",
         "Additional Project Images": "https://quedusa-my.sharepoint.com/personal/432111217_qu_edu_sa/Documents/Apps/Microsoft%20Forms/%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D9%86%D9%88%D9%86/%D8%A7%D9%84%D8%B3%D8%A4%D8%A7%D9%84%201/%D8%A8%D8%B9%D8%B6%20%D9%85%D9%86%20%D8%B5%D9%88%D8%B1%20%D8%A7%D9%84%D9%85%D8%B4%D8%B1%D9%88%D8%B9_%D8%B1%D8%B2%D8%A7%D9%86%20%D8%A7%D9%84%D8%B9%D9%88%D8%B6.pdf",
         "Contact Methods": {
             "email": "razan.alawdh@gmail.com",
             "phone": "0556732875",
+            "LinkedIn": ""
+        }
+    },
+    {
+        "ID": 84,
+        "Email": "",
+        "Name": "",
+        "Campus": "",
+        "Section": "طالبات",
+        "Department": "Computer Science",
+        "Project Title": "Qstudent: A forum for students",
+        "Students Names with IDs": [],
+        "Supervisor Name": "",
+        "Full Project Description": "",
+        "Project Field": [
+            "Education"
+        ],
+        "Project Poster": "/assets/84.webp",
+        "Additional Project Images": "",
+        "Contact Methods": {
+            "email": "",
+            "phone": "",
             "LinkedIn": ""
         }
     }
