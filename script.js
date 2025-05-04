@@ -39,29 +39,14 @@ const observer = new IntersectionObserver((entries, observer) => {
     if (!entry.isIntersecting) return;
 
       const img = entry.target;
-      const src = img.dataset.src;
+      img.src = img.dataset.src;
+      observer.unobserve(img);
       
-      const preloader = new Image();
-
-      preloader.src = src;
-      preloader.decode()
-      .then(() => {
-        img.src = src;
-        img.style.opacity = '1';
-        img.classList.add('loaded');
-        observer.unobserve(img);
-      })
-      .catch(err => {
-        console.warn('Faild to decode image: ', err)
-        img.src = src;
-        img.classList.add('loaded')
-        observer.unobserve(img);
-      });
   });
 }, {
   root: null,
-  rootMargin: '0px 0px 300px 0px',
-  threshold: 0.1
+  rootMargin: '0px 0px 400px 0px',
+  threshold: 0.2
 });
 
 
@@ -84,12 +69,9 @@ function loadNextBatch(projects, target_parent) {
     
     if (index < 6) {
       img.src = p['Project Poster'];
-      img.style.opacity = '1';
-      img.classList.add('loaded');
     }
     else {
       img.dataset.src = p["Project Poster"];
-      img.style.opacity = '0';
       observer.observe(img);
     }
 

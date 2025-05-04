@@ -39,10 +39,11 @@ html {
   
   .scrollbar-hide {
     -ms-overflow-style: none;
+    scrollbar-width: none;
   }
   
-  .scrollbar-hide {
-    scrollbar-width: none;
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
   }
 
   #load-more {
@@ -53,10 +54,6 @@ html {
     object-fit: cover;
   }
 
-  .blur-up {
-    filter: blur(20px);
-    transition: filter 0.5s ease-out;
-  }
-  .blur-up.loaded {
-    filter: blur(0);
+  .will-change {
+    will-change: opacity;
   }
