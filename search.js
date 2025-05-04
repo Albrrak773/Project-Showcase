@@ -81,10 +81,10 @@ function display_cards() {
             tag_box.insertAdjacentHTML('beforeend', `<span class="bg-black/90 text-white text-xs font-semibold px-2 py-0.5 rounded">${tag}</span>`)
         });
 
-        // const img = card.querySelector('#card-image');
-        // img.alt = p["Project Title"];
-        // img.src = p["Project Poster"];
-        // img.loading = 'lazy';
+        const img = card.querySelector('#card-image');
+        img.alt = p["Project Title"];
+        img.src = p["Project Poster"];
+        img.loading = 'lazy';
 
 
         const card_element = card.querySelector('.border');
