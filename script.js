@@ -65,15 +65,15 @@ function loadNextBatch(projects, target_parent) {
       `<span class="bg-black/90 text-white text-xs font-semibold px-2 py-0.5 rounded">${tag}</span>`
     ));
 
-    const img = card.querySelector('#card-image');
+    // const img = card.querySelector('#card-image');
     
-    if (index < 6) {
-      img.src = p['Project Poster'];
-    }
-    else {
-      img.dataset.src = p["Project Poster"];
-      observer.observe(img);
-    }
+    // if (index < 6) {
+    //   img.src = p['Project Poster'];
+    // }
+    // else {
+    //   img.dataset.src = p["Project Poster"];
+    //   observer.observe(img);
+    // }
 
     const card_element = card.querySelector('.border');
     card_element.classList.add('flex-none', 'w-1/5', 'snap-start', 'rounded-lg', 'shadow-md', 'overflow-hidden', 'h-[33rem]', 'bg-[#987D7C]', 'cursor-pointer', 'transform', 'transition', 'duration-200', 'ease-out', 'hover:scale-105', 'w-4/5', 'sm:w-1/5');
