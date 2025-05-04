@@ -224,7 +224,13 @@
       </div>
   
       <div class="relative flex-1 overflow-hidden bg-gray-100">
-        <img id="card-image" class="object-cover will-change"/>
+        <picture id="card-picture">
+          <img 
+            id="card-image" 
+            loading="lazy" 
+            class="object-cover w-full h-full"
+            >
+        </picture>
       </div>
     </div>
   </template>
