@@ -2547,16 +2547,16 @@
         "Project Title": "Mo'een - Arabic Sign Language Recognition and Translation",
         "Students Names with IDs": [
             {
-                "name": "موده الشبرمي",
+                "name": "Mawdah AlShobrmi",
                 "id": "412205587"
             },
             {
-                "name": "لينا الربع",
+                "name": "Lena AlRaba",
                 "id": "412205495"
             }
         ],
-        "Supervisor Name": "د. محمد بن عثمان",
-        "Full Project Description": "An AI Computer Vision system for Arabic Sign Language Detection, Recognition, and Translation.\n",
+        "Supervisor Name":  "Dr.Mohamed Othman",
+        "Full Project Description": "This project aims to develop an Arabic Sign Language Recognition system using artificial intelligence to enhance communication between the deaf and hearing communities. The system relies on dynamic data (videos) to improve recognition accuracy for hand/sign movements. Using a Holistic pretrained model for feature extraction and training an LSTM neural network, the system initially achieved 80.3% accuracy. After optimizations such as switching to the SGD optimizer, increasing neurons, and batch size, the accuracy improved to 97.85%. The project provides a practical solution for real-time sign-to-text translation in Arabic.",
         "Project Field": [
             "AI"
         ],
