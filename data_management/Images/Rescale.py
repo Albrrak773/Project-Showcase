@@ -21,8 +21,4 @@ for size in sizes:
         img = Image.open(f'C:/Users/br3os/Desktop/The Vault/Dev/Web/Grad Ceramony Projects/Project-Showcase/data_management/Images/Original_Images/{img_path.name}')
         img.thumbnail(size['size'])
         out_path = size['out_path'] / img_name
-        img.save(out_path)
-
-
-
-
+        img.save(out_path, format='WEBP')
