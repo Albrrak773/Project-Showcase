@@ -240,17 +240,22 @@ document.getElementById('load-more').addEventListener('click', () => {
 
 
 const params = new URLSearchParams(window.location.search);
-const deptParam = params.get('dept');
 
-if (['cs', 'it', 'coe'].includes(deptParam)) {
-    const btn = document.querySelector(`.filter-button[data-filter="${deptParam}"]`);
-    if (btn && !filter[deptParam]) {
-        filter[deptParam] = true;
-        btn.classList.toggle('bg-white');
-        btn.classList.toggle('text-[#8E8E8E]');
-        btn.classList.toggle('bg-[#571CBD]');
-        btn.classList.toggle('text-white');
+// helper – toggles button styles for each valid value found in the URL
+function activateFilters(values, allowed) {
+  values.forEach(val => {
+    if (!allowed.has(val)) return;                 // ignore nonsense
+    const btn = document.querySelector(`.filter-button[data-filter="${val}"]`);
+    if (btn && !filter[val]) {                     // only toggle once
+      filter[val] = true;
+      btn.classList.toggle('bg-white');
+      btn.classList.toggle('text-[#8E8E8E]');
+      btn.classList.toggle('bg-[#571CBD]');
+      btn.classList.toggle('text-white');
     }
+  });
 }
+activateFilters(params.getAll('dept'), new Set(['cs', 'it', 'coe']));
+activateFilters(params.getAll('section'), new Set(['male', 'female']));
 
 filter_projects();
